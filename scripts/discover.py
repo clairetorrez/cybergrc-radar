@@ -137,8 +137,8 @@ def deadline_from_text(text):
     ]
     # Scholarship portals commonly write "Applications Due: 11:59 pm US CT, 30 November 2026".
     patterns.extend([
-        rf"(?:applications?\s+due|applications?\s+close|application\s+deadline)\s*[:\-]?\s*.{0,55}?\b(\d{{1,2}}\s+{month_re}\s+20\d{{2}})",
-        rf"(?:applications?\s+due|applications?\s+close|application\s+deadline)\s*[:\-]?\s*.{0,55}?\b({month_re}\s+\d{{1,2}},?\s+20\d{{2}})",
+        rf"(?:applications?\s+due|applications?\s+close|application\s+deadline)\s*[:\-]?\s*.{{0,55}}?\b(\d{{1,2}}\s+{month_re}\s+20\d{{2}})",
+        rf"(?:applications?\s+due|applications?\s+close|application\s+deadline)\s*[:\-]?\s*.{{0,55}}?\b({month_re}\s+\d{{1,2}},?\s+20\d{{2}})",
     ])
     for pattern in patterns:
         for m in re.finditer(pattern,text,re.I):
