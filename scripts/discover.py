@@ -147,7 +147,7 @@ def category(title,body):
     t=(title+" "+body[:1200]).lower()
     if re.search(r"\bscholarship|fellowship|grant\b",title,re.I):return "Scholarships"
     if re.search(r"\bvolunteer|working group|contribut|externship\b",title,re.I):return "Volunteer & experience"
-    if re.search(r"\bbeta\b|\bpilot\b",title,re.I):return "Beta & pilot exams"
+    if re.search(r"\bbeta\b|\bpilot\b",(title+" "+body[:600]) if "Certification Pilot" in body[:600] or "pilot exam" in body[:600] else title,re.I):return "Beta & pilot exams"
     if re.search(r"voucher|discount|coupon|\d{1,2}\s?% off|sale|special offer",title,re.I):return "Discounts & vouchers"
     if re.search(r"free exam|free certif",title,re.I):return "Free exams & credentials"
     if re.search(r"training|course|workshop|webinar",title,re.I):return "Training"
@@ -278,7 +278,12 @@ def main():
     for source,url,title in todo:
         unique.setdefault(url,(source,url,title))
     cap=int(config.get("curation",{}).get("detailFetchLimit",45))
-    tasks=list(unique.values())[:cap]
+    tasks=sorted(unique.values(),key=lambda item:(
+        item[0].get("mode")=="watch",
+        bool(re.search(r"free.{0,25}exam|beta|pilot|voucher|scholarship",item[2],re.I)),
+        bool(re.search(r"iso|cmmc|fedramp|audit|grc|risk|governance",item[0].get("group",""),re.I)),
+        bool(re.search(r"discount|free|volunteer|special offer",item[2],re.I)),
+    ),reverse=True)[:cap]
     with futures.ThreadPoolExecutor(max_workers=6) as pool:
         active={pool.submit(fetch,url,hosts):(source,url,title) for source,url,title in tasks}
         for done in futures.as_completed(active):
