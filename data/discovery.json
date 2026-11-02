@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-02T22:53:36Z",
+  "lastChecked": "2026-11-02T22:56:08Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -111,7 +111,7 @@
       "candidates": 10
     }
   ],
-  "newLeads": 6,
+  "newLeads": 0,
   "leads": [
     {
       "id": "72e70e8d4574069d26",
@@ -148,7 +148,7 @@
         "IT audit"
       ],
       "group": "Volunteer",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 60,
       "why": [
         "GRC focus: IT audit",
@@ -175,7 +175,7 @@
         "CMMC"
       ],
       "group": "Volunteer",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 60,
       "why": [
         "GRC focus: CMMC",
@@ -224,7 +224,7 @@
       "category": "Other opportunities",
       "topics": [],
       "group": "Volunteer",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 55,
       "why": [
         "Targeted source watch"
@@ -248,7 +248,7 @@
       "category": "Other opportunities",
       "topics": [],
       "group": "Volunteer",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 55,
       "why": [
         "Targeted source watch"
@@ -266,13 +266,13 @@
     },
     {
       "id": "97b20dda128860d52e",
-      "title": "Build Team Skills That Drive Business Results",
+      "title": "Upskill Your Team to Power Business Growth",
       "source": "ISACA Volunteer",
       "url": "https://www.isaca.org/enterprise/training-and-credentialing/audiences-and-needs",
       "category": "Other opportunities",
       "topics": [],
       "group": "Volunteer",
-      "status": "needs_review",
+      "status": "needs_recheck",
       "score": 55,
       "why": [
         "Targeted source watch"
@@ -283,8 +283,8 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02",
-      "lastChecked": "2026-11-02T22:53:26Z",
-      "fingerprint": "b3b2c0e9c17d4ac077",
+      "lastChecked": "2026-11-02T22:56:07Z",
+      "fingerprint": "535a2129fe5fa2ab1a",
       "verified": false,
       "reviewRequired": true
     },
@@ -310,7 +310,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02",
-      "lastChecked": "2026-11-02T22:53:26Z",
+      "lastChecked": "2026-11-02T22:56:06Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true
