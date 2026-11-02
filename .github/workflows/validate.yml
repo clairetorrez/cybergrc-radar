@@ -1,0 +1,56 @@
+name: Validate contribution
+
+on:
+  push:
+    paths:
+      - 'index.html'
+      - 'scripts/**'
+      - 'data/approved.json'
+      - '.github/workflows/**'
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'scripts/**'
+      - 'data/approved.json'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out source without credentials
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Verify Python and JSON structure
+        run: |
+          python3 -m py_compile scripts/discover.py scripts/review_offer.py
+          python3 -m json.tool data/discovery.json > /dev/null
+          python3 -m json.tool data/approved.json > /dev/null
+      - name: Validate browser script syntax
+        run: |
+          node -e "const fs=require('node:fs');const html=fs.readFileSync('index.html','utf8');const js=html.match(/<script>([\\s\\S]*?)<\\/script>/);if(!js)process.exit(1);new Function(js[1]);console.log('Browser script parses');"
+      - name: Validate catalog field requirements
+        run: |
+          python3 - <<'PY'
+          import json
+          import re
+          from datetime import date
+          from urllib.parse import urlparse
+          data=json.load(open('data/approved.json',encoding='utf-8'))
+          assert isinstance(data.get('offers'),list)
+          ids=set()
+          required=['id','title','provider','category','kind','price','description','eligibility','source','verifiedOn','frameworks']
+          for offer in data['offers']:
+              assert all(offer.get(key) for key in required), offer
+              assert isinstance(offer['frameworks'],list), offer
+              assert urlparse(offer['source']).scheme == 'https'
+              assert offer['id'] not in ids
+              ids.add(offer['id'])
+              if offer.get('deadline'):
+                  assert re.fullmatch(r'\d{4}-\d{2}-\d{2}',offer['deadline'])
+          print(f"Validated {len(ids)} human-approved offers")
+          PY
