@@ -1,43 +1,42 @@
 {
-  "lastChecked": "2026-11-02T22:17:42Z",
+  "lastChecked": "2026-11-02T22:20:14Z",
   "status": "ok",
   "note": "Automatically discovered leads are unverified. Prices, terms and availability must be checked with the provider.",
   "sources": [
     {
       "name": "ISC2 Insights",
-      "ok": false,
-      "matches": 0,
-      "error": "unclosed CDATA section: line 9415, column 440"
+      "ok": true,
+      "matches": 3
     },
     {
       "name": "PECB News",
       "ok": true,
-      "matches": 5
+      "matches": 0
     },
     {
       "name": "ISACA Offers",
       "ok": true,
-      "matches": 10
+      "matches": 3
     },
     {
       "name": "ISACA Foundation",
       "ok": true,
-      "matches": 10
+      "matches": 2
     },
     {
       "name": "Linux Foundation Training",
       "ok": true,
-      "matches": 7
+      "matches": 1
     },
     {
       "name": "SANS Offers",
       "ok": true,
-      "matches": 10
+      "matches": 2
     },
     {
       "name": "Cloud Security Alliance",
       "ok": true,
-      "matches": 8
+      "matches": 0
     },
     {
       "name": "OWASP Opportunities",
@@ -50,24 +49,14 @@
       "matches": 0
     }
   ],
-  "newLeads": 50,
+  "newLeads": 7,
   "leads": [
     {
       "id": "ff9fedb184e39ce71e",
       "title": "AAIR Workshop",
-      "source": "ISACA Foundation",
+      "source": "ISACA Offers",
       "url": "https://www.isaca.org/training-and-events/in-person-training/training-weeks/aair-workshop",
       "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "fea08fc55c7f331494",
-      "title": "CCA – CMMC Certified Assessor",
-      "source": "ISACA Offers",
-      "url": "https://www.isaca.org/credentialing/cca",
-      "category": "Other opportunities",
       "status": "Needs verification",
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02"
@@ -83,151 +72,31 @@
       "lastSeen": "2026-11-02"
     },
     {
-      "id": "eb8343411572fa89d2",
-      "title": "Accredited Training Organization",
-      "source": "ISACA Foundation",
-      "url": "https://www.isaca.org/partnerships/become-a-training-partner",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "d6654554a949c80f1e",
-      "title": "IT Certification Journey",
-      "source": "Linux Foundation Training",
-      "url": "https://training.linuxfoundation.org/it-certification-journey",
+      "id": "df69a12749ba77c39b",
+      "title": "ISC2 Research: India’s Cybersecurity Workforce Reaches a Turning Point: Skills, AI and Retention Define the Next Challenge",
+      "source": "ISC2 Insights",
+      "url": "https://www.isc2.org/Insights/2026/09/research-india-cybersecurity-workforce-reaches-a-turning-point-skills-ai",
       "category": "Other opportunities",
       "status": "Needs verification",
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02"
     },
     {
-      "id": "d56f88b5d498b48cd7",
-      "title": "Regional Training",
-      "source": "Linux Foundation Training",
-      "url": "https://training.linuxfoundation.org/training/regional-training",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "d150f423e9e788366f",
-      "title": "Certification Training Partners",
-      "source": "ISACA Foundation",
-      "url": "https://www.isaca.org/partnerships/find-an-accredited-training-organization/certification-training",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "c8bd55b4d2a5cc4531",
-      "title": "STAR Auditor Training",
-      "source": "Cloud Security Alliance",
-      "url": "https://cloudsecurityalliance.org/education/star-auditor-training",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "c6f433c3284a900602",
-      "title": "View Training Schedule",
-      "source": "Cloud Security Alliance",
-      "url": "https://cloudsecurityalliance.org/education/schedule",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "c1b0361c952c45545e",
-      "title": "CGEIT – Certified in the Governance of Enterprise IT",
+      "id": "a6504ac7468666793e",
+      "title": "Participate & Volunteer",
       "source": "ISACA Offers",
-      "url": "https://www.isaca.org/credentialing/cgeit",
-      "category": "Other opportunities",
+      "url": "https://www.isaca.org/membership/get-involved",
+      "category": "Volunteer",
       "status": "Needs verification",
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02"
     },
     {
-      "id": "c0a10e988099a92726",
-      "title": "Training Catalog 2026",
-      "source": "PECB News",
-      "url": "https://pecb.com/pdf/catalogue/training-catalog-2026.pdf",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "ba0fdc319b303f5d65",
-      "title": "License Enterprise Training",
-      "source": "ISACA Foundation",
-      "url": "https://www.isaca.org/enterprise/license-enterprise-training",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "b248fad2bff5769604",
-      "title": "Ways to Train Multiple training options to best fit your schedule and preferred learning style.",
-      "source": "SANS Offers",
-      "url": "https://www.sans.org/cyber-security-training-formats",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "b11d62e11722722b81",
-      "title": "Training Partner Program",
-      "source": "Linux Foundation Training",
-      "url": "https://training.linuxfoundation.org/about/training-partner-program",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "b000118dbfa640112a",
-      "title": "Training for Government Agencies",
-      "source": "Cloud Security Alliance",
-      "url": "https://cloudsecurityalliance.org/education/gsa-schedule",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "a62a116c8bbddd229b",
-      "title": "Workforce Security and Risk Training Harden enterprise security with end-user and role-based training.",
-      "source": "SANS Offers",
-      "url": "https://www.sans.org/for-organizations/workforce",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "9b59a8a2d2c35720ea",
-      "title": "All Training Courses",
-      "source": "PECB News",
-      "url": "https://pecb.com/en/education-and-certification-for-individuals",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "97b20dda128860d52e",
-      "title": "Empower Your Team to Empower Business Growth Customize your IT team training with ISACA.",
-      "source": "ISACA Foundation",
-      "url": "https://www.isaca.org/enterprise/training-and-credentialing/audiences-and-needs",
-      "category": "Training",
+      "id": "a2e7991d76ef7289ee",
+      "title": "ISC2 Releases AI Security Certification Pilot Exam Outline",
+      "source": "ISC2 Insights",
+      "url": "https://www.isc2.org/Insights/2026/10/isc2-releases-ai-security-certification-pilot-exam-outline",
+      "category": "Free exams / beta",
       "status": "Needs verification",
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02"
@@ -243,221 +112,31 @@
       "lastSeen": "2026-11-02"
     },
     {
-      "id": "909f1b5aa50f35a427",
-      "title": "Training Week",
+      "id": "410aeb6fdefa8083f0",
+      "title": "Center for Cyber Safety and Education Announces 2026 Academic Scholarship Recipients",
+      "source": "ISC2 Insights",
+      "url": "https://www.isc2.org/Insights/2026/08/center-announces-2026-academic-scholarship-recipients",
+      "category": "Scholarships",
+      "status": "Needs verification",
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02"
+    },
+    {
+      "id": "2bfddd0843d9a51534",
+      "title": "Free Resources",
+      "source": "SANS Offers",
+      "url": "https://www.sans.org/security-resources",
+      "category": "Other opportunities",
+      "status": "Needs verification",
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02"
+    },
+    {
+      "id": "24e31f134f0ebed27e",
+      "title": "Featured Training Get 50% off member pricing on select cybersecurity products.",
       "source": "ISACA Foundation",
-      "url": "https://www.isaca.org/training-and-events/in-person-training/training-weeks",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "8e9b7d573c0d809f47",
-      "title": "Training Events & Summits Expert-led training at locations around the world.",
-      "source": "SANS Offers",
-      "url": "https://www.sans.org/cyber-security-training-events",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "84cd607bf41cf12ecc",
-      "title": "CDPSE – Certified Data Privacy Solutions Engineer",
-      "source": "ISACA Offers",
-      "url": "https://www.isaca.org/credentialing/cdpse",
-      "category": "Other opportunities",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "7ae24ff28847cfc438",
-      "title": "Training from an Accredited Partner",
-      "source": "ISACA Foundation",
-      "url": "https://www.isaca.org/partnerships/find-an-accredited-training-organization",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "7684c65b40470bfe82",
-      "title": "Cyber Ranges Hands-on training to keep you at the top of your game.",
-      "source": "SANS Offers",
-      "url": "https://www.sans.org/cyber-ranges",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "764095bc085de550c9",
-      "title": "By Skills Roadmap Find the right training path based on critical skills.",
-      "source": "SANS Offers",
-      "url": "https://www.sans.org/cyber-security-skills-roadmap",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "7563d52e36f68182f5",
-      "title": "Online Exam Manual",
-      "source": "PECB News",
-      "url": "https://pecb.com/en/online-exam-manual",
-      "category": "Other opportunities",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "74462588dbee267c7b",
-      "title": "Training by Type",
-      "source": "ISACA Foundation",
-      "url": "https://www.isaca.org/training-and-events/training-topics",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "6fa25b16274d60d987",
-      "title": "CISM – Certified Information Security Manager",
-      "source": "ISACA Offers",
-      "url": "https://www.isaca.org/credentialing/cism",
-      "category": "Other opportunities",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "6e58fa49f0c418d287",
-      "title": "Training Events",
-      "source": "PECB News",
-      "url": "https://pecb.com/events",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "54a01c5d15db1eafe0",
-      "title": "Courses Build cyber prowess with training from renowned experts.",
-      "source": "SANS Offers",
-      "url": "https://www.sans.org/cybersecurity-courses",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "513f8db89180106688",
-      "title": "Leadership Training designed to help security leaders reduce organizational risk.",
-      "source": "SANS Offers",
-      "url": "https://www.sans.org/cybersecurity-focus-areas/leadership",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "476fe72928765e5a5d",
-      "title": "CRISC – Certified in Risk and Information Systems Control",
-      "source": "ISACA Offers",
-      "url": "https://www.isaca.org/credentialing/crisc",
-      "category": "Other opportunities",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "445c82b1fce3fac18b",
-      "title": "View course details",
-      "source": "SANS Offers",
-      "url": "https://www.sans.org/cyber-security-courses/adversarial-ai",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "3c3cf28fc78194b0fb",
-      "title": "Verify Certification",
-      "source": "Linux Foundation Training",
-      "url": "https://training.linuxfoundation.org/certification/verify",
-      "category": "Other opportunities",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "2af720f5aa9767df30",
-      "title": "Exam Rules and Policies",
-      "source": "PECB News",
-      "url": "https://pecb.com/en/exam-rules-and-policies",
-      "category": "Other opportunities",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "2a9eff5734ab931d88",
-      "title": "CMMI Training and Certification",
-      "source": "ISACA Foundation",
-      "url": "https://www.isaca.org/enterprise/cmmi-performance-solutions",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "23e1dfc79d08e46592",
-      "title": "LCCA – Lead CMMC Certified Assessor Designation",
-      "source": "ISACA Offers",
-      "url": "https://www.isaca.org/credentialing/lcca",
-      "category": "Other opportunities",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "22e9fde518d0d1995b",
-      "title": "By Focus Area Chart your path to job-specific training courses.",
-      "source": "SANS Offers",
-      "url": "https://www.sans.org/cybersecurity-focus-areas",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "229e765790bb8af3d2",
-      "title": "COBIT Training Partners",
-      "source": "ISACA Foundation",
-      "url": "https://www.isaca.org/partnerships/find-an-accredited-training-organization/cobit-training",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "1b6707e15f62c60ca7",
-      "title": "CCP – CMMC Certified Professional",
-      "source": "ISACA Offers",
-      "url": "https://www.isaca.org/credentialing/ccp",
-      "category": "Other opportunities",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "1767b637454e8446be",
-      "title": "CCI – CMMC Certified Instructor",
-      "source": "ISACA Offers",
-      "url": "https://www.isaca.org/credentialing/cci",
-      "category": "Other opportunities",
+      "url": "https://www.isaca.org/training-and-events/training-topics/featured-training",
+      "category": "Discounts",
       "status": "Needs verification",
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02"
@@ -473,31 +152,11 @@
       "lastSeen": "2026-11-02"
     },
     {
-      "id": "115a2f8cb5b3e4a643",
-      "title": "Training and Events",
-      "source": "ISACA Offers",
-      "url": "https://www.isaca.org/training-and-events",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "08329cc14c9a7012a9",
-      "title": "My Training Portal",
-      "source": "Linux Foundation Training",
-      "url": "https://trainingportal.linuxfoundation.org/access/saml/login",
-      "category": "Training",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "0169cfd2cbbd744ac4",
-      "title": "GET CERTIFIED",
-      "source": "Linux Foundation Training",
-      "url": "https://training.linuxfoundation.org/full-catalog?_sft_product_type=certification",
-      "category": "Other opportunities",
+      "id": "05ee1b9aa1a9f76c10",
+      "title": "Resource ISACA Foundation Scholarships Learn more about ISACA Foundation's 2026 scholarship cycles and opportunities. 10 September 2026",
+      "source": "ISACA Foundation",
+      "url": "https://www.isaca.org/resources/brochure/isaca-foundation-scholarships",
+      "category": "Scholarships",
       "status": "Needs verification",
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02"
