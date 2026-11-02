@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Recheck approved listing pages without claiming their offers are confirmed active.
 
-Only a human review can set verifiedOn in data/approved.json.
+Automated publication refreshes checks for supported offers. Accessibility alone does not prove a deal remains active.
 """
 from __future__ import annotations
 import concurrent.futures as futures
@@ -46,9 +46,9 @@ def review(offer,hosts):
         try:age=(TODAY-dt.date.fromisoformat(verified)).days
         except ValueError:age=999
         if age>MAX_REVIEW_DAYS:
-            outcome.update(status="review_due",reason=f"Last human approval was {age} days ago")
+            outcome.update(status="review_due",reason=f"Source check date was {age} days ago")
         else:
-            outcome.update(status="checked",reason="Page reachable; human-reviewed terms still require independent confirmation")
+            outcome.update(status="checked",reason="Provider page reachable; automatic source rules must still support the listed offer")
     except Exception as exc:
         outcome.update(status="unreachable",reason="Provider page could not be fetched: "+str(exc)[:90])
     return outcome
@@ -70,7 +70,7 @@ def main():
     with futures.ThreadPoolExecutor(max_workers=5) as pool:
         results=list(pool.map(lambda d:review(d,hosts),offers))
     output={"lastChecked":UTC(),"reviewAfterDays":MAX_REVIEW_DAYS,"results":results,
-            "note":"HTTP checks are not proof that offer terms remain valid. Changed/unreachable/stale listings require renewed human approval."}
+            "note":"HTTP checks alone are not proof that an offer remains valid. Automatic publication independently checks terms; changed or unreachable offers are withheld."}
     OUTPUT.write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("Checked {} approved listings: {}".format(len(results),{name:sum(x["status"]==name for x in results) for name in set(x["status"] for x in results)}))
 
