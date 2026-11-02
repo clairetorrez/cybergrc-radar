@@ -205,6 +205,7 @@ def process_page(source,url,title_hint,page,old=None):
     desc=clean(parsed.meta.get("description") or parsed.meta.get("og:description") or "",320)
     body=clean(" ".join(parsed.body),MAX_BODY)
     if not title or GENERIC.fullmatch(title) or BLOCK.search(title):return None
+    if re.search(r"\b(no one knows exam prep|your cybersecurity journey begins here|build team skills|become a part of our|train the new generation|all about training)\b",title,re.I):return None
     if re.search(r"\b(application period is now closed|applications? closed|no longer accepting|registration closed|has ended)\b",title,re.I):return None
     if re.search(r"^isaca foundation scholarships$",title,re.I):return None
     if not PROMOTION.search(title+" "+desc[:180]) and not (source.get("mode")=="watch" and PROMOTION.search(body[:2500])):return None
@@ -215,7 +216,8 @@ def process_page(source,url,title_hint,page,old=None):
     if source.get("mode")=="watch" and re.search(r"\b(beta|pilot|volunteer|free exam|discount)\b",body[:3200],re.I):
         value=min(100,value+21)
         why.append("Targeted source watch")
-    if value<45:return None
+    if value<(50 if source.get("mode")=="watch" else 65):return None
+    if deadline and deadline<TODAY.isoformat():return None
     category_name=category(title,desc+" "+body[:500] if source.get("mode")=="watch" else desc)
     snippet=evidence(title,desc,body)
     identity=hashlib.sha256(url.encode()).hexdigest()[:18]
