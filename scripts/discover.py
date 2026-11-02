@@ -38,9 +38,9 @@ ALLOWED = (
 )
 OPPORTUNITY = re.compile(
     r"\b(beta|pilot|voucher|coupon|discount|deal|sale|scholarship|grant|"
-    r"free|volunteer|working.group|certification|certified|exam|training|"
-    r"course|bootcamp|internship|externship|challenge|workshop|webinar|"
-    r"fellowship|40%|50%|cybersecurity.month)\b", re.I
+    r"free|volunteer|working.group|internship|externship|challenge|"
+    r"workshop|webinar|fellowship|giveaway|promotion|competition|"
+    r"reduced.price|special.offer|cybersecurity.month)\b|\d{1,2}\s?%\s?off", re.I
 )
 RELEVANCE = re.compile(
     r"\b(cyber|security|audit|iso[\s/-]?\d|soc[\s/-]?[12]|cmmc|fedramp|"
@@ -144,8 +144,21 @@ def collect_html(source, url, data):
     return result
 
 def collect_rss(source, url, data):
-    root = ET.fromstring(data)
     results = []
+    try:
+        root = ET.fromstring(data)
+    except ET.ParseError:
+        # Some provider RSS documents contain malformed CDATA. Recover intact item blocks.
+        for fragment in re.findall(r"<item(?:\s[^>]*)?>(.*?)</item>", data, re.I | re.S)[:120]:
+            title_match = re.search(r"<title[^>]*>(.*?)</title>", fragment, re.I | re.S)
+            link_match = re.search(r"<link[^>]*>(.*?)</link>", fragment, re.I | re.S)
+            if not title_match or not link_match:
+                continue
+            title = re.sub(r"^<!\[CDATA\[|\]\]>$", "", title_match.group(1).strip())
+            item = make_lead(source, url, title, link_match.group(1).strip())
+            if item:
+                results.append(item)
+        return results
     for entry in list(root.findall(".//item")) + list(root.findall(".//{http://www.w3.org/2005/Atom}entry")):
         title = entry.findtext("title") or entry.findtext("{http://www.w3.org/2005/Atom}title") or ""
         link = entry.findtext("link")
@@ -163,7 +176,7 @@ def main():
     if OUTPUT.exists():
         try:
             obj = json.loads(OUTPUT.read_text(encoding="utf-8"))
-            existing = {x["id"]: x for x in obj.get("leads", []) if x.get("id") and x.get("url")}
+            existing = {x["id"]: x for x in obj.get("leads", []) if x.get("id") and x.get("url") and OPPORTUNITY.search(x.get("title", ""))}
         except (ValueError, KeyError, TypeError):
             pass
 
@@ -200,7 +213,7 @@ def main():
     result = {
         "lastChecked": now, "status": status,
         "note": "Automatically discovered leads are unverified. Prices, terms and availability must be checked with the provider.",
-        "sources": sources, "newLeads": sum(1 for x in fresh if x["id"] not in prior_ids),
+        "sources": sources, "newLeads": sum(1 for x in fresh[:MAX_DAILY] if x["id"] not in prior_ids),
         "leads": items,
     }
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
