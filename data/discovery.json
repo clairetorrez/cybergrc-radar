@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-02T22:50:00Z",
+  "lastChecked": "2026-11-02T22:53:36Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -111,7 +111,7 @@
       "candidates": 10
     }
   ],
-  "newLeads": 0,
+  "newLeads": 6,
   "leads": [
     {
       "id": "72e70e8d4574069d26",
@@ -121,7 +121,7 @@
       "category": "Beta & pilot exams",
       "topics": [],
       "group": "GRC and ISO",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 78,
       "why": [
         "Possible free exam",
@@ -139,6 +139,60 @@
       "reviewRequired": true
     },
     {
+      "id": "b32b10fde352540bdc",
+      "title": "No One Knows Exam Prep Quite Like ISACA",
+      "source": "ISACA Volunteer",
+      "url": "https://www.isaca.org/credentialing/credentialing-exam-prep",
+      "category": "Other opportunities",
+      "topics": [
+        "IT audit"
+      ],
+      "group": "Volunteer",
+      "status": "needs_review",
+      "score": 60,
+      "why": [
+        "GRC focus: IT audit",
+        "Targeted source watch"
+      ],
+      "evidence": "Join today Earn free CPE Browse chapters Volunteer Join today Earn free CPE Browse chapters Volunteer Personalize your Experience Update",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "lastChecked": "2026-11-02T22:53:25Z",
+      "fingerprint": "3a71560e2a2ae4ccc3",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "1767b637454e8446be",
+      "title": "Train the New Generation of CMMC Assessors",
+      "source": "ISACA Volunteer",
+      "url": "https://www.isaca.org/credentialing/cci",
+      "category": "Other opportunities",
+      "topics": [
+        "CMMC"
+      ],
+      "group": "Volunteer",
+      "status": "needs_review",
+      "score": 60,
+      "why": [
+        "GRC focus: CMMC",
+        "Targeted source watch"
+      ],
+      "evidence": "Join today Earn free CPE Browse chapters Volunteer Join today Earn free CPE Browse chapters Volunteer Personalize your Experience Update",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "lastChecked": "2026-11-02T22:53:26Z",
+      "fingerprint": "c11203b742c49744e1",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
       "id": "134a51dbd17a28c63e",
       "title": "The AAIG Beta Application Period Is Now Closed",
       "source": "ISACA Foundation",
@@ -146,7 +200,7 @@
       "category": "Beta & pilot exams",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 57,
       "why": [
         "Beta program"
@@ -163,6 +217,105 @@
       "reviewRequired": true
     },
     {
+      "id": "a6504ac7468666793e",
+      "title": "Become a Part of Our Digital Trust Community",
+      "source": "ISACA Volunteer",
+      "url": "https://www.isaca.org/membership/get-involved",
+      "category": "Other opportunities",
+      "topics": [],
+      "group": "Volunteer",
+      "status": "needs_review",
+      "score": 55,
+      "why": [
+        "Targeted source watch"
+      ],
+      "evidence": "From a year-long commitment to just an hour of your time, ISACA volunteer opportunities fit every professional’s needs.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "lastChecked": "2026-11-02T22:53:25Z",
+      "fingerprint": "27b970de30a5baa622",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "661bd3675c2dcce87a",
+      "title": "Your Cybersecurity Journey Begins Here",
+      "source": "ISACA Volunteer",
+      "url": "https://www.isaca.org/credentialing/ccs",
+      "category": "Other opportunities",
+      "topics": [],
+      "group": "Volunteer",
+      "status": "needs_review",
+      "score": 55,
+      "why": [
+        "Targeted source watch"
+      ],
+      "evidence": "Join today Earn free CPE Browse chapters Volunteer Join today Earn free CPE Browse chapters Volunteer Personalize your Experience Update",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "lastChecked": "2026-11-02T22:53:25Z",
+      "fingerprint": "b8b002bc4f231167fa",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "97b20dda128860d52e",
+      "title": "Build Team Skills That Drive Business Results",
+      "source": "ISACA Volunteer",
+      "url": "https://www.isaca.org/enterprise/training-and-credentialing/audiences-and-needs",
+      "category": "Other opportunities",
+      "topics": [],
+      "group": "Volunteer",
+      "status": "needs_review",
+      "score": 55,
+      "why": [
+        "Targeted source watch"
+      ],
+      "evidence": "Join today Earn free CPE Browse chapters Volunteer Join today Earn free CPE Browse chapters Volunteer Personalize your Experience Update",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "lastChecked": "2026-11-02T22:53:26Z",
+      "fingerprint": "b3b2c0e9c17d4ac077",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "6c0e76600b69af4831",
+      "title": "AI Security Certification",
+      "source": "ISC2 AI Security Pilot",
+      "url": "https://www.isc2.org/new-ai-certification",
+      "category": "Other opportunities",
+      "topics": [
+        "AI governance"
+      ],
+      "group": "AI governance",
+      "status": "needs_review",
+      "score": 54,
+      "why": [
+        "GRC focus: AI governance",
+        "Targeted source watch"
+      ],
+      "evidence": "If the pilot exam is successful, the AI security certification will transition to an operational certification program within ISC2’s portfolio.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "lastChecked": "2026-11-02T22:53:26Z",
+      "fingerprint": "4facbad5e3f2dba998",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
       "id": "05ee1b9aa1a9f76c10",
       "title": "ISACA Foundation Scholarships",
       "source": "ISACA Foundation",
@@ -170,7 +323,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 49,
       "why": [
         "Experience or funding"
@@ -185,96 +338,6 @@
       "fingerprint": "9ad81313b89518195e",
       "verified": false,
       "reviewRequired": true
-    },
-    {
-      "id": "ff9fedb184e39ce71e",
-      "title": "AAIR Workshop",
-      "source": "ISACA Offers",
-      "url": "https://www.isaca.org/training-and-events/in-person-training/training-weeks/aair-workshop",
-      "category": "Training",
-      "status": "not_seen_today",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "fc4d4f7dc0451bc3f5",
-      "title": "Free Training Events Upcoming workshops, webinars and local events.",
-      "source": "SANS Offers",
-      "url": "https://www.sans.org/free-cybersecurity-events",
-      "category": "Training",
-      "status": "not_seen_today",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "df69a12749ba77c39b",
-      "title": "ISC2 Research: India’s Cybersecurity Workforce Reaches a Turning Point: Skills, AI and Retention Define the Next Challenge",
-      "source": "ISC2 Insights",
-      "url": "https://www.isc2.org/Insights/2026/09/research-india-cybersecurity-workforce-reaches-a-turning-point-skills-ai",
-      "category": "Other opportunities",
-      "status": "not_seen_today",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "a6504ac7468666793e",
-      "title": "Participate & Volunteer",
-      "source": "ISACA Offers",
-      "url": "https://www.isaca.org/membership/get-involved",
-      "category": "Volunteer",
-      "status": "not_seen_today",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "a2e7991d76ef7289ee",
-      "title": "ISC2 Releases AI Security Certification Pilot Exam Outline",
-      "source": "ISC2 Insights",
-      "url": "https://www.isc2.org/Insights/2026/10/isc2-releases-ai-security-certification-pilot-exam-outline",
-      "category": "Beta / pilot (cost unconfirmed)",
-      "status": "not_seen_today",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "9414cb0cbbf2cb3434",
-      "title": "Free Courses",
-      "source": "Linux Foundation Training",
-      "url": "https://training.linuxfoundation.org/resources?_sft_content_type=free-course",
-      "category": "Training",
-      "status": "not_seen_today",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "410aeb6fdefa8083f0",
-      "title": "Center for Cyber Safety and Education Announces 2026 Academic Scholarship Recipients",
-      "source": "ISC2 Insights",
-      "url": "https://www.isc2.org/Insights/2026/08/center-announces-2026-academic-scholarship-recipients",
-      "category": "Scholarships",
-      "status": "not_seen_today",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "2bfddd0843d9a51534",
-      "title": "Free Resources",
-      "source": "SANS Offers",
-      "url": "https://www.sans.org/security-resources",
-      "category": "Other opportunities",
-      "status": "not_seen_today",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "24e31f134f0ebed27e",
-      "title": "Featured Training Get 50% off member pricing on select cybersecurity products.",
-      "source": "ISACA Foundation",
-      "url": "https://www.isaca.org/training-and-events/training-topics/featured-training",
-      "category": "Discounts",
-      "status": "not_seen_today",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
     }
   ]
 }
