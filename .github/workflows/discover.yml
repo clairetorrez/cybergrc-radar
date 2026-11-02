@@ -42,5 +42,23 @@ jobs:
             echo "No discovery changes to publish"
           else
             git commit -m "Refresh discovery feed [skip ci]"
-            git push origin HEAD:main
+            for attempt in 1 2 3; do
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+              echo "Concurrent push detected, rebasing before retry $attempt"
+              git fetch origin main
+              if ! git rebase origin/main; then
+                git rebase --abort || true
+                git reset --hard origin/main
+                python3 scripts/discover.py
+                python3 scripts/revalidate.py
+                git add data/discovery.json data/revalidation.json
+                if git diff --cached --quiet; then
+                  exit 0
+                fi
+                git commit -m "Refresh discovery feed after concurrent update [skip ci]"
+              fi
+            done
+            exit 1
           fi
