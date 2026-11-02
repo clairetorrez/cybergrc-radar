@@ -23,7 +23,7 @@ AUDIT=ROOT/"data/auto_decisions.json"
 CONFIG=ROOT/"data/sources.json"
 DENY=re.compile(r"\b(application period is now closed|applications? (?:are )?closed|registration (?:is )?closed|no longer accepting|no longer available|sold out|campaign has ended|offer has expired|expired offer)\b",re.I)
 BAD_TITLE=re.compile(r"\b(research|report|recipients|awarded|announces winners|exam outline|press release|training catalog|your journey|exam prep)\b",re.I)
-GENERAL=re.compile(r"^(?:AI Security Certification|Free Courses|Free Resources|Participate & Volunteer|ISACA Foundation Scholarships|Training Events|Membership|News|Training|Shop)$",re.I)
+GENERAL=re.compile(r"^(?:Free Courses|Free Resources|Participate & Volunteer|ISACA Foundation Scholarships|Training Events|Membership|News|Training|Shop)$",re.I)
 FREE_EXAM=[
     re.compile(r"\b(?:pilot|beta|certification)?\s*exams?\s+free of charge\b",re.I),
     re.compile(r"\bfree(?:\s+of\s+charge)?\s+(?:[a-z-]+\s+){0,4}(?:exam|examination|voucher|assessment)\b",re.I),
@@ -133,7 +133,7 @@ def parse_offer(lead,raw):
     offer={
       "id":identity,"title":title,"provider":lead["source"],"category":lead.get("group") or "GRC",
       "kind":kind,"price":price,"discount":price if kind=="Discount" else "",
-      "description":f"{kind} listed by the provider. Check the official source for full details.",
+      "description":f"{title}. {kind} listed on the official provider page; eligibility and participation limits may apply.",
       "eligibility":eligibility,"deadline":deadline,"dateLabel":label,
       "frameworks":topics[:8],"tags":["Automatically checked","Official provider"],
       "source":lead["url"],"verifiedOn":TODAY.isoformat(),
@@ -147,7 +147,6 @@ def parse_offer(lead,raw):
 def run():
     config=json.loads(CONFIG.read_text(encoding="utf-8"))
     hosts={urlparse(s["url"]).hostname.lower() for s in config["sources"]}
-    sources={s["url"]:s for s in config["sources"]}
     discovered=json.loads(FEED.read_text(encoding="utf-8"))
     data=json.loads(OUTPUT.read_text(encoding="utf-8")) if OUTPUT.exists() else {"version":2,"offers":[]}
     existing=list(data.get("offers") or [])
