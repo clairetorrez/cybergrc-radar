@@ -11,6 +11,7 @@ on:
       - 'scripts/revalidate.py'
       - 'scripts/auto_publish.py'
       - 'data/sources.json'
+      - 'index.html'
       - '.github/workflows/discover.yml'
 
 permissions:
