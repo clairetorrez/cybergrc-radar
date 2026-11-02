@@ -70,10 +70,15 @@ def parse_offer(lead,raw):
         except ValueError:pass
 
     kind=None;price=None;detail=None;confidence=0
+    if re.search(r"\bscholarship|fellowship|grant\b",title,re.I):
+        m=re.search(r"\b(?:apply today|apply now|applications? open|accepting applications|create a free isaca account)\b",body[:18000],re.I)
+        if m and deadline:
+            kind="Scholarship";price="Scholarship award";detail=m;confidence=92
     # Use the current provider's page itself for all evidence.
     # No pilot or beta is automatically free simply because it's a pilot.
     # Content after the heading avoids site-wide promotional navigation.
     for pattern in FREE_EXAM:
+        if kind: break
         match=pattern.search(body)
         if match:
             kind="Free exam";price="$0 exam";detail=match;confidence=95
