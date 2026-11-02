@@ -1,63 +1,198 @@
 {
-  "lastChecked": "2026-11-02T22:21:29Z",
-  "status": "ok",
-  "note": "Automatically discovered leads are unverified. Prices, terms and availability must be checked with the provider.",
+  "version": 2,
+  "lastChecked": "2026-11-02T22:49:02Z",
+  "status": "partial",
+  "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
     {
-      "name": "ISC2 Insights",
+      "name": "AICPA CIMA",
       "ok": true,
-      "matches": 2
+      "candidates": 0
     },
     {
-      "name": "PECB News",
+      "name": "AWS Training",
       "ok": true,
-      "matches": 0
-    },
-    {
-      "name": "ISACA Offers",
-      "ok": true,
-      "matches": 3
-    },
-    {
-      "name": "ISACA Foundation",
-      "ok": true,
-      "matches": 2
-    },
-    {
-      "name": "Linux Foundation Training",
-      "ok": true,
-      "matches": 1
-    },
-    {
-      "name": "SANS Offers",
-      "ok": true,
-      "matches": 1
+      "candidates": 12
     },
     {
       "name": "Cloud Security Alliance",
       "ok": true,
-      "matches": 0
+      "candidates": 1
     },
     {
-      "name": "OWASP Opportunities",
-      "ok": true,
-      "matches": 0
+      "name": "CompTIA News",
+      "ok": false,
+      "candidates": 0,
+      "error": "HTTP Error 404: Not Found"
     },
     {
-      "name": "NIST Announcements",
+      "name": "Cyber AB",
       "ok": true,
-      "matches": 0
+      "candidates": 1
+    },
+    {
+      "name": "FedRAMP",
+      "ok": true,
+      "candidates": 0
+    },
+    {
+      "name": "Fortinet Training",
+      "ok": true,
+      "candidates": 4
+    },
+    {
+      "name": "ISACA Foundation",
+      "ok": true,
+      "candidates": 12
+    },
+    {
+      "name": "ISACA Training Offers",
+      "ok": true,
+      "candidates": 12
+    },
+    {
+      "name": "ISACA Volunteer",
+      "ok": true,
+      "candidates": 8
+    },
+    {
+      "name": "ISC2 AI Security Pilot",
+      "ok": true,
+      "candidates": 2
+    },
+    {
+      "name": "ISC2 Insights",
+      "ok": true,
+      "candidates": 8
+    },
+    {
+      "name": "Linux Foundation Training",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "Microsoft Applied Skills",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "NIST News",
+      "ok": true,
+      "candidates": 0
+    },
+    {
+      "name": "OWASP Projects",
+      "ok": true,
+      "candidates": 0
+    },
+    {
+      "name": "PECB Free Beta Announcement",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "PECB News",
+      "ok": true,
+      "candidates": 0
+    },
+    {
+      "name": "PECB Skills",
+      "ok": true,
+      "candidates": 0
+    },
+    {
+      "name": "Qualys Training",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "SANS Offers",
+      "ok": true,
+      "candidates": 10
     }
   ],
-  "newLeads": 0,
+  "newLeads": 1,
   "leads": [
+    {
+      "id": "72e70e8d4574069d26",
+      "title": "PECB Launches free Skills Beta Exams for experts and non-experts' individuals - PECB",
+      "source": "PECB Free Beta Announcement",
+      "url": "https://pecb.com/en/newsReleases/pecb-launches-free-skills-beta-exams-for-experts-and-non-experts-individuals",
+      "category": "Beta & pilot exams",
+      "topics": [],
+      "group": "GRC and ISO",
+      "status": "needs_review",
+      "score": 78,
+      "why": [
+        "Possible free exam",
+        "Recent announcement"
+      ],
+      "evidence": "To continue delivering reliable and valid exams in compliance with our ASTM E-2659 accreditation, PECB is launching a campaign inviting",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": "2026-10-20",
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "lastChecked": "2026-11-02T22:48:58Z",
+      "fingerprint": "2132605069a6a9dffc",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "134a51dbd17a28c63e",
+      "title": "The AAIG Beta Application Period Is Now Closed",
+      "source": "ISACA Foundation",
+      "url": "https://www.isaca.org/credentialing/aaig",
+      "category": "Beta & pilot exams",
+      "topics": [],
+      "group": "Scholarships",
+      "status": "needs_review",
+      "score": 57,
+      "why": [
+        "Beta program"
+      ],
+      "evidence": "Join today Earn free CPE Browse chapters Volunteer Join today Earn free CPE Browse chapters Volunteer Personalize your Experience Update",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "lastChecked": "2026-11-02T22:48:58Z",
+      "fingerprint": "8bd61ab532d3ffa553",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "05ee1b9aa1a9f76c10",
+      "title": "ISACA Foundation Scholarships",
+      "source": "ISACA Foundation",
+      "url": "https://www.isaca.org/resources/brochure/isaca-foundation-scholarships",
+      "category": "Scholarships",
+      "topics": [],
+      "group": "Scholarships",
+      "status": "needs_review",
+      "score": 49,
+      "why": [
+        "Experience or funding"
+      ],
+      "evidence": "Learn more about ISACA Foundation's 2026 scholarship cycles and opportunities.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "lastChecked": "2026-11-02T22:48:58Z",
+      "fingerprint": "9ad81313b89518195e",
+      "verified": false,
+      "reviewRequired": true
+    },
     {
       "id": "ff9fedb184e39ce71e",
       "title": "AAIR Workshop",
       "source": "ISACA Offers",
       "url": "https://www.isaca.org/training-and-events/in-person-training/training-weeks/aair-workshop",
       "category": "Training",
-      "status": "Needs verification",
+      "status": "not_seen_today",
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02"
     },
@@ -67,7 +202,7 @@
       "source": "SANS Offers",
       "url": "https://www.sans.org/free-cybersecurity-events",
       "category": "Training",
-      "status": "Needs verification",
+      "status": "not_seen_today",
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02"
     },
@@ -77,7 +212,7 @@
       "source": "ISC2 Insights",
       "url": "https://www.isc2.org/Insights/2026/09/research-india-cybersecurity-workforce-reaches-a-turning-point-skills-ai",
       "category": "Other opportunities",
-      "status": "Needs verification",
+      "status": "not_seen_today",
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02"
     },
@@ -87,7 +222,7 @@
       "source": "ISACA Offers",
       "url": "https://www.isaca.org/membership/get-involved",
       "category": "Volunteer",
-      "status": "Needs verification",
+      "status": "not_seen_today",
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02"
     },
@@ -97,7 +232,7 @@
       "source": "ISC2 Insights",
       "url": "https://www.isc2.org/Insights/2026/10/isc2-releases-ai-security-certification-pilot-exam-outline",
       "category": "Beta / pilot (cost unconfirmed)",
-      "status": "Needs verification",
+      "status": "not_seen_today",
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02"
     },
@@ -107,7 +242,7 @@
       "source": "Linux Foundation Training",
       "url": "https://training.linuxfoundation.org/resources?_sft_content_type=free-course",
       "category": "Training",
-      "status": "Needs verification",
+      "status": "not_seen_today",
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02"
     },
@@ -117,7 +252,7 @@
       "source": "ISC2 Insights",
       "url": "https://www.isc2.org/Insights/2026/08/center-announces-2026-academic-scholarship-recipients",
       "category": "Scholarships",
-      "status": "Needs verification",
+      "status": "not_seen_today",
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02"
     },
@@ -127,7 +262,7 @@
       "source": "SANS Offers",
       "url": "https://www.sans.org/security-resources",
       "category": "Other opportunities",
-      "status": "Needs verification",
+      "status": "not_seen_today",
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02"
     },
@@ -137,27 +272,7 @@
       "source": "ISACA Foundation",
       "url": "https://www.isaca.org/training-and-events/training-topics/featured-training",
       "category": "Discounts",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "134a51dbd17a28c63e",
-      "title": "AAIG – Advanced in AI Governance (Beta)",
-      "source": "ISACA Offers",
-      "url": "https://www.isaca.org/credentialing/aaig",
-      "category": "Beta / pilot (cost unconfirmed)",
-      "status": "Needs verification",
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02"
-    },
-    {
-      "id": "05ee1b9aa1a9f76c10",
-      "title": "Resource ISACA Foundation Scholarships Learn more about ISACA Foundation's 2026 scholarship cycles and opportunities. 10 September 2026",
-      "source": "ISACA Foundation",
-      "url": "https://www.isaca.org/resources/brochure/isaca-foundation-scholarships",
-      "category": "Scholarships",
-      "status": "Needs verification",
+      "status": "not_seen_today",
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02"
     }
