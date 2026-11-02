@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-02T23:05:41Z",
+  "lastChecked": "2026-11-02T23:07:27Z",
   "decisions": [
     {
       "url": "https://www.isaca.org/enterprise/training-and-credentialing/audiences-and-needs",
@@ -8,8 +8,10 @@
     },
     {
       "url": "https://www.isc2.org/new-ai-certification",
-      "status": "withheld",
-      "reason": "deadline_not_confirmed"
+      "status": "auto_published",
+      "kind": "Free exam",
+      "confidence": 95,
+      "expires": "2026-11-04"
     }
   ]
 }

@@ -1,14 +1,47 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-02T23:05:41Z",
-  "offers": [],
+  "lastChecked": "2026-11-02T23:07:27Z",
+  "offers": [
+    {
+      "id": "auto-6c0e76600b69af",
+      "title": "AI Security Certification",
+      "provider": "ISC2 AI Security Pilot",
+      "category": "AI governance",
+      "kind": "Free exam",
+      "price": "$0 exam",
+      "discount": "",
+      "description": "AI Security Certification. Free exam listed on the official provider page; eligibility and participation limits may apply.",
+      "eligibility": "Check the provider's selection, experience, exam, and scheduling requirements.",
+      "deadline": "2026-11-04",
+      "dateLabel": "Ends Nov 04, 2026",
+      "frameworks": [
+        "AI governance"
+      ],
+      "tags": [
+        "Automatically checked",
+        "Official provider"
+      ],
+      "source": "https://www.isc2.org/new-ai-certification",
+      "verifiedOn": "2026-11-02",
+      "reviewStatus": "auto_verified",
+      "verificationMethod": "official_source_rules",
+      "confidence": 95,
+      "evidence": "for the pilot exam. How much does the pilot exam cost? There is no charge to participate in the pilot exam. How long",
+      "sourceFingerprint": "4facbad5e3f2dba998",
+      "autoApproved": true,
+      "publicationStatus": "active",
+      "featured": false,
+      "score": 80
+    }
+  ],
   "inactive": [],
   "automation": {
     "enabled": true,
     "method": "provider_page_rules",
     "minConfidence": 90,
     "statistics": {
-      "withheld": 2
+      "withheld": 1,
+      "auto_published": 1
     }
   }
 }
