@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-02T22:58:27Z",
+  "lastChecked": "2026-11-02T23:05:39Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -310,7 +310,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02",
-      "lastChecked": "2026-11-02T22:58:24Z",
+      "lastChecked": "2026-11-02T23:05:36Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true

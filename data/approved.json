@@ -1,4 +1,14 @@
 {
-  "version": 1,
-  "offers": []
+  "version": 2,
+  "lastChecked": "2026-11-02T23:05:41Z",
+  "offers": [],
+  "inactive": [],
+  "automation": {
+    "enabled": true,
+    "method": "provider_page_rules",
+    "minConfidence": 90,
+    "statistics": {
+      "withheld": 2
+    }
+  }
 }
