@@ -366,7 +366,7 @@ function renderReviewQueue(){
   const q=$('reviewSearch').value.toLowerCase().trim(),filter=$('reviewFilter').value;
   const matches=all.filter(x=>{
     const state=decisions[x.id]?.status||'unreviewed';
-    if(filter==='open'&&(state==='rejected'||x.status==='expired'))return false;
+    if(filter==='open'&&(state==='rejected'||x.status==='expired'||x.status==='not_seen_today'))return false;
     if(filter==='expired'&&x.status!=='expired')return false;
     if(!['open','all','expired'].includes(filter)&&state!==filter)return false;
     return [x.title,x.source,x.group,x.category,...(x.topics||[])].join(' ').toLowerCase().includes(q);
