@@ -8,6 +8,7 @@ import concurrent.futures as futures
 import datetime as dt
 import hashlib
 import json
+import re
 from pathlib import Path
 from urllib.parse import urlparse
 from discover import fetch, Page, clean, UTC, TODAY
@@ -16,6 +17,8 @@ ROOT=Path(__file__).resolve().parents[1]
 APPROVED=ROOT/"data/approved.json"
 OUTPUT=ROOT/"data/revalidation.json"
 CONFIG=ROOT/"data/sources.json"
+INDEX=ROOT/"index.html"
+SAFE_SEED_HOSTS={"theforage.com","secure-platform.com","splunk.com","attackiq.com","linuxfoundation.org","qualys.com","microsoft.com","isaca.org","isc2.org","pecb.com","owasp.org","cloudsecurityalliance.org"}
 MAX_REVIEW_DAYS=14
 
 def review(offer,hosts):
@@ -52,11 +55,18 @@ def review(offer,hosts):
 
 def main():
     sources=json.loads(CONFIG.read_text(encoding="utf-8"))["sources"]
-    hosts={urlparse(s["url"]).hostname.lower() for s in sources}
+    hosts={urlparse(s["url"]).hostname.lower() for s in sources}|SAFE_SEED_HOSTS
     # Existing initial catalog entries are not in this file, and should not be
     # incorrectly marked as verified through the automated scan.
     offers=json.loads(APPROVED.read_text(encoding="utf-8")).get("offers",[])
     if not isinstance(offers,list):raise SystemExit("Invalid approved offers")
+    # Legacy curated cards were embedded before the approval feed existed.
+    # Recheck them too, without calling their automated checks "verification".
+    page=INDEX.read_text(encoding="utf-8")
+    found=re.search(r"(?:let|const) deals=(\[.*?\]);const sections=",page,re.S)
+    legacy=json.loads(found.group(1)) if found else []
+    existing={o.get("source") for o in offers}
+    offers.extend(o for o in legacy if o.get("source") and o["source"] not in existing)
     with futures.ThreadPoolExecutor(max_workers=5) as pool:
         results=list(pool.map(lambda d:review(d,hosts),offers))
     output={"lastChecked":UTC(),"reviewAfterDays":MAX_REVIEW_DAYS,"results":results,
