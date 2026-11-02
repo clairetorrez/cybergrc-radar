@@ -89,6 +89,8 @@ def main() -> None:
         "verifiedOn": now,
         "verifiedBy": os.getenv("GITHUB_ACTOR", "maintainer"),
         "reviewStatus": "verified_after_merge",
+        "sourceFingerprint": lead.get("fingerprint"),
+        "sourceCheckedAt": lead.get("lastChecked"),
         "featured": False,
         "score": 85,
     }
