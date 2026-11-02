@@ -32,7 +32,7 @@ jobs:
           python3 -m json.tool data/approved.json > /dev/null
       - name: Validate browser script syntax
         run: |
-          node -e "const fs=require('node:fs');const html=fs.readFileSync('index.html','utf8');const js=html.match(/<script>([\\s\\S]*?)<\\/script>/);if(!js)process.exit(1);new Function(js[1]);console.log('Browser script parses');"
+          node -e "const fs=require('node:fs');const h=fs.readFileSync('index.html','utf8');const a=h.indexOf('<script>'),b=h.indexOf('</script>',a);if(a<0||b<0)process.exit(1);new Function(h.slice(a+8,b));console.log('Browser script parses');"
       - name: Validate catalog field requirements
         run: |
           python3 - <<'PY'
