@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-02T23:07:26Z",
+  "lastChecked": "2026-11-02T23:10:20Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -283,7 +283,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02",
-      "lastChecked": "2026-11-02T23:07:23Z",
+      "lastChecked": "2026-11-02T23:10:17Z",
       "fingerprint": "535a2129fe5fa2ab1a",
       "verified": false,
       "reviewRequired": true
@@ -310,7 +310,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02",
-      "lastChecked": "2026-11-02T23:07:23Z",
+      "lastChecked": "2026-11-02T23:10:16Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true
