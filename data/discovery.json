@@ -1,12 +1,12 @@
 {
-  "lastChecked": "2026-11-02T22:20:14Z",
+  "lastChecked": "2026-11-02T22:21:29Z",
   "status": "ok",
   "note": "Automatically discovered leads are unverified. Prices, terms and availability must be checked with the provider.",
   "sources": [
     {
       "name": "ISC2 Insights",
       "ok": true,
-      "matches": 3
+      "matches": 2
     },
     {
       "name": "PECB News",
@@ -31,7 +31,7 @@
     {
       "name": "SANS Offers",
       "ok": true,
-      "matches": 2
+      "matches": 1
     },
     {
       "name": "Cloud Security Alliance",
@@ -49,7 +49,7 @@
       "matches": 0
     }
   ],
-  "newLeads": 7,
+  "newLeads": 0,
   "leads": [
     {
       "id": "ff9fedb184e39ce71e",
@@ -96,7 +96,7 @@
       "title": "ISC2 Releases AI Security Certification Pilot Exam Outline",
       "source": "ISC2 Insights",
       "url": "https://www.isc2.org/Insights/2026/10/isc2-releases-ai-security-certification-pilot-exam-outline",
-      "category": "Free exams / beta",
+      "category": "Beta / pilot (cost unconfirmed)",
       "status": "Needs verification",
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02"
@@ -146,7 +146,7 @@
       "title": "AAIG – Advanced in AI Governance (Beta)",
       "source": "ISACA Offers",
       "url": "https://www.isaca.org/credentialing/aaig",
-      "category": "Free exams / beta",
+      "category": "Beta / pilot (cost unconfirmed)",
       "status": "Needs verification",
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02"
