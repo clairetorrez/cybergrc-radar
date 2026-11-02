@@ -21,10 +21,10 @@ ALLOWED_KINDS = {
     "Free exam", "Free certification", "Free credential", "Free training",
     "Free simulation", "Discount", "Event discount", "Volunteer", "Scholarship",
 }
-ALLOWED_HOSTS = {
-    "isc2.org", "pecb.com", "isaca.org", "linuxfoundation.org",
-    "sans.org", "cloudsecurityalliance.org", "owasp.org", "nist.gov",
-}
+def allowed_hosts():
+    cfg = json.loads((ROOT / "data/sources.json").read_text(encoding="utf-8"))
+    return {urlparse(item["url"]).hostname.lower() for item in cfg["sources"]}
+
 REQUIRED = ("REVIEW_LEAD_ID", "REVIEW_KIND", "REVIEW_PRICE", "REVIEW_DESCRIPTION", "REVIEW_ELIGIBILITY")
 
 def value(name: str) -> str:
@@ -33,7 +33,7 @@ def value(name: str) -> str:
 def official_link(url: str) -> bool:
     parsed = urlparse(url)
     host = (parsed.hostname or "").lower()
-    return parsed.scheme == "https" and any(host == domain or host.endswith("." + domain) for domain in ALLOWED_HOSTS)
+    return parsed.scheme == "https" and any(host == domain or host.endswith("." + domain) for domain in allowed_hosts())
 
 def main() -> None:
     missing = [key for key in REQUIRED if not value(key)]
