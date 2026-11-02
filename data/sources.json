@@ -1,0 +1,137 @@
+{
+  "version": 2,
+  "sources": [
+    {
+      "name": "PECB News",
+      "url": "https://pecb.com/en/newsReleases",
+      "group": "GRC and ISO",
+      "mode": "listing"
+    },
+    {
+      "name": "PECB Free Beta Announcement",
+      "url": "https://pecb.com/en/newsReleases/pecb-launches-free-skills-beta-exams-for-experts-and-non-experts-individuals",
+      "group": "GRC and ISO",
+      "mode": "watch"
+    },
+    {
+      "name": "PECB Skills",
+      "url": "https://pecb.com/en/skills",
+      "group": "GRC and ISO",
+      "mode": "listing"
+    },
+    {
+      "name": "ISC2 Insights",
+      "url": "https://www.isc2.org/api/rss/insights",
+      "group": "Security certifications",
+      "mode": "rss"
+    },
+    {
+      "name": "ISC2 AI Security Pilot",
+      "url": "https://www.isc2.org/new-ai-certification",
+      "group": "AI governance",
+      "mode": "watch"
+    },
+    {
+      "name": "ISACA Training Offers",
+      "url": "https://www.isaca.org/training-and-events/training-topics/featured-training",
+      "group": "IT audit and GRC",
+      "mode": "listing"
+    },
+    {
+      "name": "ISACA Foundation",
+      "url": "https://www.isaca.org/why-isaca/about-us/isaca-foundation",
+      "group": "Scholarships",
+      "mode": "listing"
+    },
+    {
+      "name": "ISACA Volunteer",
+      "url": "https://www.isaca.org/membership/get-involved",
+      "group": "Volunteer",
+      "mode": "watch"
+    },
+    {
+      "name": "Linux Foundation Training",
+      "url": "https://training.linuxfoundation.org/",
+      "group": "Cloud security",
+      "mode": "listing"
+    },
+    {
+      "name": "SANS Offers",
+      "url": "https://www.sans.org/specials/north-america",
+      "group": "Security training",
+      "mode": "listing"
+    },
+    {
+      "name": "Cloud Security Alliance",
+      "url": "https://cloudsecurityalliance.org/blog/",
+      "group": "Cloud security",
+      "mode": "listing"
+    },
+    {
+      "name": "OWASP Projects",
+      "url": "https://owasp.org/projects/",
+      "group": "Volunteer",
+      "mode": "listing"
+    },
+    {
+      "name": "Microsoft Applied Skills",
+      "url": "https://learn.microsoft.com/en-us/credentials/applied-skills/",
+      "group": "Cloud security",
+      "mode": "watch"
+    },
+    {
+      "name": "AWS Training",
+      "url": "https://aws.amazon.com/training/",
+      "group": "Cloud security",
+      "mode": "listing"
+    },
+    {
+      "name": "CompTIA News",
+      "url": "https://www.comptia.org/en-us/about-us/newsroom/",
+      "group": "Security certifications",
+      "mode": "listing"
+    },
+    {
+      "name": "AICPA CIMA",
+      "url": "https://www.aicpa-cima.com/",
+      "group": "SOX and SOC audit",
+      "mode": "listing"
+    },
+    {
+      "name": "FedRAMP",
+      "url": "https://www.fedramp.gov/",
+      "group": "FedRAMP",
+      "mode": "listing"
+    },
+    {
+      "name": "Cyber AB",
+      "url": "https://cyberab.org/",
+      "group": "CMMC",
+      "mode": "listing"
+    },
+    {
+      "name": "Qualys Training",
+      "url": "https://www.qualys.com/training/",
+      "group": "Free technical training",
+      "mode": "watch"
+    },
+    {
+      "name": "Fortinet Training",
+      "url": "https://www.fortinet.com/training-certification",
+      "group": "Security certifications",
+      "mode": "watch"
+    },
+    {
+      "name": "NIST News",
+      "url": "https://www.nist.gov/news-events/news",
+      "group": "Security frameworks",
+      "mode": "listing"
+    }
+  ],
+  "curation": {
+    "maxPerSource": 7,
+    "detailFetchLimit": 45,
+    "maxStoredLeads": 200,
+    "staleDays": 45
+  }
+}
