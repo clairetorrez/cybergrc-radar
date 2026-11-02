@@ -135,10 +135,15 @@ def deadline_from_text(text):
         rf"(?:deadline|expires?|ends?|closes?|apply by|before|until|through|valid until|remain available until|registration closes?)\s*(?:on|:|is|at|until|by|the)?\s*({month_re}\s+\d{{1,2}}(?:st|nd|rd|th)?,?\s+20\d{{2}})",
         r"(?:deadline|expires?|ends?|closes?|apply by|before|until|through|valid until|remain available until|registration closes?)\s*(?:on|:|is|at|until|by|the)?\s*(20\d{2}-\d{2}-\d{2})"
     ]
+    # Scholarship portals commonly write "Applications Due: 11:59 pm US CT, 30 November 2026".
+    patterns.extend([
+        rf"(?:applications?\s+due|applications?\s+close|application\s+deadline)\s*[:\-]?\s*.{0,55}?\b(\d{{1,2}}\s+{month_re}\s+20\d{{2}})",
+        rf"(?:applications?\s+due|applications?\s+close|application\s+deadline)\s*[:\-]?\s*.{0,55}?\b({month_re}\s+\d{{1,2}},?\s+20\d{{2}})",
+    ])
     for pattern in patterns:
         for m in re.finditer(pattern,text,re.I):
             raw=re.sub(r"(\d)(?:st|nd|rd|th)\b",r"\1",m.group(1),flags=re.I).replace(",","")
-            for fmt in ("%B %d %Y","%b %d %Y","%Y-%m-%d"):
+            for fmt in ("%B %d %Y","%b %d %Y","%d %B %Y","%d %b %Y","%Y-%m-%d"):
                 try:return dt.datetime.strptime(raw,fmt).date().isoformat()
                 except ValueError:pass
     return None
