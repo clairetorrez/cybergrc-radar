@@ -27,9 +27,13 @@ jobs:
           persist-credentials: false
       - name: Verify Python and JSON structure
         run: |
-          python3 -m py_compile scripts/discover.py scripts/review_offer.py
+          python3 -m py_compile scripts/discover.py scripts/revalidate.py scripts/review_offer.py scripts/triage.py
+          python3 -m unittest discover -s tests -v
           python3 -m json.tool data/discovery.json > /dev/null
           python3 -m json.tool data/approved.json > /dev/null
+          python3 -m json.tool data/sources.json > /dev/null
+          python3 -m json.tool data/revalidation.json > /dev/null
+          python3 -m json.tool data/triage.json > /dev/null
       - name: Validate browser script syntax
         run: |
           node -e "const fs=require('node:fs');const h=fs.readFileSync('index.html','utf8');const a=h.indexOf('<script>'),b=h.indexOf('</script>',a);if(a<0||b<0)process.exit(1);new Function(h.slice(a+8,b));console.log('Browser script parses');"
