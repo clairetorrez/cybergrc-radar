@@ -44,5 +44,7 @@ class DiscoveryTests(unittest.TestCase):
         self.assertEqual(discover.deadline_from_text("Apply by November 4, 2026"),"2026-11-04")
         self.assertEqual(discover.deadline_from_text("Offer available until October 30, 2026"),"2026-10-30")
         self.assertIsNone(discover.deadline_from_text("Updated November 4, 2026"))
+        self.assertEqual(discover.deadline_from_text("Applications Due: 11:59 pm US CT, 30 November 2026"),"2026-11-30")
+        self.assertEqual(discover.deadline_from_text("Application Deadline: November 3, 2026"),"2026-11-03")
 
 if __name__=="__main__":unittest.main()
