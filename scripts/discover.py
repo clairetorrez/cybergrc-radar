@@ -132,8 +132,8 @@ def deadline_from_text(text):
     # Date extraction only near explicit deadline phrases, never from unrelated page dates.
     month_re=r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
     patterns=[
-        rf"(?:deadline|expires?|ends?|closes?|apply by|through|valid until|registration closes?)\s*(?:on|:|is|at|until|by|the)?\s*({month_re}\s+\d{{1,2}}(?:st|nd|rd|th)?,?\s+20\d{{2}})",
-        r"(?:deadline|expires?|ends?|closes?|apply by|through|valid until|registration closes?)\s*(?:on|:|is|at|until|by|the)?\s*(20\d{2}-\d{2}-\d{2})"
+        rf"(?:deadline|expires?|ends?|closes?|apply by|before|until|through|valid until|remain available until|registration closes?)\s*(?:on|:|is|at|until|by|the)?\s*({month_re}\s+\d{{1,2}}(?:st|nd|rd|th)?,?\s+20\d{{2}})",
+        r"(?:deadline|expires?|ends?|closes?|apply by|before|until|through|valid until|remain available until|registration closes?)\s*(?:on|:|is|at|until|by|the)?\s*(20\d{2}-\d{2}-\d{2})"
     ]
     for pattern in patterns:
         for m in re.finditer(pattern,text,re.I):
@@ -205,13 +205,18 @@ def process_page(source,url,title_hint,page,old=None):
     desc=clean(parsed.meta.get("description") or parsed.meta.get("og:description") or "",320)
     body=clean(" ".join(parsed.body),MAX_BODY)
     if not title or GENERIC.fullmatch(title) or BLOCK.search(title):return None
+    if re.search(r"\b(application period is now closed|applications? closed|no longer accepting|registration closed|has ended)\b",title,re.I):return None
+    if re.search(r"^isaca foundation scholarships$",title,re.I):return None
     if not PROMOTION.search(title+" "+desc[:180]) and not (source.get("mode")=="watch" and PROMOTION.search(body[:2500])):return None
     if not SUBJECT.search(title+" "+desc+" "+source.get("group","")):return None
     deadline=deadline_from_text(desc+" "+body[:9000])
     pub=published(parsed.meta)
     value,why,topics=score(title,desc,body,pub,deadline)
+    if source.get("mode")=="watch" and re.search(r"\b(beta|pilot|volunteer|free exam|discount)\b",body[:3200],re.I):
+        value=min(100,value+21)
+        why.append("Targeted source watch")
     if value<45:return None
-    category_name=category(title,desc)
+    category_name=category(title,desc+" "+body[:500] if source.get("mode")=="watch" else desc)
     snippet=evidence(title,desc,body)
     identity=hashlib.sha256(url.encode()).hexdigest()[:18]
     fingerprint=hashlib.sha256((title+"|"+desc+"|"+snippet).encode()).hexdigest()[:18]
@@ -255,7 +260,7 @@ def main():
     if OUTPUT.exists():
         try:
             past=json.loads(OUTPUT.read_text(encoding="utf-8"))
-            prior={x["id"]:x for x in past.get("leads",[]) if x.get("id")}
+            prior={x["id"]:x for x in past.get("leads",[]) if x.get("id") and x.get("fingerprint")}
         except (ValueError,TypeError):pass
     original_ids=set(prior)
     discovered=[];health=[];todo=[]
