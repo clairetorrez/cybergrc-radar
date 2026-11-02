@@ -110,8 +110,10 @@ def classify(title):
         return "Scholarships"
     if re.search(r"\bvolunteer|working.group|contribute|mentorship\b", t):
         return "Volunteer"
-    if re.search(r"\bfree\b.*\b(exam|certif|voucher)\b|\b(exam|voucher)\b.*\bfree\b|\bbeta\b|\bpilot\b", t):
-        return "Free exams / beta"
+    if re.search(r"\bfree\b.*\b(exam|certif|voucher)\b|\b(exam|voucher)\b.*\bfree\b", t):
+        return "Free exams / vouchers"
+    if re.search(r"\bbeta\b|\bpilot\b", t):
+        return "Beta / pilot (cost unconfirmed)"
     if re.search(r"\bdiscount|coupon|sale|deal|off\b", t):
         return "Discounts"
     if re.search(r"\bwebinar|course|training|bootcamp|workshop\b", t):
@@ -121,7 +123,7 @@ def classify(title):
 def make_lead(name, base, title, href):
     title = clean(title)
     url = canonical_url(href, base)
-    if not url or len(title) < 12 or len(title) > 170 or BLOCKED.search(title):
+    if not url or len(title) < 12 or len(title) > 170 or BLOCKED.search(title) or re.search(r"\b(scholarship recipients|award winners|free resources)\b", title, re.I):
         return None
     if not OPPORTUNITY.search(title) or not RELEVANCE.search(title + " " + url):
         return None
