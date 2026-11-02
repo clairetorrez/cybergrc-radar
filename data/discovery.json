@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-02T23:20:23Z",
+  "lastChecked": "2026-11-02T23:21:50Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -147,7 +147,7 @@
       "candidates": 10
     }
   ],
-  "newLeads": 3,
+  "newLeads": 0,
   "leads": [
     {
       "id": "72e70e8d4574069d26",
@@ -194,7 +194,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02",
-      "lastChecked": "2026-11-02T23:20:21Z",
+      "lastChecked": "2026-11-02T23:21:49Z",
       "fingerprint": "02f0e646dadb848b83",
       "verified": false,
       "reviewRequired": true
@@ -219,7 +219,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02",
-      "lastChecked": "2026-11-02T23:20:21Z",
+      "lastChecked": "2026-11-02T23:21:49Z",
       "fingerprint": "90c7bdb0981bdf5d68",
       "verified": false,
       "reviewRequired": true
@@ -244,7 +244,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02",
-      "lastChecked": "2026-11-02T23:20:22Z",
+      "lastChecked": "2026-11-02T23:21:49Z",
       "fingerprint": "f8bf5a09554b0349de",
       "verified": false,
       "reviewRequired": true
@@ -421,7 +421,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02",
-      "lastChecked": "2026-11-02T23:20:21Z",
+      "lastChecked": "2026-11-02T23:21:48Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true
