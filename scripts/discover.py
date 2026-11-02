@@ -221,6 +221,9 @@ def process_page(source,url,title_hint,page,old=None):
     if source.get("mode")=="watch" and re.search(r"\b(beta|pilot|volunteer|free exam|discount)\b",body[:3200],re.I):
         value=min(100,value+21)
         why.append("Targeted source watch")
+    if source.get("group")=="Scholarships" and re.search(r"\bscholarship|grant|fellowship\b",title,re.I):
+        value=min(100,value+22)
+        why.append("Scholarship application page")
     if value<(50 if source.get("mode")=="watch" else 65):return None
     if deadline and deadline<TODAY.isoformat():return None
     category_name=category(title,desc+" "+body[:500] if source.get("mode")=="watch" else desc)
