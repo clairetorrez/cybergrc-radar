@@ -59,7 +59,7 @@ def parse_offer(lead,raw):
     # Before approving, avoid pages that explicitly close applications.
     intro=(title+" "+body[:3500]).lower()
     if DENY.search(intro):return None,"offer_closed"
-    deadline=deadline_from_text(body[:32000])
+    deadline=deadline_from_text(body)
     if deadline and deadline<TODAY.isoformat():return None,"deadline_passed"
     published=lead.get("publishedAt")
     if published:
