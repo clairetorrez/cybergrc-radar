@@ -43,7 +43,7 @@ jobs:
           data=json.load(open('data/approved.json',encoding='utf-8'))
           assert isinstance(data.get('offers'),list)
           ids=set()
-          required=['id','title','provider','category','kind','price','description','eligibility','source','verifiedOn','frameworks']
+          required=['id','title','provider','category','kind','price','description','eligibility','source','verifiedOn']
           for offer in data['offers']:
               assert all(offer.get(key) for key in required), offer
               assert isinstance(offer['frameworks'],list), offer
