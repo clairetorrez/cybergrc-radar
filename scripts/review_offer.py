@@ -88,7 +88,7 @@ def main() -> None:
         "source": url,
         "verifiedOn": now,
         "verifiedBy": os.getenv("GITHUB_ACTOR", "maintainer"),
-        "reviewStatus": "pending_pr_approval",
+        "reviewStatus": "verified_after_merge",
         "featured": False,
         "score": 85,
     }
