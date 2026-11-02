@@ -8,6 +8,8 @@ on:
   push:
     paths:
       - 'scripts/discover.py'
+      - 'scripts/revalidate.py'
+      - 'data/sources.json'
       - '.github/workflows/discover.yml'
 
 permissions:
@@ -29,11 +31,13 @@ jobs:
           persist-credentials: true
       - name: Collect opportunity leads
         run: python3 scripts/discover.py
-      - name: Update published discovery catalog
+      - name: Recheck approved offers for drift or expiration
+        run: python3 scripts/revalidate.py
+      - name: Update published discovery and review status
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/discovery.json
+          git add data/discovery.json data/revalidation.json
           if git diff --cached --quiet; then
             echo "No discovery changes to publish"
           else
