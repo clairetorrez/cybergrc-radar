@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-02T23:19:12Z",
+  "lastChecked": "2026-11-02T23:20:23Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -147,7 +147,7 @@
       "candidates": 10
     }
   ],
-  "newLeads": 0,
+  "newLeads": 3,
   "leads": [
     {
       "id": "72e70e8d4574069d26",
@@ -171,6 +171,81 @@
       "lastSeen": "2026-11-02",
       "lastChecked": "2026-11-02T22:49:57Z",
       "fingerprint": "2132605069a6a9dffc",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "3014797e30a8c472e2",
+      "title": "ISACA Foundation Scholarship Program Expands Access to Tech and Cybersecurity Education",
+      "source": "ISACA Foundation",
+      "url": "https://www.isaca.org/about-us/newsroom/press-releases/2026/isaca-foundation-scholarship-program-expands-access-to-tech-and-cybersecurity-education",
+      "category": "Scholarships",
+      "topics": [],
+      "group": "Scholarships",
+      "status": "needs_review",
+      "score": 65,
+      "why": [
+        "Experience or funding",
+        "Scholarship application page"
+      ],
+      "evidence": "About Membership Member Benefits Membership Types Browse Chapters Get Involved Advocacy Author an Article Chapter Events Calendar ISACA Awards SheLeadsTech",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "lastChecked": "2026-11-02T23:20:21Z",
+      "fingerprint": "02f0e646dadb848b83",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "517bba5ed7cd3594ec",
+      "title": "ISACA Foundation Global Scholarship Program Expands to Equip Next-Gen Professionals",
+      "source": "ISACA Foundation",
+      "url": "https://www.isaca.org/about-us/newsroom/press-releases/2026/isaca-foundation-program-expands-to-equip-next-gen-professionals",
+      "category": "Scholarships",
+      "topics": [],
+      "group": "Scholarships",
+      "status": "needs_review",
+      "score": 65,
+      "why": [
+        "Experience or funding",
+        "Scholarship application page"
+      ],
+      "evidence": "About Membership Member Benefits Membership Types Browse Chapters Get Involved Advocacy Author an Article Chapter Events Calendar ISACA Awards SheLeadsTech",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "lastChecked": "2026-11-02T23:20:21Z",
+      "fingerprint": "90c7bdb0981bdf5d68",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "77b20ecb79bf2ce12a",
+      "title": "ISACA Foundation Cybersecurity Month Scholarship Winners Share Inspirations, Aspirations",
+      "source": "ISACA Foundation",
+      "url": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/isaca-foundation-cybersecurity-month-scholarship-winners-share-inspirations-aspirations",
+      "category": "Scholarships",
+      "topics": [],
+      "group": "Scholarships",
+      "status": "needs_review",
+      "score": 65,
+      "why": [
+        "Experience or funding",
+        "Scholarship application page"
+      ],
+      "evidence": "About Membership Member Benefits Membership Types Browse Chapters Get Involved Advocacy Author an Article Chapter Events Calendar ISACA Awards SheLeadsTech",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "lastChecked": "2026-11-02T23:20:22Z",
+      "fingerprint": "f8bf5a09554b0349de",
       "verified": false,
       "reviewRequired": true
     },
@@ -346,7 +421,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02",
-      "lastChecked": "2026-11-02T23:19:09Z",
+      "lastChecked": "2026-11-02T23:20:21Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true

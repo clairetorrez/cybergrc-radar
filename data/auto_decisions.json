@@ -1,6 +1,21 @@
 {
-  "lastChecked": "2026-11-02T23:19:13Z",
+  "lastChecked": "2026-11-02T23:20:24Z",
   "decisions": [
+    {
+      "url": "https://www.isaca.org/about-us/newsroom/press-releases/2026/isaca-foundation-program-expands-to-equip-next-gen-professionals",
+      "status": "withheld",
+      "reason": "insufficient_offer_evidence"
+    },
+    {
+      "url": "https://www.isaca.org/about-us/newsroom/press-releases/2026/isaca-foundation-scholarship-program-expands-access-to-tech-and-cybersecurity-education",
+      "status": "withheld",
+      "reason": "insufficient_offer_evidence"
+    },
+    {
+      "url": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/isaca-foundation-cybersecurity-month-scholarship-winners-share-inspirations-aspirations",
+      "status": "withheld",
+      "reason": "insufficient_offer_evidence"
+    },
     {
       "url": "https://www.isc2.org/new-ai-certification",
       "status": "auto_published",
