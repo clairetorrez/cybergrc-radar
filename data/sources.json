@@ -126,11 +126,47 @@
       "url": "https://www.nist.gov/news-events/news",
       "group": "Security frameworks",
       "mode": "listing"
+    },
+    {
+      "name": "ISACA Scholarship Directory",
+      "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/aboutscholarships",
+      "group": "Scholarships",
+      "mode": "watch"
+    },
+    {
+      "name": "ISACA Digital Trust Scholarship",
+      "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/digitaltrust",
+      "group": "Scholarships",
+      "mode": "watch"
+    },
+    {
+      "name": "ISACA Cybersecurity Month Scholarship",
+      "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/cybersecuritymonth",
+      "group": "Scholarships",
+      "mode": "watch"
+    },
+    {
+      "name": "ISACA San Diego Scholarship",
+      "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/usscholarships/sandiego",
+      "group": "Scholarships",
+      "mode": "watch"
+    },
+    {
+      "name": "ISACA North Texas Scholarship",
+      "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/usscholarships/northtexas",
+      "group": "Scholarships",
+      "mode": "watch"
+    },
+    {
+      "name": "National Cybersecurity Alliance Scholarship",
+      "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/ncascholarshipprogram/seeyourselfincyber",
+      "group": "Scholarships",
+      "mode": "watch"
     }
   ],
   "curation": {
     "maxPerSource": 7,
-    "detailFetchLimit": 45,
+    "detailFetchLimit": 55,
     "maxStoredLeads": 200,
     "staleDays": 45
   }
