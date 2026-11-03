@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-03T03:19:40Z",
+  "lastChecked": "2026-11-03T03:21:34Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -642,7 +642,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-03",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:19:38Z",
+      "lastChecked": "2026-11-03T03:21:31Z",
       "fingerprint": "f802da8553d3b53c2e",
       "verified": false,
       "reviewRequired": true
@@ -667,7 +667,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-03",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:19:40Z",
+      "lastChecked": "2026-11-03T03:21:33Z",
       "fingerprint": "822f9ad9892fe84f32",
       "verified": false,
       "reviewRequired": true
@@ -844,7 +844,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:19:38Z",
+      "lastChecked": "2026-11-03T03:21:31Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true
