@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-03T03:24:30Z",
+  "lastChecked": "2026-11-03T03:28:21Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -642,7 +642,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-03",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:24:24Z",
+      "lastChecked": "2026-11-03T03:28:17Z",
       "fingerprint": "f802da8553d3b53c2e",
       "verified": false,
       "reviewRequired": true
@@ -758,7 +758,7 @@
       "category": "Other opportunities",
       "topics": [],
       "group": "Volunteer",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 55,
       "why": [
         "Targeted source watch"
@@ -844,7 +844,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:24:24Z",
+      "lastChecked": "2026-11-03T03:28:17Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true
