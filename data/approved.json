@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-02T23:21:52Z",
+  "lastChecked": "2026-11-03T02:53:08Z",
   "offers": [
     {
       "id": "auto-6c0e76600b69af",
@@ -22,7 +22,7 @@
         "Official provider"
       ],
       "source": "https://www.isc2.org/new-ai-certification",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-03",
       "reviewStatus": "auto_verified",
       "verificationMethod": "official_source_rules",
       "confidence": 95,

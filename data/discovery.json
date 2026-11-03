@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-02T23:21:50Z",
+  "lastChecked": "2026-11-03T02:53:07Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -193,8 +193,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02",
-      "lastChecked": "2026-11-02T23:21:49Z",
+      "lastSeen": "2026-11-03",
+      "lastChecked": "2026-11-03T02:53:04Z",
       "fingerprint": "02f0e646dadb848b83",
       "verified": false,
       "reviewRequired": true
@@ -218,8 +218,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02",
-      "lastChecked": "2026-11-02T23:21:49Z",
+      "lastSeen": "2026-11-03",
+      "lastChecked": "2026-11-03T02:53:04Z",
       "fingerprint": "90c7bdb0981bdf5d68",
       "verified": false,
       "reviewRequired": true
@@ -243,8 +243,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02",
-      "lastChecked": "2026-11-02T23:21:49Z",
+      "lastSeen": "2026-11-03",
+      "lastChecked": "2026-11-03T02:53:04Z",
       "fingerprint": "f8bf5a09554b0349de",
       "verified": false,
       "reviewRequired": true
@@ -420,8 +420,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02",
-      "lastChecked": "2026-11-02T23:21:48Z",
+      "lastSeen": "2026-11-03",
+      "lastChecked": "2026-11-03T02:53:03Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true
