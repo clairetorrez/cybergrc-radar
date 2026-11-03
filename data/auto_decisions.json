@@ -1,8 +1,18 @@
 {
-  "lastChecked": "2026-11-03T03:28:22Z",
+  "lastChecked": "2026-11-03T03:40:44Z",
   "decisions": [
     {
       "url": "https://nextciso.freshteam.com/jobs/jZcYvZ_jIVVm/nextciso-junior-grc-analyst-remote",
+      "status": "withheld",
+      "reason": "insufficient_offer_evidence"
+    },
+    {
+      "url": "https://www.apprenticeship.gov/AI-in-registered-apprenticeships",
+      "status": "withheld",
+      "reason": "insufficient_offer_evidence"
+    },
+    {
+      "url": "https://www.isaca.org/enterprise/training-and-credentialing/audiences-and-needs",
       "status": "withheld",
       "reason": "insufficient_offer_evidence"
     },
