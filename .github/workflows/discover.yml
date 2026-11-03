@@ -5,14 +5,6 @@ on:
     - cron: '17 8 * * *'
       timezone: 'America/Los_Angeles'
   workflow_dispatch:
-  push:
-    paths:
-      - 'scripts/discover.py'
-      - 'scripts/revalidate.py'
-      - 'scripts/auto_publish.py'
-      - 'data/sources.json'
-      - 'index.html'
-      - '.github/workflows/discover.yml'
 
 permissions:
   contents: write
