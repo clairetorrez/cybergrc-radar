@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-03T03:00:23Z",
+  "lastChecked": "2026-11-03T03:03:02Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -15,6 +15,26 @@
       "candidates": 12
     },
     {
+      "name": "Apprenti Cybersecurity Apprenticeship",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "Apprenticeship USA",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "California Apprenti Registered Program",
+      "ok": true,
+      "candidates": 3
+    },
+    {
+      "name": "California Per Scholas Registered Program",
+      "ok": true,
+      "candidates": 3
+    },
+    {
       "name": "Cloud Security Alliance",
       "ok": true,
       "candidates": 1
@@ -27,6 +47,11 @@
     },
     {
       "name": "Cyber AB",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "DoD Cyber Apprenticeship Pilot",
       "ok": true,
       "candidates": 1
     },
@@ -101,6 +126,11 @@
       "candidates": 1
     },
     {
+      "name": "Lockheed Martin Careers",
+      "ok": true,
+      "candidates": 1
+    },
+    {
       "name": "Microsoft Applied Skills",
       "ok": true,
       "candidates": 1
@@ -111,15 +141,30 @@
       "candidates": 0
     },
     {
+      "name": "NPower Apprenticeship",
+      "ok": true,
+      "candidates": 2
+    },
+    {
       "name": "National Cybersecurity Alliance Scholarship",
       "ok": false,
       "candidates": 0,
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "name": "NextCISO GRC Internship",
+      "ok": true,
+      "candidates": 2
+    },
+    {
       "name": "OWASP Projects",
       "ok": true,
       "candidates": 0
+    },
+    {
+      "name": "OpenClassrooms Apprenticeships",
+      "ok": true,
+      "candidates": 1
     },
     {
       "name": "PECB Free Beta Announcement",
@@ -137,14 +182,30 @@
       "candidates": 0
     },
     {
+      "name": "Per Scholas Cybersecurity Apprenticeship",
+      "ok": true,
+      "candidates": 3
+    },
+    {
       "name": "Qualys Training",
       "ok": true,
       "candidates": 1
     },
     {
+      "name": "RapidAscent Cybersecurity",
+      "ok": false,
+      "candidates": 0,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "name": "SANS Offers",
       "ok": true,
       "candidates": 10
+    },
+    {
+      "name": "USAJOBS Students and Graduates",
+      "ok": true,
+      "candidates": 1
     }
   ],
   "newLeads": 0,
@@ -194,7 +255,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:00:20Z",
+      "lastChecked": "2026-11-03T03:03:00Z",
       "fingerprint": "02f0e646dadb848b83",
       "verified": false,
       "reviewRequired": true
@@ -219,7 +280,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:00:21Z",
+      "lastChecked": "2026-11-03T03:03:00Z",
       "fingerprint": "90c7bdb0981bdf5d68",
       "verified": false,
       "reviewRequired": true
@@ -244,7 +305,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:00:20Z",
+      "lastChecked": "2026-11-03T03:03:00Z",
       "fingerprint": "f8bf5a09554b0349de",
       "verified": false,
       "reviewRequired": true
@@ -421,7 +482,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:00:20Z",
+      "lastChecked": "2026-11-03T03:02:58Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true
