@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-03T03:04:12Z",
+  "lastChecked": "2026-11-03T03:04:48Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -17,7 +17,7 @@
     {
       "name": "Apprenti Cybersecurity Apprenticeship",
       "ok": true,
-      "candidates": 1
+      "candidates": 5
     },
     {
       "name": "Apprenticeship USA",
@@ -67,15 +67,13 @@
     },
     {
       "name": "ISACA Cybersecurity Month Scholarship",
-      "ok": false,
-      "candidates": 0,
-      "error": "HTTP Error 403: Forbidden"
+      "ok": true,
+      "candidates": 12
     },
     {
       "name": "ISACA Digital Trust Scholarship",
-      "ok": false,
-      "candidates": 0,
-      "error": "HTTP Error 403: Forbidden"
+      "ok": true,
+      "candidates": 12
     },
     {
       "name": "ISACA Foundation",
@@ -84,21 +82,18 @@
     },
     {
       "name": "ISACA North Texas Scholarship",
-      "ok": false,
-      "candidates": 0,
-      "error": "HTTP Error 403: Forbidden"
+      "ok": true,
+      "candidates": 12
     },
     {
       "name": "ISACA San Diego Scholarship",
-      "ok": false,
-      "candidates": 0,
-      "error": "HTTP Error 403: Forbidden"
+      "ok": true,
+      "candidates": 12
     },
     {
       "name": "ISACA Scholarship Directory",
-      "ok": false,
-      "candidates": 0,
-      "error": "HTTP Error 403: Forbidden"
+      "ok": true,
+      "candidates": 12
     },
     {
       "name": "ISACA Training Offers",
@@ -147,9 +142,8 @@
     },
     {
       "name": "National Cybersecurity Alliance Scholarship",
-      "ok": false,
-      "candidates": 0,
-      "error": "HTTP Error 403: Forbidden"
+      "ok": true,
+      "candidates": 12
     },
     {
       "name": "NextCISO GRC Internship",
@@ -208,8 +202,321 @@
       "candidates": 1
     }
   ],
-  "newLeads": 1,
+  "newLeads": 12,
   "leads": [
+    {
+      "id": "e97d61041e181d4348",
+      "title": "ISACA Cybersecurity Month Scholarship",
+      "source": "ISACA Scholarship Directory",
+      "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/cybersecuritymonth",
+      "category": "Scholarships",
+      "topics": [],
+      "group": "Scholarships",
+      "status": "needs_review",
+      "score": 100,
+      "why": [
+        "Experience or funding",
+        "Closing soon",
+        "Targeted source watch",
+        "Scholarship application page"
+      ],
+      "evidence": "If you have applied for an ISACA Foundation scholarship before, you may sign in using that account.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": "2026-11-03",
+      "publishedAt": null,
+      "firstSeen": "2026-11-03",
+      "lastSeen": "2026-11-03",
+      "lastChecked": "2026-11-03T03:04:45Z",
+      "fingerprint": "208030a976b58628a7",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "bb62c18736549b5502",
+      "title": "ISACA Scholarship Directory",
+      "source": "ISACA Scholarship Directory",
+      "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/aboutscholarships",
+      "category": "Scholarships",
+      "topics": [],
+      "group": "Scholarships",
+      "status": "needs_review",
+      "score": 86,
+      "why": [
+        "Experience or funding",
+        "Targeted source watch",
+        "Scholarship application page"
+      ],
+      "evidence": "ISACA Greater Washington DC Chapter Scholarship Open to stu",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-03",
+      "lastSeen": "2026-11-03",
+      "lastChecked": "2026-11-03T03:04:45Z",
+      "fingerprint": "14d2336b5ca83a6c27",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "de077d5fb1eaf14588",
+      "title": "ISACA Chicago Chapter Scholarship",
+      "source": "ISACA Scholarship Directory",
+      "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/usscholarships/chicago",
+      "category": "Scholarships",
+      "topics": [],
+      "group": "Scholarships",
+      "status": "needs_review",
+      "score": 86,
+      "why": [
+        "Experience or funding",
+        "Targeted source watch",
+        "Scholarship application page"
+      ],
+      "evidence": "If you have applied for an ISACA Foundation scholarship before, you may sign in using that account.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": "2026-11-30",
+      "publishedAt": null,
+      "firstSeen": "2026-11-03",
+      "lastSeen": "2026-11-03",
+      "lastChecked": "2026-11-03T03:04:45Z",
+      "fingerprint": "846d7e7cb18c07b2a4",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "94f0597233b483f37f",
+      "title": "ISACA Charlotte Chapter Scholarship",
+      "source": "ISACA Scholarship Directory",
+      "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/usscholarships/charlotte",
+      "category": "Scholarships",
+      "topics": [],
+      "group": "Scholarships",
+      "status": "needs_review",
+      "score": 86,
+      "why": [
+        "Experience or funding",
+        "Targeted source watch",
+        "Scholarship application page"
+      ],
+      "evidence": "If you have applied for an ISACA Foundation scholarship before, you may sign in using that account.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": "2026-11-30",
+      "publishedAt": null,
+      "firstSeen": "2026-11-03",
+      "lastSeen": "2026-11-03",
+      "lastChecked": "2026-11-03T03:04:45Z",
+      "fingerprint": "ce66acec885d83e0bf",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "e38ac91a39d1ef100a",
+      "title": "ISACA Greater Houston Computer Information Systems Scholarship",
+      "source": "ISACA Scholarship Directory",
+      "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/usscholarships/greaterhouston",
+      "category": "Scholarships",
+      "topics": [],
+      "group": "Scholarships",
+      "status": "needs_review",
+      "score": 86,
+      "why": [
+        "Experience or funding",
+        "Targeted source watch",
+        "Scholarship application page"
+      ],
+      "evidence": "If you have appplied for an ISACA Foundation scholarship before, you may sign in using that account.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": "2026-11-30",
+      "publishedAt": null,
+      "firstSeen": "2026-11-03",
+      "lastSeen": "2026-11-03",
+      "lastChecked": "2026-11-03T03:04:46Z",
+      "fingerprint": "ea42c8490d0c8adc79",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "b68b3518827473fe1f",
+      "title": "ISACA Illowa Technology Audit Scholarship",
+      "source": "ISACA Scholarship Directory",
+      "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/usscholarships/illowa",
+      "category": "Scholarships",
+      "topics": [],
+      "group": "Scholarships",
+      "status": "needs_review",
+      "score": 86,
+      "why": [
+        "Experience or funding",
+        "Targeted source watch",
+        "Scholarship application page"
+      ],
+      "evidence": "If you have applied for an ISACA Foundation scholarship before, you may sign in using that account.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": "2026-11-30",
+      "publishedAt": null,
+      "firstSeen": "2026-11-03",
+      "lastSeen": "2026-11-03",
+      "lastChecked": "2026-11-03T03:04:46Z",
+      "fingerprint": "4ed5f639fd85680b35",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "f90dc8921d89eaa6ac",
+      "title": "ISACA Greater Cincinnati IS, CS, and Cybersecurity Scholarship",
+      "source": "ISACA Scholarship Directory",
+      "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/usscholarships/greatercincinnati",
+      "category": "Scholarships",
+      "topics": [],
+      "group": "Scholarships",
+      "status": "needs_review",
+      "score": 86,
+      "why": [
+        "Experience or funding",
+        "Targeted source watch",
+        "Scholarship application page"
+      ],
+      "evidence": "If you have applied for an ISACA Foundation scholarship before, you may sign in using that account.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": "2026-11-30",
+      "publishedAt": null,
+      "firstSeen": "2026-11-03",
+      "lastSeen": "2026-11-03",
+      "lastChecked": "2026-11-03T03:04:46Z",
+      "fingerprint": "ed6925789f8963d48c",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "a43289b4a2d6705f48",
+      "title": "ISACA Minnesota IT and Cybersecurity Scholarship",
+      "source": "ISACA Scholarship Directory",
+      "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/usscholarships/minnesota",
+      "category": "Scholarships",
+      "topics": [],
+      "group": "Scholarships",
+      "status": "needs_review",
+      "score": 86,
+      "why": [
+        "Experience or funding",
+        "Targeted source watch",
+        "Scholarship application page"
+      ],
+      "evidence": "If you have applied for an ISACA Foundation scholarship before, you may sign in using that account.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": "2026-11-30",
+      "publishedAt": null,
+      "firstSeen": "2026-11-03",
+      "lastSeen": "2026-11-03",
+      "lastChecked": "2026-11-03T03:04:46Z",
+      "fingerprint": "7500a11230de2ccbbe",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "febde23d3e1bfaff6d",
+      "title": "ISACA New England Chapter Scholarship",
+      "source": "ISACA Scholarship Directory",
+      "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/usscholarships/newengland",
+      "category": "Scholarships",
+      "topics": [],
+      "group": "Scholarships",
+      "status": "needs_review",
+      "score": 86,
+      "why": [
+        "Experience or funding",
+        "Targeted source watch",
+        "Scholarship application page"
+      ],
+      "evidence": "If you have applied for an ISACA Foundation scholarship before, you may sign in using that account.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": "2026-11-30",
+      "publishedAt": null,
+      "firstSeen": "2026-11-03",
+      "lastSeen": "2026-11-03",
+      "lastChecked": "2026-11-03T03:04:46Z",
+      "fingerprint": "78aed2d9332056d187",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "c1d5e1b90dc64959d3",
+      "title": "ISACA Las Vegas Chapter - Dr. Patricia Navarro-Velez Memorial Scholarship",
+      "source": "ISACA Scholarship Directory",
+      "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/usscholarships/lasvegas",
+      "category": "Scholarships",
+      "topics": [],
+      "group": "Scholarships",
+      "status": "needs_review",
+      "score": 86,
+      "why": [
+        "Experience or funding",
+        "Targeted source watch",
+        "Scholarship application page"
+      ],
+      "evidence": "If you have applied for an ISACA Foundation scholarship before, you may sign in using that account.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": "2026-11-30",
+      "publishedAt": null,
+      "firstSeen": "2026-11-03",
+      "lastSeen": "2026-11-03",
+      "lastChecked": "2026-11-03T03:04:46Z",
+      "fingerprint": "b74ae8a638320b79d3",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "f5d60cf5260dac69e3",
+      "title": "ISACA North Texas IT, Audit, and Cybersecurity Scholarship",
+      "source": "ISACA Scholarship Directory",
+      "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/usscholarships/northtexas",
+      "category": "Scholarships",
+      "topics": [],
+      "group": "Scholarships",
+      "status": "needs_review",
+      "score": 86,
+      "why": [
+        "Experience or funding",
+        "Targeted source watch",
+        "Scholarship application page"
+      ],
+      "evidence": "If you have applied for an ISACA Foundation scholarship before, you may sign in using that account.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": "2026-11-30",
+      "publishedAt": null,
+      "firstSeen": "2026-11-03",
+      "lastSeen": "2026-11-03",
+      "lastChecked": "2026-11-03T03:04:46Z",
+      "fingerprint": "75b67653fc556ce565",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "42a51837ce36db50b7",
+      "title": "ISACA San Diego Scholarship",
+      "source": "ISACA San Diego Scholarship",
+      "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/usscholarships/sandiego",
+      "category": "Scholarships",
+      "topics": [],
+      "group": "Scholarships",
+      "status": "needs_review",
+      "score": 86,
+      "why": [
+        "Experience or funding",
+        "Targeted source watch",
+        "Scholarship application page"
+      ],
+      "evidence": "If you have appplied for an ISACA Foundation scholarship before, you may sign in using that account.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": "2026-11-30",
+      "publishedAt": null,
+      "firstSeen": "2026-11-03",
+      "lastSeen": "2026-11-03",
+      "lastChecked": "2026-11-03T03:04:46Z",
+      "fingerprint": "9d95cc65c289503f57",
+      "verified": false,
+      "reviewRequired": true
+    },
     {
       "id": "72e70e8d4574069d26",
       "title": "PECB Launches free Skills Beta Exams for experts and non-experts' individuals - PECB",
@@ -329,7 +636,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-03",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:04:09Z",
+      "lastChecked": "2026-11-03T03:04:46Z",
       "fingerprint": "f802da8553d3b53c2e",
       "verified": false,
       "reviewRequired": true
@@ -354,7 +661,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-03",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:04:11Z",
+      "lastChecked": "2026-11-03T03:04:47Z",
       "fingerprint": "822f9ad9892fe84f32",
       "verified": false,
       "reviewRequired": true
@@ -531,7 +838,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:04:10Z",
+      "lastChecked": "2026-11-03T03:04:45Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true
