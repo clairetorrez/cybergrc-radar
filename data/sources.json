@@ -234,6 +234,12 @@
       "url": "https://rapidascent.com/",
       "group": "Apprenticeships and experience",
       "mode": "watch"
+    },
+    {
+      "name": "CSA Cyber Monday 2026 Promotion",
+      "url": "https://cloudsecurityalliance.org/p/cyber-monday-2026",
+      "group": "Cloud security and AI governance",
+      "mode": "watch"
     }
   ],
   "curation": {
