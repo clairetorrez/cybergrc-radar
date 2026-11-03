@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-03T03:03:35Z",
+  "lastChecked": "2026-11-03T03:04:12Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -17,7 +17,7 @@
     {
       "name": "Apprenti Cybersecurity Apprenticeship",
       "ok": true,
-      "candidates": 5
+      "candidates": 1
     },
     {
       "name": "Apprenticeship USA",
@@ -329,8 +329,33 @@
       "publishedAt": null,
       "firstSeen": "2026-11-03",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:03:33Z",
+      "lastChecked": "2026-11-03T03:04:09Z",
       "fingerprint": "f802da8553d3b53c2e",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "7f681ebfd5eb9a0ef8",
+      "title": "AI in Registered Apprenticeship",
+      "source": "Apprenticeship USA",
+      "url": "https://www.apprenticeship.gov/AI-in-registered-apprenticeships",
+      "category": "Apprenticeships & internships",
+      "topics": [],
+      "group": "Apprenticeships and experience",
+      "status": "needs_review",
+      "score": 65,
+      "why": [
+        "Experience or funding",
+        "Targeted source watch"
+      ],
+      "evidence": "Create a New Program: Build AI into a new Registered Apprenticeship program with already-built National Guideline Standards or create your",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-03",
+      "lastSeen": "2026-11-03",
+      "lastChecked": "2026-11-03T03:04:11Z",
+      "fingerprint": "822f9ad9892fe84f32",
       "verified": false,
       "reviewRequired": true
     },
@@ -420,7 +445,7 @@
       "category": "Other opportunities",
       "topics": [],
       "group": "Volunteer",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 55,
       "why": [
         "Targeted source watch"
@@ -506,7 +531,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:03:33Z",
+      "lastChecked": "2026-11-03T03:04:10Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true
