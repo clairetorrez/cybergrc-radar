@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="CyberGRC Radar">
+  <g transform="rotate(-5 32 32)">
+    <rect x="12" y="11" width="42" height="42" rx="12" fill="#ffac72" transform="translate(4 5)"/>
+    <rect x="11" y="10" width="42" height="42" rx="12" fill="#6444dc"/>
+    <circle cx="32" cy="31" r="11" fill="none" stroke="#fcf9ea" stroke-width="1.8"/>
+    <circle cx="32" cy="31" r="8.4" fill="#e8ff8f"/>
+  </g>
+</svg>
