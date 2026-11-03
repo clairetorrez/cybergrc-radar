@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-03T02:55:59Z",
+  "lastChecked": "2026-11-03T03:00:26Z",
   "offers": [
     {
       "id": "auto-6c0e76600b69af",
@@ -40,7 +40,7 @@
     "method": "provider_page_rules",
     "minConfidence": 90,
     "statistics": {
-      "withheld": 4,
+      "withheld": 3,
       "auto_published": 1
     }
   }
