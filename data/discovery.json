@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-03T03:21:34Z",
+  "lastChecked": "2026-11-03T03:24:30Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -17,7 +17,7 @@
     {
       "name": "Apprenti Cybersecurity Apprenticeship",
       "ok": true,
-      "candidates": 1
+      "candidates": 5
     },
     {
       "name": "Apprenticeship USA",
@@ -642,7 +642,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-03",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:21:31Z",
+      "lastChecked": "2026-11-03T03:24:24Z",
       "fingerprint": "f802da8553d3b53c2e",
       "verified": false,
       "reviewRequired": true
@@ -655,7 +655,7 @@
       "category": "Apprenticeships & internships",
       "topics": [],
       "group": "Apprenticeships and experience",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 65,
       "why": [
         "Experience or funding",
@@ -758,7 +758,7 @@
       "category": "Other opportunities",
       "topics": [],
       "group": "Volunteer",
-      "status": "not_seen_today",
+      "status": "needs_review",
       "score": 55,
       "why": [
         "Targeted source watch"
@@ -769,7 +769,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:03:35Z",
+      "lastChecked": "2026-11-03T03:24:25Z",
       "fingerprint": "535a2129fe5fa2ab1a",
       "verified": false,
       "reviewRequired": true
@@ -844,7 +844,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:21:31Z",
+      "lastChecked": "2026-11-03T03:24:24Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true
