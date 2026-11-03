@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-03T02:53:08Z",
+  "lastChecked": "2026-11-03T02:55:59Z",
   "decisions": [
     {
       "url": "https://www.isaca.org/about-us/newsroom/press-releases/2026/isaca-foundation-program-expands-to-equip-next-gen-professionals",
@@ -8,6 +8,11 @@
     },
     {
       "url": "https://www.isaca.org/about-us/newsroom/press-releases/2026/isaca-foundation-scholarship-program-expands-access-to-tech-and-cybersecurity-education",
+      "status": "withheld",
+      "reason": "insufficient_offer_evidence"
+    },
+    {
+      "url": "https://www.isaca.org/enterprise/training-and-credentialing/audiences-and-needs",
       "status": "withheld",
       "reason": "insufficient_offer_evidence"
     },

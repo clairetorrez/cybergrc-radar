@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-03T02:53:07Z",
+  "lastChecked": "2026-11-03T02:55:55Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -194,7 +194,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T02:53:04Z",
+      "lastChecked": "2026-11-03T02:55:54Z",
       "fingerprint": "02f0e646dadb848b83",
       "verified": false,
       "reviewRequired": true
@@ -219,7 +219,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T02:53:04Z",
+      "lastChecked": "2026-11-03T02:55:54Z",
       "fingerprint": "90c7bdb0981bdf5d68",
       "verified": false,
       "reviewRequired": true
@@ -244,7 +244,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T02:53:04Z",
+      "lastChecked": "2026-11-03T02:55:54Z",
       "fingerprint": "f8bf5a09554b0349de",
       "verified": false,
       "reviewRequired": true
@@ -328,6 +328,30 @@
       "reviewRequired": true
     },
     {
+      "id": "97b20dda128860d52e",
+      "title": "Upskill Your Team to Power Business Growth",
+      "source": "ISACA Volunteer",
+      "url": "https://www.isaca.org/enterprise/training-and-credentialing/audiences-and-needs",
+      "category": "Other opportunities",
+      "topics": [],
+      "group": "Volunteer",
+      "status": "needs_review",
+      "score": 55,
+      "why": [
+        "Targeted source watch"
+      ],
+      "evidence": "Join today Earn free CPE Browse chapters Volunteer Join today Earn free CPE Browse chapters Volunteer Personalize your Experience Update",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-03",
+      "lastChecked": "2026-11-03T02:55:53Z",
+      "fingerprint": "535a2129fe5fa2ab1a",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
       "id": "a6504ac7468666793e",
       "title": "Become a Part of Our Digital Trust Community",
       "source": "ISACA Volunteer",
@@ -376,30 +400,6 @@
       "reviewRequired": true
     },
     {
-      "id": "97b20dda128860d52e",
-      "title": "Upskill Your Team to Power Business Growth",
-      "source": "ISACA Volunteer",
-      "url": "https://www.isaca.org/enterprise/training-and-credentialing/audiences-and-needs",
-      "category": "Other opportunities",
-      "topics": [],
-      "group": "Volunteer",
-      "status": "not_seen_today",
-      "score": 55,
-      "why": [
-        "Targeted source watch"
-      ],
-      "evidence": "Join today Earn free CPE Browse chapters Volunteer Join today Earn free CPE Browse chapters Volunteer Personalize your Experience Update",
-      "priceHint": "Not confirmed",
-      "deadlineHint": null,
-      "publishedAt": null,
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-02",
-      "lastChecked": "2026-11-02T23:10:17Z",
-      "fingerprint": "535a2129fe5fa2ab1a",
-      "verified": false,
-      "reviewRequired": true
-    },
-    {
       "id": "6c0e76600b69af4831",
       "title": "AI Security Certification",
       "source": "ISC2 AI Security Pilot",
@@ -421,7 +421,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T02:53:03Z",
+      "lastChecked": "2026-11-03T02:55:52Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true
