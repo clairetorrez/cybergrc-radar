@@ -222,7 +222,7 @@ def process_page(source,url,title_hint,page,old=None):
     if source.get("mode")=="watch" and re.search(r"\b(beta|pilot|volunteer|apprenticeship|internship|cohort|free exam|discount)\b",body[:3200],re.I):
         value=min(100,value+21)
         why.append("Targeted source watch")
-    if source.get("group")=="Apprenticeships and experience" and re.search(r"\\b(apprenticeship|apprentice|internship|intern|cohort|rotational program)\\b",title+" "+desc[:300],re.I):
+    if source.get("group")=="Apprenticeships and experience" and re.search(r"\b(apprenticeship|apprentice|internship|intern|cohort|rotational program)\b",title+" "+desc[:300],re.I):
         value=max(value,65)
     if source.get("group")=="Scholarships" and re.search(r"\bscholarship|grant|fellowship\b",title,re.I):
         value=min(100,value+22)
