@@ -1,151 +1,151 @@
 {
-  "lastChecked": "2026-11-03T03:03:05Z",
+  "lastChecked": "2026-11-03T03:03:38Z",
   "reviewAfterDays": 14,
   "results": [
     {
       "id": "auto-6c0e76600b69af",
       "url": "https://www.isc2.org/new-ai-certification",
-      "lastChecked": "2026-11-03T03:03:04Z",
+      "lastChecked": "2026-11-03T03:03:37Z",
       "status": "checked",
       "reason": "Provider page reachable; automatic source rules must still support the listed offer"
     },
     {
       "id": "isaca-digital-trust-2026",
       "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/digitaltrust",
-      "lastChecked": "2026-11-03T03:03:04Z",
+      "lastChecked": "2026-11-03T03:03:37Z",
       "status": "unreachable",
       "reason": "Provider page could not be fetched: HTTP Error 403: Forbidden"
     },
     {
       "id": "isaca-cyber-scholarship-2026",
       "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/cybersecuritymonth",
-      "lastChecked": "2026-11-03T03:03:04Z",
+      "lastChecked": "2026-11-03T03:03:37Z",
       "status": "unreachable",
       "reason": "Provider page could not be fetched: HTTP Error 403: Forbidden"
     },
     {
       "id": "ey-tech-risk-forage",
       "url": "https://www.theforage.com/simulations/ey/technology-risk-ydqh",
-      "lastChecked": "2026-11-03T03:03:04Z",
+      "lastChecked": "2026-11-03T03:03:37Z",
       "status": "checked",
       "reason": "Provider page reachable; automatic source rules must still support the listed offer"
     },
     {
       "id": "pwc-digital-assurance",
       "url": "https://www.theforage.com/simulations/pwc-us/digital-assurance-transparency-9rtv",
-      "lastChecked": "2026-11-03T03:03:04Z",
+      "lastChecked": "2026-11-03T03:03:37Z",
       "status": "checked",
       "reason": "Provider page reachable; automatic source rules must still support the listed offer"
     },
     {
       "id": "pwc-audit-simulation",
       "url": "https://www.theforage.com/simulations/pwcus/audit-w3fr",
-      "lastChecked": "2026-11-03T03:03:04Z",
+      "lastChecked": "2026-11-03T03:03:37Z",
       "status": "checked",
       "reason": "Provider page reachable; automatic source rules must still support the listed offer"
     },
     {
       "id": "lf-kubecon-2026",
       "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/register/",
-      "lastChecked": "2026-11-03T03:03:04Z",
+      "lastChecked": "2026-11-03T03:03:37Z",
       "status": "checked",
       "reason": "Provider page reachable; automatic source rules must still support the listed offer"
     },
     {
       "id": "qualys-free-training",
       "url": "https://www.qualys.com/training",
-      "lastChecked": "2026-11-03T03:03:04Z",
+      "lastChecked": "2026-11-03T03:03:37Z",
       "status": "checked",
       "reason": "Provider page reachable; automatic source rules must still support the listed offer"
     },
     {
       "id": "splunk-workplus",
       "url": "https://workplus.splunk.com/",
-      "lastChecked": "2026-11-03T03:03:04Z",
+      "lastChecked": "2026-11-03T03:03:37Z",
       "status": "checked",
       "reason": "Provider page reachable; automatic source rules must still support the listed offer"
     },
     {
       "id": "ms-applied-skills",
       "url": "https://learn.microsoft.com/en-us/credentials/applied-skills/",
-      "lastChecked": "2026-11-03T03:03:04Z",
+      "lastChecked": "2026-11-03T03:03:37Z",
       "status": "checked",
       "reason": "Provider page reachable; automatic source rules must still support the listed offer"
     },
     {
       "id": "attackiq-free-training",
       "url": "https://www.academy.attackiq.com/",
-      "lastChecked": "2026-11-03T03:03:04Z",
+      "lastChecked": "2026-11-03T03:03:37Z",
       "status": "checked",
       "reason": "Provider page reachable; automatic source rules must still support the listed offer"
     },
     {
       "id": "pecb-skills-beta-oct",
       "url": "https://pecb.com/en/newsReleases/pecb-launches-free-skills-beta-exams-for-experts-and-non-experts-individuals",
-      "lastChecked": "2026-11-03T03:03:04Z",
+      "lastChecked": "2026-11-03T03:03:37Z",
       "status": "expired",
       "reason": "Published expiration date passed"
     },
     {
       "id": "lf-ato26",
       "url": "https://training.linuxfoundation.org/ato-2026/",
-      "lastChecked": "2026-11-03T03:03:04Z",
+      "lastChecked": "2026-11-03T03:03:37Z",
       "status": "expired",
       "reason": "Published expiration date passed"
     },
     {
       "id": "isaca-grc-advisory-2027",
       "url": "https://engage.isaca.org/volunteeropportunities",
-      "lastChecked": "2026-11-03T03:03:04Z",
+      "lastChecked": "2026-11-03T03:03:37Z",
       "status": "checked",
       "reason": "Provider page reachable; automatic source rules must still support the listed offer"
     },
     {
       "id": "isaca-scholarship-review-2026",
       "url": "https://engage.isaca.org/volunteeropportunities",
-      "lastChecked": "2026-11-03T03:03:04Z",
+      "lastChecked": "2026-11-03T03:03:37Z",
       "status": "checked",
       "reason": "Provider page reachable; automatic source rules must still support the listed offer"
     },
     {
       "id": "owasp-asvs-volunteer",
       "url": "https://asvs.owasp.org/get-involved/",
-      "lastChecked": "2026-11-03T03:03:04Z",
+      "lastChecked": "2026-11-03T03:03:37Z",
       "status": "checked",
       "reason": "Provider page reachable; automatic source rules must still support the listed offer"
     },
     {
       "id": "owasp-ai-volunteer",
       "url": "https://genai.owasp.org/contribute/",
-      "lastChecked": "2026-11-03T03:03:05Z",
+      "lastChecked": "2026-11-03T03:03:37Z",
       "status": "checked",
       "reason": "Provider page reachable; automatic source rules must still support the listed offer"
     },
     {
       "id": "csa-research-working-groups",
       "url": "https://cloudsecurityalliance.org/research/volunteer-faq",
-      "lastChecked": "2026-11-03T03:03:05Z",
+      "lastChecked": "2026-11-03T03:03:38Z",
       "status": "checked",
       "reason": "Provider page reachable; automatic source rules must still support the listed offer"
     },
     {
       "id": "isaca-san-diego-scholarship-2026",
       "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/usscholarships/sandiego",
-      "lastChecked": "2026-11-03T03:03:05Z",
+      "lastChecked": "2026-11-03T03:03:38Z",
       "status": "unreachable",
       "reason": "Provider page could not be fetched: HTTP Error 403: Forbidden"
     },
     {
       "id": "isaca-north-texas-scholarship-2026",
       "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/usscholarships/northtexas",
-      "lastChecked": "2026-11-03T03:03:05Z",
+      "lastChecked": "2026-11-03T03:03:38Z",
       "status": "unreachable",
       "reason": "Provider page could not be fetched: HTTP Error 403: Forbidden"
     },
     {
       "id": "isaca-nca-cyber-scholarship-2026",
       "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/ncascholarshipprogram/seeyourselfincyber",
-      "lastChecked": "2026-11-03T03:03:05Z",
+      "lastChecked": "2026-11-03T03:03:38Z",
       "status": "unreachable",
       "reason": "Provider page could not be fetched: HTTP Error 403: Forbidden"
     }
