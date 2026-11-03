@@ -151,7 +151,8 @@ def deadline_from_text(text):
 def category(title,body):
     t=(title+" "+body[:1200]).lower()
     if re.search(r"\bscholarship|fellowship|grant\b",title,re.I):return "Scholarships"
-    if re.search(r"\bapprenticeship|apprentice|internship|intern|rotational program|cohort\b",title,re.I):return "Apprenticeships & internships"\n    if re.search(r"\bvolunteer|working group|contribut|externship\b",title,re.I):return "Volunteer & experience"
+    if re.search(r"\bapprenticeship|apprentice|internship|intern|rotational program|cohort\b",title,re.I):return "Apprenticeships & internships" 
+    if re.search(r"\bvolunteer|working group|contribut|externship\b",title,re.I):return "Volunteer & experience"
     if re.search(r"\bbeta\b|\bpilot\b",(title+" "+body[:600]) if "Certification Pilot" in body[:600] or "pilot exam" in body[:600] else title,re.I):return "Beta & pilot exams"
     if re.search(r"voucher|discount|coupon|\d{1,2}\s?% off|sale|special offer",title,re.I):return "Discounts & vouchers"
     if re.search(r"free exam|free certif",title,re.I):return "Free exams & credentials"
@@ -221,7 +222,9 @@ def process_page(source,url,title_hint,page,old=None):
     if source.get("mode")=="watch" and re.search(r"\b(beta|pilot|volunteer|apprenticeship|internship|cohort|free exam|discount)\b",body[:3200],re.I):
         value=min(100,value+21)
         why.append("Targeted source watch")
-    if source.get("group")=="Apprenticeships and experience" and re.search(r"\\b(apprenticeship|apprentice|internship|intern|cohort|rotational program)\\b",title+" "+desc[:300],re.I):\n        value=max(value,65)\n    if source.get("group")=="Scholarships" and re.search(r"\bscholarship|grant|fellowship\b",title,re.I):
+    if source.get("group")=="Apprenticeships and experience" and re.search(r"\\b(apprenticeship|apprentice|internship|intern|cohort|rotational program)\\b",title+" "+desc[:300],re.I):
+        value=max(value,65)
+    if source.get("group")=="Scholarships" and re.search(r"\bscholarship|grant|fellowship\b",title,re.I):
         value=min(100,value+22)
         why.append("Scholarship application page")
     if value<(50 if source.get("mode")=="watch" else 65):return None
