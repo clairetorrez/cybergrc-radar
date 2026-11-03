@@ -208,8 +208,38 @@
       "candidates": 1
     }
   ],
-  "newLeads": 0,
+  "newLeads": 1,
   "leads": [
+    {
+      "id": "csa-cyber-monday-2026-watch",
+      "title": "CSA Cyber Monday 2026, promotion details awaiting confirmation",
+      "source": "Cloud Security Alliance",
+      "url": "https://cloudsecurityalliance.org/p/cyber-monday-2026",
+      "category": "Cloud security",
+      "topics": [
+        "CCSK",
+        "CCZT",
+        "AI governance"
+      ],
+      "group": "Cloud security and AI governance",
+      "status": "pending_verification",
+      "score": 88,
+      "why": [
+        "Official CSA campaign link",
+        "Cyber Monday 2026 watch",
+        "Offer terms not yet independently verified"
+      ],
+      "evidence": "Official CSA Cyber Monday 2026 landing page shared. Specific products, prices, promo codes and validity dates have not been verified.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-03",
+      "lastSeen": "2026-11-03",
+      "lastChecked": null,
+      "fingerprint": "csa-cyber-monday-2026",
+      "verified": false,
+      "reviewRequired": true
+    },
     {
       "id": "e97d61041e181d4348",
       "title": "ISACA Cybersecurity Month Scholarship",
