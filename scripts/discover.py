@@ -23,7 +23,7 @@ OUTPUT = ROOT / "data/discovery.json"
 CONFIG = ROOT / "data/sources.json"
 TODAY = dt.datetime.now(dt.timezone.utc).date()
 UTC = lambda: dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
-PROMOTION = re.compile(r"\b(beta|pilot|voucher|discount|coupon|scholarship|giveaway|volunteer|externship|fellowship|grant|sweepstakes|competition|promotion|special offer|free (?:exam|certif|course|training|voucher|workshop)|certification month)\b|\d{1,2}\s?%\s?off", re.I)
+PROMOTION = re.compile(r"\b(beta|pilot|voucher|discount|coupon|scholarship|giveaway|volunteer|externship|fellowship|apprenticeship|apprentice|internship|intern|rotational program|cohort|grant|sweepstakes|competition|promotion|special offer|free (?:exam|certif|course|training|voucher|workshop)|certification month)\b|\d{1,2}\s?%\s?off", re.I)
 SUBJECT = re.compile(r"\b(iso[\s/-]?\d{4,5}|soc\s?[12]|sox|itgc|fedramp|cmmc|nist|isaca|isc2|aws|azure|compTIA|cyber|security|risk|audit|grc|governance|AI|cloud|certification|CISA|CISSP|CRISC)\b", re.I)
 GENERIC = re.compile(r"^(free resources|free courses|training catalog|training events|view training|certification training partners|regional training|all training courses|subscribe|learn more|read more|ways to train|training for government|it certification journey|career|research|events|scholarships|news|blog|resources)$", re.I)
 BLOCK = re.compile(r"sign in|log in|cookie|privacy policy|terms of use|accessibility|linkedin|youtube|facebook|scholarship recipients|award winners", re.I)
@@ -151,7 +151,7 @@ def deadline_from_text(text):
 def category(title,body):
     t=(title+" "+body[:1200]).lower()
     if re.search(r"\bscholarship|fellowship|grant\b",title,re.I):return "Scholarships"
-    if re.search(r"\bvolunteer|working group|contribut|externship\b",title,re.I):return "Volunteer & experience"
+    if re.search(r"\bapprenticeship|apprentice|internship|intern|rotational program|cohort\b",title,re.I):return "Apprenticeships & internships"\n    if re.search(r"\bvolunteer|working group|contribut|externship\b",title,re.I):return "Volunteer & experience"
     if re.search(r"\bbeta\b|\bpilot\b",(title+" "+body[:600]) if "Certification Pilot" in body[:600] or "pilot exam" in body[:600] else title,re.I):return "Beta & pilot exams"
     if re.search(r"voucher|discount|coupon|\d{1,2}\s?% off|sale|special offer",title,re.I):return "Discounts & vouchers"
     if re.search(r"free exam|free certif",title,re.I):return "Free exams & credentials"
@@ -184,7 +184,7 @@ def score(title,description,body,pub,deadline):
     if re.search(r"free.{0,30}(?:exam|certif|voucher)|(?:exam|voucher).{0,30}free",t):val+=35;why.append("Possible free exam")
     elif re.search(r"\bbeta\b|\bpilot\b",t):val+=31;why.append("Beta program")
     elif re.search(r"\bdiscount|voucher|\d{1,2}\s?% off|coupon|sale\b",t):val+=29;why.append("Discount signal")
-    elif re.search(r"\bvolunteer|externship|scholarship|fellowship\b",t):val+=23;why.append("Experience or funding")
+    elif re.search(r"\bvolunteer|externship|scholarship|fellowship|apprenticeship|internship|rotational program|cohort\b",t):val+=23;why.append("Experience or funding")
     else:val+=8
     if re.search(r"free.{0,25}(?:exam|voucher)|(?:exam|voucher).{0,25}free",d):val+=11
     elif re.search(r"\bdiscount|voucher|\d{1,2}\s?% off|apply by\b",d):val+=6
@@ -218,10 +218,10 @@ def process_page(source,url,title_hint,page,old=None):
     deadline=deadline_from_text(desc+" "+body[:9000])
     pub=published(parsed.meta)
     value,why,topics=score(title,desc,body,pub,deadline)
-    if source.get("mode")=="watch" and re.search(r"\b(beta|pilot|volunteer|free exam|discount)\b",body[:3200],re.I):
+    if source.get("mode")=="watch" and re.search(r"\b(beta|pilot|volunteer|apprenticeship|internship|cohort|free exam|discount)\b",body[:3200],re.I):
         value=min(100,value+21)
         why.append("Targeted source watch")
-    if source.get("group")=="Scholarships" and re.search(r"\bscholarship|grant|fellowship\b",title,re.I):
+    if source.get("group")=="Apprenticeships and experience" and re.search(r"\\b(apprenticeship|apprentice|internship|intern|cohort|rotational program)\\b",title+" "+desc[:300],re.I):\n        value=max(value,65)\n    if source.get("group")=="Scholarships" and re.search(r"\bscholarship|grant|fellowship\b",title,re.I):
         value=min(100,value+22)
         why.append("Scholarship application page")
     if value<(50 if source.get("mode")=="watch" else 65):return None
