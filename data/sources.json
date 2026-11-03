@@ -162,6 +162,78 @@
       "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/ncascholarshipprogram/seeyourselfincyber",
       "group": "Scholarships",
       "mode": "watch"
+    },
+    {
+      "name": "NextCISO GRC Internship",
+      "url": "https://nextciso.freshteam.com/jobs",
+      "group": "Apprenticeships and experience",
+      "mode": "watch"
+    },
+    {
+      "name": "Apprenti Cybersecurity Apprenticeship",
+      "url": "https://apprenticareers.org/",
+      "group": "Apprenticeships and experience",
+      "mode": "watch"
+    },
+    {
+      "name": "California Apprenti Registered Program",
+      "url": "https://www.dir.ca.gov/databases/das/results_aigdetail.asp?varOccId=10644",
+      "group": "Apprenticeships and experience",
+      "mode": "watch"
+    },
+    {
+      "name": "Per Scholas Cybersecurity Apprenticeship",
+      "url": "https://perscholas.org/",
+      "group": "Apprenticeships and experience",
+      "mode": "watch"
+    },
+    {
+      "name": "California Per Scholas Registered Program",
+      "url": "https://dir.ca.gov/databases/das/results_aigdetail.asp?varOccId=10678",
+      "group": "Apprenticeships and experience",
+      "mode": "watch"
+    },
+    {
+      "name": "NPower Apprenticeship",
+      "url": "https://www.npower.org/hire/apprenticeship/",
+      "group": "Apprenticeships and experience",
+      "mode": "watch"
+    },
+    {
+      "name": "DoD Cyber Apprenticeship Pilot",
+      "url": "https://dodcio.defense.gov/Cyber-Workforce/Cyber-Workforce-Development/Cyber-Apprenticeship-Program/",
+      "group": "Apprenticeships and experience",
+      "mode": "watch"
+    },
+    {
+      "name": "Apprenticeship USA",
+      "url": "https://www.apprenticeship.gov/apprenticeship-job-finder",
+      "group": "Apprenticeships and experience",
+      "mode": "watch"
+    },
+    {
+      "name": "USAJOBS Students and Graduates",
+      "url": "https://www.usajobs.gov/help/working-in-government/unique-hiring-paths/students/",
+      "group": "Apprenticeships and experience",
+      "mode": "watch"
+    },
+    {
+      "name": "Lockheed Martin Careers",
+      "url": "https://www.lockheedmartinjobs.com/",
+      "group": "Apprenticeships and experience",
+      "mode": "watch"
+    },
+    {
+      "name": "OpenClassrooms Apprenticeships",
+      "url": "https://openclassrooms.com/en/",
+      "group": "Apprenticeships and experience",
+      "mode": "watch"
+    },
+    {
+      "name": "RapidAscent Cybersecurity",
+      "url": "https://rapidascent.com/",
+      "group": "Apprenticeships and experience",
+      "mode": "watch"
     }
   ],
   "curation": {
