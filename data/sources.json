@@ -240,6 +240,18 @@
       "url": "https://cloudsecurityalliance.org/p/cyber-monday-2026",
       "group": "Cloud security and AI governance",
       "mode": "watch"
+    },
+    {
+      "name": "ICDFA CPD Campus",
+      "url": "https://campus.icdfa.edu.ng/cpd/",
+      "group": "GRC and ISO",
+      "mode": "watch"
+    },
+    {
+      "name": "ICDFA ISO Training Intake",
+      "url": "https://icdfa.edu.ng/iso",
+      "group": "GRC and ISO",
+      "mode": "watch"
     }
   ],
   "curation": {
