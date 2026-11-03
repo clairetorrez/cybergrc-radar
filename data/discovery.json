@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-03T03:04:48Z",
+  "lastChecked": "2026-11-03T03:09:55Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -17,7 +17,7 @@
     {
       "name": "Apprenti Cybersecurity Apprenticeship",
       "ok": true,
-      "candidates": 5
+      "candidates": 1
     },
     {
       "name": "Apprenticeship USA",
@@ -67,13 +67,15 @@
     },
     {
       "name": "ISACA Cybersecurity Month Scholarship",
-      "ok": true,
-      "candidates": 12
+      "ok": false,
+      "candidates": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "ISACA Digital Trust Scholarship",
-      "ok": true,
-      "candidates": 12
+      "ok": false,
+      "candidates": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "ISACA Foundation",
@@ -82,18 +84,21 @@
     },
     {
       "name": "ISACA North Texas Scholarship",
-      "ok": true,
-      "candidates": 12
+      "ok": false,
+      "candidates": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "ISACA San Diego Scholarship",
-      "ok": true,
-      "candidates": 12
+      "ok": false,
+      "candidates": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "ISACA Scholarship Directory",
-      "ok": true,
-      "candidates": 12
+      "ok": false,
+      "candidates": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "ISACA Training Offers",
@@ -142,8 +147,9 @@
     },
     {
       "name": "National Cybersecurity Alliance Scholarship",
-      "ok": true,
-      "candidates": 12
+      "ok": false,
+      "candidates": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "NextCISO GRC Internship",
@@ -202,7 +208,7 @@
       "candidates": 1
     }
   ],
-  "newLeads": 12,
+  "newLeads": 0,
   "leads": [
     {
       "id": "e97d61041e181d4348",
@@ -212,7 +218,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 100,
       "why": [
         "Experience or funding",
@@ -239,7 +245,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 86,
       "why": [
         "Experience or funding",
@@ -265,7 +271,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 86,
       "why": [
         "Experience or funding",
@@ -291,7 +297,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 86,
       "why": [
         "Experience or funding",
@@ -317,7 +323,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 86,
       "why": [
         "Experience or funding",
@@ -343,7 +349,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 86,
       "why": [
         "Experience or funding",
@@ -369,7 +375,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 86,
       "why": [
         "Experience or funding",
@@ -395,7 +401,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 86,
       "why": [
         "Experience or funding",
@@ -421,7 +427,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 86,
       "why": [
         "Experience or funding",
@@ -447,7 +453,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 86,
       "why": [
         "Experience or funding",
@@ -473,7 +479,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 86,
       "why": [
         "Experience or funding",
@@ -499,7 +505,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 86,
       "why": [
         "Experience or funding",
@@ -636,7 +642,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-03",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:04:46Z",
+      "lastChecked": "2026-11-03T03:09:53Z",
       "fingerprint": "f802da8553d3b53c2e",
       "verified": false,
       "reviewRequired": true
@@ -661,7 +667,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-03",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:04:47Z",
+      "lastChecked": "2026-11-03T03:09:54Z",
       "fingerprint": "822f9ad9892fe84f32",
       "verified": false,
       "reviewRequired": true
@@ -838,7 +844,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:04:45Z",
+      "lastChecked": "2026-11-03T03:09:53Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true
