@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-03T03:40:42Z",
+  "lastChecked": "2026-11-03T21:46:15Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -23,6 +23,11 @@
       "name": "Apprenticeship USA",
       "ok": true,
       "candidates": 12
+    },
+    {
+      "name": "CSA Cyber Monday 2026 Promotion",
+      "ok": true,
+      "candidates": 2
     },
     {
       "name": "California Apprenti Registered Program",
@@ -211,36 +216,6 @@
   "newLeads": 1,
   "leads": [
     {
-      "id": "csa-cyber-monday-2026-watch",
-      "title": "CSA Cyber Monday 2026, promotion details awaiting confirmation",
-      "source": "Cloud Security Alliance",
-      "url": "https://cloudsecurityalliance.org/p/cyber-monday-2026",
-      "category": "Cloud security",
-      "topics": [
-        "CCSK",
-        "CCZT",
-        "AI governance"
-      ],
-      "group": "Cloud security and AI governance",
-      "status": "pending_verification",
-      "score": 88,
-      "why": [
-        "Official CSA campaign link",
-        "Cyber Monday 2026 watch",
-        "Offer terms not yet independently verified"
-      ],
-      "evidence": "Official CSA Cyber Monday 2026 landing page shared. Specific products, prices, promo codes and validity dates have not been verified.",
-      "priceHint": "Not confirmed",
-      "deadlineHint": null,
-      "publishedAt": null,
-      "firstSeen": "2026-11-03",
-      "lastSeen": "2026-11-03",
-      "lastChecked": null,
-      "fingerprint": "csa-cyber-monday-2026",
-      "verified": false,
-      "reviewRequired": true
-    },
-    {
       "id": "e97d61041e181d4348",
       "title": "ISACA Cybersecurity Month Scholarship",
       "source": "ISACA Scholarship Directory",
@@ -264,6 +239,36 @@
       "lastSeen": "2026-11-03",
       "lastChecked": "2026-11-03T03:04:45Z",
       "fingerprint": "208030a976b58628a7",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "csa-cyber-monday-2026-watch",
+      "title": "CSA Cyber Monday 2026, promotion details awaiting confirmation",
+      "source": "Cloud Security Alliance",
+      "url": "https://cloudsecurityalliance.org/p/cyber-monday-2026",
+      "category": "Cloud security",
+      "topics": [
+        "CCSK",
+        "CCZT",
+        "AI governance"
+      ],
+      "group": "Cloud security and AI governance",
+      "status": "not_seen_today",
+      "score": 88,
+      "why": [
+        "Official CSA campaign link",
+        "Cyber Monday 2026 watch",
+        "Offer terms not yet independently verified"
+      ],
+      "evidence": "Official CSA Cyber Monday 2026 landing page shared. Specific products, prices, promo codes and validity dates have not been verified.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-03",
+      "lastSeen": "2026-11-03",
+      "lastChecked": null,
+      "fingerprint": "csa-cyber-monday-2026",
       "verified": false,
       "reviewRequired": true
     },
@@ -672,7 +677,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-03",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:40:39Z",
+      "lastChecked": "2026-11-03T21:46:12Z",
       "fingerprint": "f802da8553d3b53c2e",
       "verified": false,
       "reviewRequired": true
@@ -697,7 +702,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-03",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:40:41Z",
+      "lastChecked": "2026-11-03T21:46:14Z",
       "fingerprint": "822f9ad9892fe84f32",
       "verified": false,
       "reviewRequired": true
@@ -788,7 +793,7 @@
       "category": "Other opportunities",
       "topics": [],
       "group": "Volunteer",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 55,
       "why": [
         "Targeted source watch"
@@ -801,6 +806,30 @@
       "lastSeen": "2026-11-03",
       "lastChecked": "2026-11-03T03:40:40Z",
       "fingerprint": "535a2129fe5fa2ab1a",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "cb0d24cf9702c3dccf",
+      "title": "50% Off All Training & Exams",
+      "source": "CSA Cyber Monday 2026 Promotion",
+      "url": "https://cloudsecurityalliance.org/p/cyber-monday-2026",
+      "category": "Discounts & vouchers",
+      "topics": [],
+      "group": "Cloud security and AI governance",
+      "status": "needs_review",
+      "score": 55,
+      "why": [
+        "Discount signal"
+      ],
+      "evidence": "How do I receive the Cyber Monday discount code?",
+      "priceHint": "50% Off",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-03",
+      "lastSeen": "2026-11-03",
+      "lastChecked": "2026-11-03T21:46:12Z",
+      "fingerprint": "9be374a5f2f0f26d7a",
       "verified": false,
       "reviewRequired": true
     },
@@ -874,7 +903,7 @@
       "publishedAt": null,
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:40:39Z",
+      "lastChecked": "2026-11-03T21:46:12Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true
