@@ -47,4 +47,30 @@ class DiscoveryTests(unittest.TestCase):
         self.assertEqual(discover.deadline_from_text("Applications Due: 11:59 pm US CT, 30 November 2026"),"2026-11-30")
         self.assertEqual(discover.deadline_from_text("Application Deadline: November 3, 2026"),"2026-11-03")
 
+
+    def test_apprenticeship_info_pages_are_not_openings(self):
+        examples=[
+            ("Apprenticeship vs. Internship","https://apprenticareers.org/employers/apprenticeship-vs-internship"),
+            ("What is an Apprenticeship?","https://apprenticareers.org/employers/what-is-an-apprenticeship-3"),
+            ("Start a Registered Apprenticeship","https://apprenticareers.org/employers/start-a-registered-apprenticeship"),
+            ("Apprenticeship Innovation Funding","https://www.dir.ca.gov/DAS/Grants/Apprenticeship-Innovation-Funding.html"),
+            ("Find an apprenticeship or pre-apprenticeship program","https://www.dir.ca.gov/databases/das/aigstart.asp"),
+            ("Careers - The Next CISO Apprenticeship Program","https://nextciso.freshteam.com/jobs"),
+        ]
+        for title,url in examples:
+            with self.subTest(title=title):
+                self.assertFalse(discover.apprenticeship_application(title,url,"Apprenticeship program details","Apprenti Cybersecurity Apprenticeship"))
+
+    def test_direct_grc_application_is_a_lead(self):
+        title="NextCISO Junior GRC Analyst (Remote)"
+        url="https://nextciso.freshteam.com/jobs/jZcYvZ_jIVVm/nextciso-junior-grc-analyst-remote"
+        self.assertTrue(discover.apprenticeship_application(title,url,"We are taking applications.","NextCISO GRC Internship"))
+        self.assertFalse(discover.apprenticeship_application("Change the Way You Build Talent","https://apprenticareers.org/","Start an apprenticeship.","Apprenti Cybersecurity Apprenticeship"))
+
+    def test_specific_program_only_when_applications_open(self):
+        url="https://example.org/programs/cybersecurity-apprenticeship-2027"
+        title="Cybersecurity Apprenticeship"
+        self.assertFalse(discover.apprenticeship_application(title,url,"Learn about this program.","Example"))
+        self.assertTrue(discover.apprenticeship_application(title,url,"Applications are open until December.","Example"))
+
 if __name__=="__main__":unittest.main()
