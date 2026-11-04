@@ -205,11 +205,59 @@ def score(title,description,body,pub,deadline):
     if re.search(r"\b(?:recipients|awarded|report|research|past event)\b",t):val-=28
     return max(0,min(100,val)),why,topics
 
+
+APPRENTICESHIP_PAGE_EXCLUDE=re.compile(
+    r"(?:/employers?(?:/|$)|/grants?(?:/|$)|/funding(?:/|$)|/news(?:/|$)|"
+    r"/blog(?:/|$)|/resources?(?:/|$)|/events?(?:/|$)|/databases/das/|"
+    r"/das(?:/|$)|/career-opportunities/?$)", re.I
+)
+APPRENTICESHIP_TITLE_EXCLUDE=re.compile(
+    r"^(?:what (?:is|are)|how to|start (?:a|an)|understanding|apprenticeship vs|"
+    r"internship vs|division of|apprenticeship data|apprenticeship management|"
+    r"find an apprenticeship|apprenticeship programs information|"
+    r"careers?\s*[-–]\s*the next|change the way|job seekers?|current opportunities|"
+    r"apprenticeship e-news)|\b(?:employer resources?|funding guide|"
+    r"apprenticeship innovation funding|grant recipients?)\b", re.I
+)
+
+def apprenticeship_application(title, url, evidence_text="", source=""):
+    """Candidate-facing application pages, not educational/background links.
+
+    Do not mark a directory or an employer-facing explanation as an opening.
+    A generic pool/registration page also needs explicit active-application text.
+    """
+    parsed=urllib.parse.urlparse(url)
+    host=(parsed.hostname or "").lower()
+    path=re.sub(r"/+","/",parsed.path).lower().rstrip("/")
+    if not host or APPRENTICESHIP_PAGE_EXCLUDE.search(path):return False
+    if APPRENTICESHIP_TITLE_EXCLUDE.search(title):return False
+    target=(title+" "+source).lower()
+    career_relevant=re.search(r"\b(grc|cybersecurity|cyber|security|audit|compliance|risk|cloud|"
+                              r"apprentice|apprenticeship|intern|internship|trainee)\b",target,re.I)
+    specific_job=re.search(r"/(?:jobs?|positions?|openings?|vacancies)/[^/]+",path,re.I)
+    if specific_job and career_relevant:return True
+    topic=re.search(r"\b(apprentice|apprenticeship|intern|internship|cohort|"
+                    r"rotational|trainee)\b",title,re.I)
+    active=re.search(r"\b(accepting applications|applications? (?:are )?open|"
+                     r"apply now|now accepting|submit an application|"
+                     r"registration (?:is )?open)\b",evidence_text,re.I)
+    application_route=re.search(r"/(?:apply|application|applications|register|join-a-cohort)(?:/|$)",path,re.I)
+    program_page=re.search(r"/(?:apprenticeships|internships|programs|cohorts)/[^/]+",path,re.I)
+    return bool(topic and (application_route or (program_page and active)))
+
+def is_apprenticeship_source(lead):
+    return (lead.get("category")=="Apprenticeships & internships" or
+            re.search(r"apprenti|nextciso|per scholas registered",
+                      lead.get("source",""),re.I))
+
 def process_page(source,url,title_hint,page,old=None):
     parsed=Page();parsed.feed(page)
     title=clean(" ".join(parsed.heading) or parsed.meta.get("og:title") or title_hint or " ".join(parsed.title),180)
     desc=clean(parsed.meta.get("description") or parsed.meta.get("og:description") or "",320)
     body=clean(" ".join(parsed.body),MAX_BODY)
+    if (source.get("group")=="Apprenticeships and experience" or
+        re.search(r"apprenti|nextciso",source.get("name",""),re.I)):
+        if not apprenticeship_application(title,url,desc+" "+body[:8000],source.get("name","")):return None
     if not title or GENERIC.fullmatch(title) or BLOCK.search(title):return None
     if re.search(r"\b(no one knows exam prep|your cybersecurity journey begins here|build team skills|become a part of our|train the new generation|all about training)\b",title,re.I):return None
     if re.search(r"\b(application period is now closed|applications? closed|no longer accepting|registration closed|has ended)\b",title,re.I):return None
@@ -273,7 +321,11 @@ def main():
     if OUTPUT.exists():
         try:
             past=json.loads(OUTPUT.read_text(encoding="utf-8"))
-            prior={x["id"]:x for x in past.get("leads",[]) if x.get("id") and x.get("fingerprint")}
+            prior={x["id"]:x for x in past.get("leads",[])
+                   if x.get("id") and x.get("fingerprint") and
+                   (not is_apprenticeship_source(x) or
+                    apprenticeship_application(x.get("title",""),x.get("url",""),
+                                               x.get("evidence",""),x.get("source","")))}
         except (ValueError,TypeError):pass
     original_ids=set(prior)
     discovered=[];health=[];todo=[]
