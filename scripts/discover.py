@@ -23,8 +23,8 @@ OUTPUT = ROOT / "data/discovery.json"
 CONFIG = ROOT / "data/sources.json"
 TODAY = dt.datetime.now(dt.timezone.utc).date()
 UTC = lambda: dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
-PROMOTION = re.compile(r"\b(beta|pilot|voucher|discount|coupon|scholarship|giveaway|volunteer|externship|fellowship|apprenticeship|apprentice|internship|intern|rotational program|cohort|grant|sweepstakes|competition|promotion|special offer|free (?:exam|certif|course|training|voucher|workshop)|certification month)\b|\d{1,2}\s?%\s?off", re.I)
-SUBJECT = re.compile(r"\b(iso[\s/-]?\d{4,5}|soc\s?[12]|sox|itgc|fedramp|cmmc|nist|isaca|isc2|aws|azure|compTIA|cyber|security|risk|audit|grc|governance|AI|cloud|certification|CISA|CISSP|CRISC)\b", re.I)
+PROMOTION = re.compile(r"\b(beta|pilot|voucher|discount|coupon|scholarship|giveaway|volunteer|externship|fellowship|apprenticeship|apprentice|internship|intern|rotational program|cohort|grant|sweepstakes|competition|promotion|special offer|freelance|contract opportunity|paid project|bug bounty|security researcher|student program|early career|free (?:exam|certif|course|training|voucher|workshop)|certification month)\b|\d{1,2}\s?%\s?off", re.I)
+SUBJECT = re.compile(r"\b(iso[\s/-]?\d{4,5}|soc\s?[12]|sox|itgc|fedramp|cmmc|nist|isaca|isc2|aws|azure|compTIA|cyber|security|risk|audit|grc|governance|AI|cloud|certification|CISA|CISSP|CRISC|internship|apprenticeship|freelance|contractor|penetration testing|bug bounty)\b", re.I)
 GENERIC = re.compile(r"^(free resources|free courses|training catalog|training events|view training|certification training partners|regional training|all training courses|subscribe|learn more|read more|ways to train|training for government|it certification journey|career|research|events|scholarships|news|blog|resources)$", re.I)
 BLOCK = re.compile(r"sign in|log in|cookie|privacy policy|terms of use|accessibility|linkedin|youtube|facebook|scholarship recipients|award winners", re.I)
 TOPICS = {
@@ -259,7 +259,7 @@ def collect_candidates(source,hosts):
         title=clean(label,160)
         if not normalized or normalized==url.rstrip("/") or not title or BLOCK.search(title):continue
         if GENERIC.fullmatch(title):continue
-        if PROMOTION.search(title) or (SUBJECT.search(title) and re.search(r"(?:beta|pilot|training|scholarship|volunteer|free|discount|exam)",title,re.I)):
+        if PROMOTION.search(title) or (SUBJECT.search(title) and re.search(r"(?:beta|pilot|training|scholarship|volunteer|free|discount|exam|internship|apprentice|freelance|contract|bounty|student)",title,re.I)):
             items.append((normalized,title))
     unique={}
     for u,t in items:unique.setdefault(u,t)
