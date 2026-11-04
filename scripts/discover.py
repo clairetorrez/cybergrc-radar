@@ -32,7 +32,7 @@ TOPICS = {
     "ISO 22301":r"iso[\s/-]?(?:iec[\s/-]?)?22301","ISO 27017":r"iso[\s/-]?(?:iec[\s/-]?)?27017",
     "ISO 27018":r"iso[\s/-]?(?:iec[\s/-]?)?27018","SOC 2":r"soc[\s/-]?2",
     "SOX/ITGC":r"\bsox\b|\bitgc\b", "FedRAMP":r"\bfedramp\b",
-    "CMMC":r"\bcmmc\b", "AI governance":r"ai governance|\bai security\b",
+    "CMMC":r"\bcmmc\b", "TPRM":r"\btprm\b|third[- ]party risk|vendor risk|supplier due diligence|supply chain risk", "GRC engineering":r"grc engineering|grc automation|compliance automation|compliance as code", "AI governance":r"ai governance|\bai security\b",
     "Cloud security":r"cloud security|kubernetes", "IT audit":r"\bcisa\b|it audit"
 }
 MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec January February March April June July August September October November December"
