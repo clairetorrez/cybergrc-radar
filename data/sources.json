@@ -282,6 +282,118 @@
       "url": "https://aws.amazon.com/certification/benefits/",
       "group": "Cloud security",
       "mode": "watch"
+    },
+    {
+      "name": "NIST NICE Cybersecurity Apprenticeships",
+      "url": "https://www.nist.gov/itl/applied-cybersecurity/nice",
+      "group": "Apprenticeships and experience",
+      "mode": "listing",
+      "maxLinks": 8
+    },
+    {
+      "name": "CyberUp Apprenticeship",
+      "url": "https://wecyberup.org/",
+      "group": "Apprenticeships and experience",
+      "mode": "listing",
+      "maxLinks": 8
+    },
+    {
+      "name": "Year Up United",
+      "url": "https://www.yearupunited.org/",
+      "group": "Apprenticeships and experience",
+      "mode": "listing",
+      "maxLinks": 8
+    },
+    {
+      "name": "Google Apprenticeships",
+      "url": "https://buildyourfuture.withgoogle.com/apprenticeships",
+      "group": "Apprenticeships and experience",
+      "mode": "listing",
+      "maxLinks": 8
+    },
+    {
+      "name": "Microsoft University Internships",
+      "url": "https://careers.microsoft.com/v2/global/en/students",
+      "group": "Internships",
+      "mode": "listing",
+      "maxLinks": 8
+    },
+    {
+      "name": "Amazon Student Programs",
+      "url": "https://www.amazon.jobs/content/en/career-programs/university",
+      "group": "Internships",
+      "mode": "listing",
+      "maxLinks": 8
+    },
+    {
+      "name": "CISA Careers and Students",
+      "url": "https://www.cisa.gov/careers",
+      "group": "Internships",
+      "mode": "listing",
+      "maxLinks": 8
+    },
+    {
+      "name": "USAJOBS Students and Recent Graduates",
+      "url": "https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/students/",
+      "group": "Internships",
+      "mode": "listing",
+      "maxLinks": 8
+    },
+    {
+      "name": "GitHub Good First Issues",
+      "url": "https://github.com/topics/good-first-issue",
+      "group": "Experience and volunteer",
+      "mode": "listing",
+      "maxLinks": 8
+    },
+    {
+      "name": "Upwork Cybersecurity Freelance",
+      "url": "https://www.upwork.com/freelance-jobs/cybersecurity/",
+      "group": "Freelance and AI projects",
+      "mode": "listing",
+      "maxLinks": 8
+    },
+    {
+      "name": "Upwork Compliance Freelance",
+      "url": "https://www.upwork.com/freelance-jobs/compliance/",
+      "group": "Freelance and AI projects",
+      "mode": "listing",
+      "maxLinks": 8
+    },
+    {
+      "name": "Contra Independent Work",
+      "url": "https://contra.com/discover",
+      "group": "Freelance and AI projects",
+      "mode": "listing",
+      "maxLinks": 8
+    },
+    {
+      "name": "Outlier AI Opportunities",
+      "url": "https://outlier.ai/",
+      "group": "Freelance and AI projects",
+      "mode": "listing",
+      "maxLinks": 8
+    },
+    {
+      "name": "DataAnnotation Opportunities",
+      "url": "https://www.dataannotation.tech/",
+      "group": "Freelance and AI projects",
+      "mode": "listing",
+      "maxLinks": 8
+    },
+    {
+      "name": "HackerOne Hacker Programs",
+      "url": "https://www.hackerone.com/hackers",
+      "group": "Freelance and AI projects",
+      "mode": "listing",
+      "maxLinks": 8
+    },
+    {
+      "name": "Bugcrowd Researchers",
+      "url": "https://www.bugcrowd.com/hackers/",
+      "group": "Freelance and AI projects",
+      "mode": "listing",
+      "maxLinks": 8
     }
   ],
   "curation": {
