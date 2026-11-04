@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "description": "Research findings flow into the unverified review queue. Never interpret this file as proof of an active offer.",
+  "opportunities": [
+    {
+      "title": "TryHackMe Cyber Trials 2026",
+      "provider": "TryHackMe",
+      "url": "https://tryhackme.com/the-cyber-trials",
+      "category": "Free hands-on competition",
+      "expires": "2026-11-08",
+      "firstSeen": "2026-11-04",
+      "notes": "Research lead. Verify official pricing, eligibility and dates before approval."
+    },
+    {
+      "title": "SANS Fall Cyber Solutions Fest",
+      "provider": "SANS",
+      "url": "https://www.sans.org/mlp/cyber-solutions-fest",
+      "category": "Free virtual training",
+      "expires": null,
+      "firstSeen": "2026-11-04",
+      "notes": "Research lead. Verify official pricing, eligibility and dates before approval."
+    },
+    {
+      "title": "CSA AI Security Summit",
+      "provider": "Cloud Security Alliance",
+      "url": "https://cloudsecurityalliance.org/events/virtual-and-webinars",
+      "category": "Free virtual training",
+      "expires": null,
+      "firstSeen": "2026-11-04",
+      "notes": "Research lead. Verify official pricing, eligibility and dates before approval."
+    },
+    {
+      "title": "AWS re:Invent certification voucher",
+      "provider": "AWS",
+      "url": "https://aws.amazon.com/events/reinvent/faqs/",
+      "category": "Exam discount",
+      "expires": null,
+      "firstSeen": "2026-11-04",
+      "notes": "Research lead. Verify official pricing, eligibility and dates before approval."
+    },
+    {
+      "title": "AWS certification holder exam benefit",
+      "provider": "AWS",
+      "url": "https://aws.amazon.com/certification/benefits/",
+      "category": "Exam discount",
+      "expires": null,
+      "firstSeen": "2026-11-04",
+      "notes": "Research lead. Verify official pricing, eligibility and dates before approval."
+    }
+  ]
+}
