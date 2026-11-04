@@ -394,6 +394,36 @@
       "group": "Freelance and AI projects",
       "mode": "listing",
       "maxLinks": 8
+    },
+    {
+      "name": "GRC Engineering Club Academy",
+      "url": "https://cert.grcengclub.com/",
+      "group": "GRC engineering",
+      "mode": "watch"
+    },
+    {
+      "name": "GRC Engineering Club Student Offers",
+      "url": "https://grcengclub.com/students",
+      "group": "Student perks",
+      "mode": "watch"
+    },
+    {
+      "name": "GRC Engineering Club Events",
+      "url": "https://grcengclub.com/events",
+      "group": "GRC engineering",
+      "mode": "listing"
+    },
+    {
+      "name": "GRC Engineering Club Pricing",
+      "url": "https://grcengclub.com/pricing",
+      "group": "Certification and training",
+      "mode": "watch"
+    },
+    {
+      "name": "GRC Engineering Club Free Learning",
+      "url": "https://grcengclub.com/learn",
+      "group": "GRC engineering",
+      "mode": "listing"
     }
   ],
   "curation": {
