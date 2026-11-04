@@ -350,10 +350,9 @@ function matchingSpecialtyLeads(s){
 }
 function renderSpecialties(){
  const root=$('specialtyExplorer');if(!root||section!=='GRC Specialties'||savedOnly)return;
- const spotlightIndex=Math.floor(Date.parse(day+'T12:00:00Z')/604800000)%specialties.length;
  $('specialtyGrid').innerHTML=specialties.map((s,i)=>{
    const selected=s.id===selectedSpecialty;
-   return '<button type="button" class="specialty-tile '+(selected?'selected':'')+'" data-specialty="'+esc(s.id)+'" aria-pressed="'+selected+'"><span class="specialty-tile-top"><span class="specialty-index">0'+(i+1)+'</span>'+(spotlightIndex===i?'<span class="specialty-week">THIS WEEK</span>':'')+'</span><strong>'+esc(s.title)+'</strong><span class="specialty-short">'+esc(s.short)+'</span><span class="specialty-open">'+(selected?'Viewing details':'Explore specialty')+' ↗</span></button>'
+   return '<button type="button" class="specialty-tile '+(selected?'selected':'')+'" data-specialty="'+esc(s.id)+'" aria-pressed="'+selected+'"><span class="specialty-tile-top"><span class="specialty-index">0'+(i+1)+'</span>'+'</span><strong>'+esc(s.title)+'</strong><span class="specialty-short">'+esc(s.short)+'</span><span class="specialty-open">'+(selected?'Viewing details':'Explore specialty')+' ↗</span></button>'
  }).join('');
  $('specialtyGrid').querySelectorAll('[data-specialty]').forEach(b=>b.addEventListener('click',()=>{
    selectedSpecialty=b.dataset.specialty;renderSpecialties();
