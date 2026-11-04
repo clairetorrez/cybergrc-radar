@@ -252,6 +252,36 @@
       "url": "https://icdfa.edu.ng/iso",
       "group": "GRC and ISO",
       "mode": "watch"
+    },
+    {
+      "name": "TryHackMe Cyber Trials",
+      "url": "https://tryhackme.com/the-cyber-trials",
+      "group": "Hands-on training",
+      "mode": "watch"
+    },
+    {
+      "name": "SANS Cyber Solutions Fest",
+      "url": "https://www.sans.org/mlp/cyber-solutions-fest",
+      "group": "Security training",
+      "mode": "watch"
+    },
+    {
+      "name": "CSA Virtual Events",
+      "url": "https://cloudsecurityalliance.org/events/virtual-and-webinars",
+      "group": "Cloud security",
+      "mode": "watch"
+    },
+    {
+      "name": "AWS re:Invent FAQ",
+      "url": "https://aws.amazon.com/events/reinvent/faqs/",
+      "group": "Cloud security",
+      "mode": "watch"
+    },
+    {
+      "name": "AWS Certification Benefits",
+      "url": "https://aws.amazon.com/certification/benefits/",
+      "group": "Cloud security",
+      "mode": "watch"
     }
   ],
   "curation": {
