@@ -278,6 +278,9 @@ def process_page(source,url,title_hint,page,old=None):
     if value<(50 if source.get("mode")=="watch" else 65):return None
     if deadline and deadline<TODAY.isoformat():return None
     category_name=category(title,desc+" "+body[:500] if source.get("mode")=="watch" else desc)
+    if category_name=="Apprenticeships & internships" and not apprenticeship_application(
+        title,url,desc+" "+body[:8000],source.get("name","")
+    ):return None
     snippet=evidence(title,desc,body)
     identity=hashlib.sha256(url.encode()).hexdigest()[:18]
     fingerprint=hashlib.sha256((title+"|"+desc+"|"+snippet).encode()).hexdigest()[:18]
