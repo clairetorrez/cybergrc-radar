@@ -424,11 +424,53 @@
       "url": "https://grcengclub.com/learn",
       "group": "GRC engineering",
       "mode": "listing"
+    },
+    {
+      "name": "AI Security University Course Catalog",
+      "url": "https://aisec.university/courses",
+      "group": "AI governance",
+      "mode": "listing"
+    },
+    {
+      "name": "AISEC Introduction to AI Security",
+      "url": "https://aisec.university/courses/introduction-to-ai-security",
+      "group": "AI governance",
+      "mode": "watch"
+    },
+    {
+      "name": "AISEC AI Security for Everyone",
+      "url": "https://aisec.university/courses/ai-security-for-everyone",
+      "group": "Security awareness",
+      "mode": "watch"
+    },
+    {
+      "name": "AISEC MCP Security Fundamentals",
+      "url": "https://aisec.university/courses/mcp-security-fundamentals",
+      "group": "AI and application security",
+      "mode": "watch"
+    },
+    {
+      "name": "AISEC LLM Security Fundamentals",
+      "url": "https://aisec.university/courses/llm-security-fundamentals",
+      "group": "AI and application security",
+      "mode": "watch"
+    },
+    {
+      "name": "AISEC Agent Governance",
+      "url": "https://aisec.university/courses/managing-your-agentic-employees",
+      "group": "AI governance",
+      "mode": "watch"
+    },
+    {
+      "name": "AISEC API Governance",
+      "url": "https://aisec.university/courses/zero-touch-api-governance",
+      "group": "GRC engineering",
+      "mode": "watch"
     }
   ],
   "curation": {
     "maxPerSource": 7,
-    "detailFetchLimit": 55,
+    "detailFetchLimit": 65,
     "maxStoredLeads": 200,
     "staleDays": 45
   }
