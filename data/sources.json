@@ -466,6 +466,36 @@
       "url": "https://aisec.university/courses/zero-touch-api-governance",
       "group": "GRC engineering",
       "mode": "watch"
+    },
+    {
+      "name": "Third Party Risk Association Certificate Programs",
+      "url": "https://www.tprassociation.org/certificate-program",
+      "group": "Third-party risk",
+      "mode": "watch"
+    },
+    {
+      "name": "TPRA TPCRA Certification",
+      "url": "https://www.tprassociation.org/tpcra",
+      "group": "Third-party risk",
+      "mode": "watch"
+    },
+    {
+      "name": "LearnTPRM Free Certifications",
+      "url": "https://learntprm.com/free-tprm-certifications",
+      "group": "Third-party risk",
+      "mode": "watch"
+    },
+    {
+      "name": "Shared Assessments Education",
+      "url": "https://education.sharedassessments.org/",
+      "group": "Third-party risk",
+      "mode": "listing"
+    },
+    {
+      "name": "Science of Apps TPRM Certificate",
+      "url": "https://scienceofapps.com/certification/third-party-risk-management-certification/",
+      "group": "Third-party risk",
+      "mode": "watch"
     }
   ],
   "curation": {
