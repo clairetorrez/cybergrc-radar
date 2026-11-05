@@ -1,6 +1,7 @@
 """Offline tests for opportunity discovery, scoring, safety and expiry."""
 import sys
 import unittest
+from datetime import timedelta
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/"scripts"))
 import discover
@@ -8,13 +9,14 @@ import discover
 class DiscoveryTests(unittest.TestCase):
     def test_targeted_pilot_without_beta_in_heading(self):
         source={"name":"ISC2 AI Security Pilot","group":"AI governance","mode":"watch"}
-        page="""<html><head><meta name="description" content="ISC2 invites qualified volunteers to participate in a pilot exam for AI security"></head>
-        <body><h1>AI Security Certification</h1><p>Complete the volunteer form before November 4, 2026 to enter the pilot program.</p></body></html>"""
+        future_date=discover.TODAY+timedelta(days=3)
+        page=f"""<html><head><meta name="description" content="ISC2 invites qualified volunteers to participate in a pilot exam for AI security"></head>
+        <body><h1>AI Security Certification</h1><p>Complete the volunteer form before {future_date.strftime('%B %d, %Y')} to enter the pilot program.</p></body></html>"""
         item=discover.process_page(source,"https://www.isc2.org/new-ai-certification","",page)
         self.assertIsNotNone(item)
         self.assertGreaterEqual(item["score"],45)
         self.assertIn("AI",item["group"])
-        self.assertEqual(item["deadlineHint"],"2026-11-04")
+        self.assertEqual(item["deadlineHint"],future_date.isoformat())
         self.assertFalse(item["verified"])
 
     def test_expired_pe_cb_offer_not_published_as_active(self):
