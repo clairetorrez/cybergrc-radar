@@ -1,75 +1,10 @@
 {
-  "lastChecked": "2026-11-04T21:52:47Z",
+  "lastChecked": "2026-11-05T21:59:01Z",
   "decisions": [
-    {
-      "url": "https://apprenticareers.org/",
-      "status": "withheld",
-      "reason": "insufficient_offer_evidence"
-    },
-    {
-      "url": "https://apprenticareers.org/employers/apprenticeship-management",
-      "status": "withheld",
-      "reason": "old_announcement"
-    },
-    {
-      "url": "https://apprenticareers.org/employers/apprenticeship-vs-internship",
-      "status": "withheld",
-      "reason": "old_announcement"
-    },
-    {
-      "url": "https://apprenticareers.org/employers/start-a-registered-apprenticeship",
-      "status": "withheld",
-      "reason": "old_announcement"
-    },
-    {
-      "url": "https://apprenticareers.org/employers/what-is-an-apprenticeship-3",
-      "status": "withheld",
-      "reason": "old_announcement"
-    },
     {
       "url": "https://cloudsecurityalliance.org/p/cyber-monday-2026",
       "status": "withheld",
       "reason": "deadline_not_confirmed"
-    },
-    {
-      "url": "https://dir.ca.gov/DAS/Employers.htm",
-      "status": "withheld",
-      "reason": "insufficient_offer_evidence"
-    },
-    {
-      "url": "https://dir.ca.gov/DAS/Grants/Apprenticeship-Innovation-Funding.html",
-      "status": "withheld",
-      "reason": "insufficient_offer_evidence"
-    },
-    {
-      "url": "https://dir.ca.gov/DAS/Grants/California-Youth-Apprenticeship-Grant.html",
-      "status": "withheld",
-      "reason": "offer_closed"
-    },
-    {
-      "url": "https://dir.ca.gov/DAS/Grants/ERICA.html",
-      "status": "withheld",
-      "reason": "insufficient_offer_evidence"
-    },
-    {
-      "url": "https://dir.ca.gov/das",
-      "status": "withheld",
-      "reason": "insufficient_offer_evidence"
-    },
-    {
-      "url": "https://dir.ca.gov/das/das.html",
-      "status": "withheld",
-      "reason": "insufficient_offer_evidence"
-    },
-    {
-      "url": "https://dir.ca.gov/databases/das/aigstart.asp",
-      "status": "withheld",
-      "reason": "insufficient_offer_evidence"
-    },
-    {
-      "url": "https://nextciso.freshteam.com/jobs",
-      "status": "withheld",
-      "reason": "insufficient_offer_evidence"
     },
     {
       "url": "https://nextciso.freshteam.com/jobs/jZcYvZ_jIVVm/nextciso-junior-grc-analyst-remote",
@@ -77,61 +12,14 @@
       "reason": "insufficient_offer_evidence"
     },
     {
-      "url": "https://www.dir.ca.gov/DAS/Employers.htm",
-      "status": "withheld",
-      "reason": "insufficient_offer_evidence"
-    },
-    {
-      "url": "https://www.dir.ca.gov/DAS/Grants/Apprenticeship-Innovation-Funding.html",
-      "status": "withheld",
-      "reason": "insufficient_offer_evidence"
-    },
-    {
-      "url": "https://www.dir.ca.gov/DAS/Grants/California-Youth-Apprenticeship-Grant.html",
-      "status": "withheld",
-      "reason": "offer_closed"
-    },
-    {
-      "url": "https://www.dir.ca.gov/DAS/Grants/ERICA.html",
-      "status": "withheld",
-      "reason": "insufficient_offer_evidence"
-    },
-    {
-      "url": "https://www.dir.ca.gov/das",
-      "status": "withheld",
-      "reason": "insufficient_offer_evidence"
-    },
-    {
-      "url": "https://www.dir.ca.gov/das/DAS-e-News.html",
-      "status": "withheld",
-      "reason": "insufficient_offer_evidence"
-    },
-    {
-      "url": "https://www.dir.ca.gov/das/das.html",
-      "status": "withheld",
-      "reason": "insufficient_offer_evidence"
-    },
-    {
-      "url": "https://www.dir.ca.gov/das/das_data.html",
-      "status": "withheld",
-      "reason": "insufficient_offer_evidence"
-    },
-    {
-      "url": "https://www.dir.ca.gov/databases/das/aigstart.asp",
-      "status": "withheld",
-      "reason": "insufficient_offer_evidence"
-    },
-    {
-      "url": "https://www.dir.ca.gov/databases/das/pwaddrstart.asp",
+      "url": "https://scienceofapps.com/certification/factor-investing-and-smart-beta-certification",
       "status": "withheld",
       "reason": "insufficient_offer_evidence"
     },
     {
       "url": "https://www.isc2.org/new-ai-certification",
-      "status": "auto_published",
-      "kind": "Free exam",
-      "confidence": 95,
-      "expires": "2026-11-04"
+      "status": "withheld",
+      "reason": "deadline_passed"
     }
   ]
 }

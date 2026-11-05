@@ -1,13 +1,48 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-04T21:52:36Z",
+  "lastChecked": "2026-11-05T21:58:58Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
     {
+      "name": "AI Security University Course Catalog",
+      "ok": true,
+      "candidates": 0
+    },
+    {
       "name": "AICPA CIMA",
       "ok": true,
       "candidates": 0
+    },
+    {
+      "name": "AISEC AI Security for Everyone",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "AISEC API Governance",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "AISEC Agent Governance",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "AISEC Introduction to AI Security",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "AISEC LLM Security Fundamentals",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "AISEC MCP Security Fundamentals",
+      "ok": true,
+      "candidates": 1
     },
     {
       "name": "AWS Certification Benefits",
@@ -117,6 +152,31 @@
       "candidates": 4
     },
     {
+      "name": "GRC Engineering Club Academy",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "GRC Engineering Club Events",
+      "ok": true,
+      "candidates": 0
+    },
+    {
+      "name": "GRC Engineering Club Free Learning",
+      "ok": true,
+      "candidates": 12
+    },
+    {
+      "name": "GRC Engineering Club Pricing",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "GRC Engineering Club Student Offers",
+      "ok": true,
+      "candidates": 2
+    },
+    {
       "name": "GitHub Good First Issues",
       "ok": true,
       "candidates": 2
@@ -196,6 +256,11 @@
       "name": "ISC2 Insights",
       "ok": true,
       "candidates": 8
+    },
+    {
+      "name": "LearnTPRM Free Certifications",
+      "ok": true,
+      "candidates": 2
     },
     {
       "name": "Linux Foundation Training",
@@ -300,6 +365,26 @@
       "candidates": 10
     },
     {
+      "name": "Science of Apps TPRM Certificate",
+      "ok": true,
+      "candidates": 4
+    },
+    {
+      "name": "Shared Assessments Education",
+      "ok": true,
+      "candidates": 0
+    },
+    {
+      "name": "TPRA TPCRA Certification",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "Third Party Risk Association Certificate Programs",
+      "ok": true,
+      "candidates": 1
+    },
+    {
       "name": "TryHackMe Cyber Trials",
       "ok": false,
       "candidates": 0,
@@ -333,8 +418,187 @@
       "candidates": 0
     }
   ],
-  "newLeads": 23,
+  "newLeads": 7,
   "leads": [
+    {
+      "id": "141def93ba8cd1d4c8",
+      "title": "TPRA AI/LLM Security & Risk for TPRM",
+      "source": "Third Party Risk Association",
+      "url": "https://www.tprassociation.org/certificate-program",
+      "category": "Free TPRM training and certificate",
+      "topics": [],
+      "group": "Research intake",
+      "status": "pending_verification",
+      "score": 75,
+      "why": [
+        "Research intake",
+        "Official provider link",
+        "Awaiting terms verification"
+      ],
+      "evidence": "Research lead. Verify $0 enrollment, completion certificate, 1 CPE and availability on official page before publishing as active.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-05",
+      "lastSeen": "2026-11-05",
+      "lastChecked": null,
+      "fingerprint": "141def93ba8cd1d4c8",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "48d9be639739cdb6c6",
+      "title": "LearnTPRM free TPRM credentials",
+      "source": "LearnTPRM",
+      "url": "https://learntprm.com/free-tprm-certifications",
+      "category": "Free TPRM exams",
+      "topics": [],
+      "group": "Research intake",
+      "status": "pending_verification",
+      "score": 75,
+      "why": [
+        "Research intake",
+        "Official provider link",
+        "Awaiting terms verification"
+      ],
+      "evidence": "Research lead. Verify free exam and credential terms; distinguish emerging-provider credential from accredited certification.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-05",
+      "lastSeen": "2026-11-05",
+      "lastChecked": null,
+      "fingerprint": "48d9be639739cdb6c6",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "11168d92591a1e33cc",
+      "title": "Science of Apps TPRM assessment",
+      "source": "Science of Apps",
+      "url": "https://scienceofapps.com/certification/third-party-risk-management-certification/",
+      "category": "Free TPRM assessment",
+      "topics": [],
+      "group": "Research intake",
+      "status": "pending_verification",
+      "score": 75,
+      "why": [
+        "Research intake",
+        "Official provider link",
+        "Awaiting terms verification"
+      ],
+      "evidence": "Research lead. Verify free assessment and certificate; emerging-provider credential.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-05",
+      "lastSeen": "2026-11-05",
+      "lastChecked": null,
+      "fingerprint": "11168d92591a1e33cc",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "bffff0564e1996572d",
+      "title": "Shared Assessments CTPRP self-study",
+      "source": "Shared Assessments",
+      "url": "https://education.sharedassessments.org/",
+      "category": "Paid TPRM certification",
+      "topics": [],
+      "group": "Research intake",
+      "status": "pending_verification",
+      "score": 75,
+      "why": [
+        "Research intake",
+        "Official provider link",
+        "Awaiting terms verification"
+      ],
+      "evidence": "Research lead. Verify current member/nonmember pricing and whether exam is included.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-05",
+      "lastSeen": "2026-11-05",
+      "lastChecked": null,
+      "fingerprint": "bffff0564e1996572d",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "5f7042c40499623e4c",
+      "title": "TPRA TPCRA certification",
+      "source": "Third Party Risk Association",
+      "url": "https://www.tprassociation.org/tpcra",
+      "category": "Paid TPRM certification",
+      "topics": [],
+      "group": "Research intake",
+      "status": "pending_verification",
+      "score": 75,
+      "why": [
+        "Research intake",
+        "Official provider link",
+        "Awaiting terms verification"
+      ],
+      "evidence": "Research lead. Verify current member pricing and training bundles.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-05",
+      "lastSeen": "2026-11-05",
+      "lastChecked": null,
+      "fingerprint": "5f7042c40499623e4c",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "1d02a1c1dfa67d52d3",
+      "title": "Factor Investing & Smart Beta Certification",
+      "source": "Science of Apps TPRM Certificate",
+      "url": "https://scienceofapps.com/certification/factor-investing-and-smart-beta-certification",
+      "category": "Beta & pilot exams",
+      "topics": [],
+      "group": "Third-party risk",
+      "status": "needs_review",
+      "score": 72,
+      "why": [
+        "Beta program",
+        "Targeted source watch"
+      ],
+      "evidence": "Free Factor Investing & Smart Beta certification for 2026–2027.",
+      "priceHint": "Free exam/voucher claimed; confirm terms",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-05",
+      "lastSeen": "2026-11-05",
+      "lastChecked": "2026-11-05T21:58:54Z",
+      "fingerprint": "b32e8e78c3fc1f8344",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "cb0d24cf9702c3dccf",
+      "title": "50% Off All Training & Exams",
+      "source": "CSA Cyber Monday 2026 Promotion",
+      "url": "https://cloudsecurityalliance.org/p/cyber-monday-2026",
+      "category": "Discounts & vouchers",
+      "topics": [],
+      "group": "Cloud security and AI governance",
+      "status": "needs_review",
+      "score": 55,
+      "why": [
+        "Discount signal"
+      ],
+      "evidence": "How do I receive the Cyber Monday discount code?",
+      "priceHint": "50% Off",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-05",
+      "lastSeen": "2026-11-05",
+      "lastChecked": "2026-11-05T21:58:54Z",
+      "fingerprint": "9be374a5f2f0f26d7a",
+      "verified": false,
+      "reviewRequired": true
+    },
     {
       "id": "research-20261104-0",
       "title": "TryHackMe Cyber Trials 2026",
@@ -826,8 +1090,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-03",
-      "lastSeen": "2026-11-04",
-      "lastChecked": "2026-11-04T21:52:29Z",
+      "lastSeen": "2026-11-05",
+      "lastChecked": "2026-11-05T21:58:55Z",
       "fingerprint": "f802da8553d3b53c2e",
       "verified": false,
       "reviewRequired": true
@@ -1103,8 +1367,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-04",
-      "lastChecked": "2026-11-04T21:52:28Z",
+      "lastSeen": "2026-11-05",
+      "lastChecked": "2026-11-05T21:58:54Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true

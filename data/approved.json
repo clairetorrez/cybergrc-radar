@@ -1,7 +1,8 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-04T21:52:47Z",
-  "offers": [
+  "lastChecked": "2026-11-05T21:59:01Z",
+  "offers": [],
+  "inactive": [
     {
       "id": "auto-6c0e76600b69af",
       "title": "AI Security Certification",
@@ -29,19 +30,17 @@
       "evidence": "for the pilot exam. How much does the pilot exam cost? There is no charge to participate in the pilot exam. How long",
       "sourceFingerprint": "4facbad5e3f2dba998",
       "autoApproved": true,
-      "publicationStatus": "active",
+      "publicationStatus": "paused",
       "featured": false,
       "score": 80
     }
   ],
-  "inactive": [],
   "automation": {
     "enabled": true,
     "method": "provider_page_rules",
     "minConfidence": 90,
     "statistics": {
-      "withheld": 25,
-      "auto_published": 1
+      "withheld": 4
     }
   }
 }
