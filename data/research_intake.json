@@ -46,6 +46,51 @@
       "expires": null,
       "firstSeen": "2026-11-04",
       "notes": "Research lead. Verify official pricing, eligibility and dates before approval."
+    },
+    {
+      "title": "TPRA AI/LLM Security & Risk for TPRM",
+      "provider": "Third Party Risk Association",
+      "url": "https://www.tprassociation.org/certificate-program",
+      "category": "Free TPRM training and certificate",
+      "expires": null,
+      "firstSeen": "2026-11-05",
+      "notes": "Research lead. Verify $0 enrollment, completion certificate, 1 CPE and availability on official page before publishing as active."
+    },
+    {
+      "title": "LearnTPRM free TPRM credentials",
+      "provider": "LearnTPRM",
+      "url": "https://learntprm.com/free-tprm-certifications",
+      "category": "Free TPRM exams",
+      "expires": null,
+      "firstSeen": "2026-11-05",
+      "notes": "Research lead. Verify free exam and credential terms; distinguish emerging-provider credential from accredited certification."
+    },
+    {
+      "title": "Science of Apps TPRM assessment",
+      "provider": "Science of Apps",
+      "url": "https://scienceofapps.com/certification/third-party-risk-management-certification/",
+      "category": "Free TPRM assessment",
+      "expires": null,
+      "firstSeen": "2026-11-05",
+      "notes": "Research lead. Verify free assessment and certificate; emerging-provider credential."
+    },
+    {
+      "title": "Shared Assessments CTPRP self-study",
+      "provider": "Shared Assessments",
+      "url": "https://education.sharedassessments.org/",
+      "category": "Paid TPRM certification",
+      "expires": null,
+      "firstSeen": "2026-11-05",
+      "notes": "Research lead. Verify current member/nonmember pricing and whether exam is included."
+    },
+    {
+      "title": "TPRA TPCRA certification",
+      "provider": "Third Party Risk Association",
+      "url": "https://www.tprassociation.org/tpcra",
+      "category": "Paid TPRM certification",
+      "expires": null,
+      "firstSeen": "2026-11-05",
+      "notes": "Research lead. Verify current member pricing and training bundles."
     }
   ]
 }
