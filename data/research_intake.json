@@ -34,9 +34,9 @@
       "provider": "AWS",
       "url": "https://aws.amazon.com/events/reinvent/faqs/",
       "category": "Exam discount",
-      "expires": null,
+      "expires": "2027-01-31",
       "firstSeen": "2026-11-04",
-      "notes": "Research lead. Verify official pricing, eligibility and dates before approval."
+      "notes": "50% off one AWS certification exam for eligible in-person re:Invent 2026 registrants; virtual attendance excluded. Testing deadline January 31, 2027. Verify official terms."
     },
     {
       "title": "AWS certification holder exam benefit",
@@ -91,6 +91,51 @@
       "expires": null,
       "firstSeen": "2026-11-05",
       "notes": "Research lead. Verify current member pricing and training bundles."
+    },
+    {
+      "title": "TPRA Risk Domain Deep Dives panel, November 12",
+      "provider": "Third Party Risk Association",
+      "url": "https://www.tprassociation.org/open-meetings",
+      "category": "TPRM webinar and CPE",
+      "expires": "2026-11-12",
+      "firstSeen": "2026-11-06",
+      "notes": "November 12 2026, 10–11 AM Central, 1 CPE. Nonmembers can register. Price not confirmed, do not label free."
+    },
+    {
+      "title": "Shared Assessments CTPRP virtual bootcamp November 17–18",
+      "provider": "Shared Assessments",
+      "url": "https://education.sharedassessments.org/Shared_Assessments/Shared_Assessments/Events/Live_Events/CTPRP_Certification_Bootcamp_November_2026.aspx",
+      "category": "Paid TPRM exam preparation",
+      "expires": "2026-11-18",
+      "firstSeen": "2026-11-06",
+      "notes": "Listed member $795, nonmember $995. Training only; exam separate. Reverify official terms."
+    },
+    {
+      "title": "ISC2 AI Security pilot, application closed",
+      "provider": "ISC2",
+      "url": "https://www.isc2.org/new-ai-certification",
+      "category": "Closed pilot exam",
+      "expires": "2026-11-04",
+      "firstSeen": "2026-11-06",
+      "notes": "Application interest deadline November 4, 2026. Historical only; do not present as open enrollment."
+    },
+    {
+      "title": "PECB Skills free beta exams, expired",
+      "provider": "PECB",
+      "url": "https://pecb.com/en/newsReleases/pecb-launches-free-skills-beta-exams-for-experts-and-non-experts-individuals",
+      "category": "Expired free beta exams",
+      "expires": "2026-10-30",
+      "firstSeen": "2026-11-06",
+      "notes": "Campaign ended October 30, 2026. Historical reference only."
+    },
+    {
+      "title": "ISACA Foundation scholarship cycle 2, closed",
+      "provider": "ISACA",
+      "url": "https://www.isaca.org/why-isaca/about-us/isaca-foundation",
+      "category": "Closed scholarship cycle",
+      "expires": "2026-11-03",
+      "firstSeen": "2026-11-06",
+      "notes": "Second 2026 application cycle closed November 3. Monitor for future rounds."
     }
   ]
 }
