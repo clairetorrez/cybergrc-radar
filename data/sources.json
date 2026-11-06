@@ -496,6 +496,18 @@
       "url": "https://scienceofapps.com/certification/third-party-risk-management-certification/",
       "group": "Third-party risk",
       "mode": "watch"
+    },
+    {
+      "name": "TPRA Open Meetings",
+      "url": "https://www.tprassociation.org/open-meetings",
+      "group": "Third-party risk",
+      "mode": "listing"
+    },
+    {
+      "name": "Shared Assessments CTPRP Bootcamp November",
+      "url": "https://education.sharedassessments.org/Shared_Assessments/Shared_Assessments/Events/Live_Events/CTPRP_Certification_Bootcamp_November_2026.aspx",
+      "group": "Third-party risk",
+      "mode": "watch"
     }
   ],
   "curation": {
