@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-05T21:58:58Z",
+  "lastChecked": "2026-11-06T21:29:30Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -418,8 +418,32 @@
       "candidates": 0
     }
   ],
-  "newLeads": 7,
+  "newLeads": 1,
   "leads": [
+    {
+      "id": "24e31f134f0ebed27e",
+      "title": "Featured Training",
+      "source": "ISACA Volunteer",
+      "url": "https://www.isaca.org/training-and-events/training-topics/featured-training",
+      "category": "Training",
+      "topics": [],
+      "group": "Volunteer",
+      "status": "needs_review",
+      "score": 55,
+      "why": [
+        "Targeted source watch"
+      ],
+      "evidence": "Join today Earn free CPE Browse chapters Volunteer Join today Earn free CPE Browse chapters Volunteer Personalize your Experience Update",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": null,
+      "firstSeen": "2026-11-06",
+      "lastSeen": "2026-11-06",
+      "lastChecked": "2026-11-06T21:29:27Z",
+      "fingerprint": "d3adc0ea30de01441c",
+      "verified": false,
+      "reviewRequired": true
+    },
     {
       "id": "141def93ba8cd1d4c8",
       "title": "TPRA AI/LLM Security & Risk for TPRM",
@@ -428,7 +452,7 @@
       "category": "Free TPRM training and certificate",
       "topics": [],
       "group": "Research intake",
-      "status": "pending_verification",
+      "status": "not_seen_today",
       "score": 75,
       "why": [
         "Research intake",
@@ -454,7 +478,7 @@
       "category": "Free TPRM exams",
       "topics": [],
       "group": "Research intake",
-      "status": "pending_verification",
+      "status": "not_seen_today",
       "score": 75,
       "why": [
         "Research intake",
@@ -480,7 +504,7 @@
       "category": "Free TPRM assessment",
       "topics": [],
       "group": "Research intake",
-      "status": "pending_verification",
+      "status": "not_seen_today",
       "score": 75,
       "why": [
         "Research intake",
@@ -506,7 +530,7 @@
       "category": "Paid TPRM certification",
       "topics": [],
       "group": "Research intake",
-      "status": "pending_verification",
+      "status": "not_seen_today",
       "score": 75,
       "why": [
         "Research intake",
@@ -532,7 +556,7 @@
       "category": "Paid TPRM certification",
       "topics": [],
       "group": "Research intake",
-      "status": "pending_verification",
+      "status": "not_seen_today",
       "score": 75,
       "why": [
         "Research intake",
@@ -569,8 +593,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-05",
-      "lastChecked": "2026-11-05T21:58:54Z",
+      "lastSeen": "2026-11-06",
+      "lastChecked": "2026-11-06T21:29:24Z",
       "fingerprint": "b32e8e78c3fc1f8344",
       "verified": false,
       "reviewRequired": true
@@ -593,8 +617,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-05",
-      "lastChecked": "2026-11-05T21:58:54Z",
+      "lastSeen": "2026-11-06",
+      "lastChecked": "2026-11-06T21:29:25Z",
       "fingerprint": "9be374a5f2f0f26d7a",
       "verified": false,
       "reviewRequired": true
@@ -1090,8 +1114,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-03",
-      "lastSeen": "2026-11-05",
-      "lastChecked": "2026-11-05T21:58:55Z",
+      "lastSeen": "2026-11-06",
+      "lastChecked": "2026-11-06T21:29:25Z",
       "fingerprint": "f802da8553d3b53c2e",
       "verified": false,
       "reviewRequired": true
@@ -1367,8 +1391,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-05",
-      "lastChecked": "2026-11-05T21:58:54Z",
+      "lastSeen": "2026-11-06",
+      "lastChecked": "2026-11-06T21:29:24Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true

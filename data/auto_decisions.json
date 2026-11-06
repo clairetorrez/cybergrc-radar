@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-05T21:59:01Z",
+  "lastChecked": "2026-11-06T21:29:32Z",
   "decisions": [
     {
       "url": "https://cloudsecurityalliance.org/p/cyber-monday-2026",
@@ -13,6 +13,11 @@
     },
     {
       "url": "https://scienceofapps.com/certification/factor-investing-and-smart-beta-certification",
+      "status": "withheld",
+      "reason": "insufficient_offer_evidence"
+    },
+    {
+      "url": "https://www.isaca.org/training-and-events/training-topics/featured-training",
       "status": "withheld",
       "reason": "insufficient_offer_evidence"
     },
