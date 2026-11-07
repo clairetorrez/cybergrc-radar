@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-06T21:29:30Z",
+  "lastChecked": "2026-11-07T20:13:50Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -370,7 +370,17 @@
       "candidates": 4
     },
     {
+      "name": "Shared Assessments CTPRP Bootcamp November",
+      "ok": true,
+      "candidates": 1
+    },
+    {
       "name": "Shared Assessments Education",
+      "ok": true,
+      "candidates": 0
+    },
+    {
+      "name": "TPRA Open Meetings",
       "ok": true,
       "candidates": 0
     },
@@ -418,8 +428,60 @@
       "candidates": 0
     }
   ],
-  "newLeads": 1,
+  "newLeads": 2,
   "leads": [
+    {
+      "id": "f69c0a88e8ab769fa7",
+      "title": "TPRA Risk Domain Deep Dives panel, November 12",
+      "source": "Third Party Risk Association",
+      "url": "https://www.tprassociation.org/open-meetings",
+      "category": "TPRM webinar and CPE",
+      "topics": [],
+      "group": "Research intake",
+      "status": "pending_verification",
+      "score": 75,
+      "why": [
+        "Research intake",
+        "Official provider link",
+        "Awaiting terms verification"
+      ],
+      "evidence": "November 12 2026, 10–11 AM Central, 1 CPE. Nonmembers can register. Price not confirmed, do not label free.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": "2026-11-12",
+      "publishedAt": null,
+      "firstSeen": "2026-11-06",
+      "lastSeen": "2026-11-07",
+      "lastChecked": null,
+      "fingerprint": "f69c0a88e8ab769fa7",
+      "verified": false,
+      "reviewRequired": true
+    },
+    {
+      "id": "a12f0716dfcdf6b5bf",
+      "title": "Shared Assessments CTPRP virtual bootcamp November 17–18",
+      "source": "Shared Assessments",
+      "url": "https://education.sharedassessments.org/Shared_Assessments/Shared_Assessments/Events/Live_Events/CTPRP_Certification_Bootcamp_November_2026.aspx",
+      "category": "Paid TPRM exam preparation",
+      "topics": [],
+      "group": "Research intake",
+      "status": "pending_verification",
+      "score": 75,
+      "why": [
+        "Research intake",
+        "Official provider link",
+        "Awaiting terms verification"
+      ],
+      "evidence": "Listed member $795, nonmember $995. Training only; exam separate. Reverify official terms.",
+      "priceHint": "Not confirmed",
+      "deadlineHint": "2026-11-18",
+      "publishedAt": null,
+      "firstSeen": "2026-11-06",
+      "lastSeen": "2026-11-07",
+      "lastChecked": null,
+      "fingerprint": "a12f0716dfcdf6b5bf",
+      "verified": false,
+      "reviewRequired": true
+    },
     {
       "id": "24e31f134f0ebed27e",
       "title": "Featured Training",
@@ -438,8 +500,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-06",
-      "lastChecked": "2026-11-06T21:29:27Z",
+      "lastSeen": "2026-11-07",
+      "lastChecked": "2026-11-07T20:13:47Z",
       "fingerprint": "d3adc0ea30de01441c",
       "verified": false,
       "reviewRequired": true
@@ -593,8 +655,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-06",
-      "lastChecked": "2026-11-06T21:29:24Z",
+      "lastSeen": "2026-11-07",
+      "lastChecked": "2026-11-07T20:13:45Z",
       "fingerprint": "b32e8e78c3fc1f8344",
       "verified": false,
       "reviewRequired": true
@@ -617,8 +679,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-06",
-      "lastChecked": "2026-11-06T21:29:25Z",
+      "lastSeen": "2026-11-07",
+      "lastChecked": "2026-11-07T20:13:45Z",
       "fingerprint": "9be374a5f2f0f26d7a",
       "verified": false,
       "reviewRequired": true
@@ -1114,8 +1176,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-03",
-      "lastSeen": "2026-11-06",
-      "lastChecked": "2026-11-06T21:29:25Z",
+      "lastSeen": "2026-11-07",
+      "lastChecked": "2026-11-07T20:13:46Z",
       "fingerprint": "f802da8553d3b53c2e",
       "verified": false,
       "reviewRequired": true
@@ -1391,8 +1453,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-06",
-      "lastChecked": "2026-11-06T21:29:24Z",
+      "lastSeen": "2026-11-07",
+      "lastChecked": "2026-11-07T20:13:44Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true
