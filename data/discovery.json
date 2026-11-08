@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-07T20:13:50Z",
+  "lastChecked": "2026-11-08T20:28:49Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -428,7 +428,7 @@
       "candidates": 0
     }
   ],
-  "newLeads": 2,
+  "newLeads": 0,
   "leads": [
     {
       "id": "f69c0a88e8ab769fa7",
@@ -438,7 +438,7 @@
       "category": "TPRM webinar and CPE",
       "topics": [],
       "group": "Research intake",
-      "status": "pending_verification",
+      "status": "not_seen_today",
       "score": 75,
       "why": [
         "Research intake",
@@ -464,7 +464,7 @@
       "category": "Paid TPRM exam preparation",
       "topics": [],
       "group": "Research intake",
-      "status": "pending_verification",
+      "status": "not_seen_today",
       "score": 75,
       "why": [
         "Research intake",
@@ -500,8 +500,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-07",
-      "lastChecked": "2026-11-07T20:13:47Z",
+      "lastSeen": "2026-11-08",
+      "lastChecked": "2026-11-08T20:28:46Z",
       "fingerprint": "d3adc0ea30de01441c",
       "verified": false,
       "reviewRequired": true
@@ -655,8 +655,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-07",
-      "lastChecked": "2026-11-07T20:13:45Z",
+      "lastSeen": "2026-11-08",
+      "lastChecked": "2026-11-08T20:28:44Z",
       "fingerprint": "b32e8e78c3fc1f8344",
       "verified": false,
       "reviewRequired": true
@@ -679,8 +679,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-07",
-      "lastChecked": "2026-11-07T20:13:45Z",
+      "lastSeen": "2026-11-08",
+      "lastChecked": "2026-11-08T20:28:44Z",
       "fingerprint": "9be374a5f2f0f26d7a",
       "verified": false,
       "reviewRequired": true
@@ -1176,8 +1176,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-03",
-      "lastSeen": "2026-11-07",
-      "lastChecked": "2026-11-07T20:13:46Z",
+      "lastSeen": "2026-11-08",
+      "lastChecked": "2026-11-08T20:28:46Z",
       "fingerprint": "f802da8553d3b53c2e",
       "verified": false,
       "reviewRequired": true
@@ -1368,7 +1368,7 @@
       "category": "Other opportunities",
       "topics": [],
       "group": "Volunteer",
-      "status": "not_seen_today",
+      "status": "needs_review",
       "score": 55,
       "why": [
         "Targeted source watch"
@@ -1378,8 +1378,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-03",
-      "lastChecked": "2026-11-03T03:40:40Z",
+      "lastSeen": "2026-11-08",
+      "lastChecked": "2026-11-08T20:28:46Z",
       "fingerprint": "535a2129fe5fa2ab1a",
       "verified": false,
       "reviewRequired": true
@@ -1453,8 +1453,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-07",
-      "lastChecked": "2026-11-07T20:13:44Z",
+      "lastSeen": "2026-11-08",
+      "lastChecked": "2026-11-08T20:28:44Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true
