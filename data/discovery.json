@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-08T20:28:49Z",
+  "lastChecked": "2026-11-10T00:15:24Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -326,7 +326,7 @@
     {
       "name": "PECB Free Beta Announcement",
       "ok": true,
-      "candidates": 1
+      "candidates": 2
     },
     {
       "name": "PECB News",
@@ -428,8 +428,34 @@
       "candidates": 0
     }
   ],
-  "newLeads": 0,
+  "newLeads": 1,
   "leads": [
+    {
+      "id": "88c499d4f4dc0ca7f1",
+      "title": "PECB Launches free Beta Exams for ISO 9001:2026 Foundation for experts and non-experts’ individuals - PECB",
+      "source": "PECB Free Beta Announcement",
+      "url": "https://pecb.com/en/newsReleases/pecb-launches-free-beta-exams-for-iso-90012026-foundation-for-experts-and-non-experts-individuals",
+      "category": "Beta & pilot exams",
+      "topics": [],
+      "group": "GRC and ISO",
+      "status": "needs_review",
+      "score": 99,
+      "why": [
+        "Possible free exam",
+        "Recent announcement",
+        "Targeted source watch"
+      ],
+      "evidence": "If you are interested in participating, please send an email to beta.exams@pecb.com with the subject line “ ISO 9001:2026 Foundation",
+      "priceHint": "Not confirmed",
+      "deadlineHint": null,
+      "publishedAt": "2026-11-09",
+      "firstSeen": "2026-11-10",
+      "lastSeen": "2026-11-10",
+      "lastChecked": "2026-11-10T00:15:21Z",
+      "fingerprint": "09e20300fc17c6c464",
+      "verified": false,
+      "reviewRequired": true
+    },
     {
       "id": "f69c0a88e8ab769fa7",
       "title": "TPRA Risk Domain Deep Dives panel, November 12",
@@ -500,8 +526,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-08",
-      "lastChecked": "2026-11-08T20:28:46Z",
+      "lastSeen": "2026-11-10",
+      "lastChecked": "2026-11-10T00:15:24Z",
       "fingerprint": "d3adc0ea30de01441c",
       "verified": false,
       "reviewRequired": true
@@ -655,8 +681,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-08",
-      "lastChecked": "2026-11-08T20:28:44Z",
+      "lastSeen": "2026-11-10",
+      "lastChecked": "2026-11-10T00:15:21Z",
       "fingerprint": "b32e8e78c3fc1f8344",
       "verified": false,
       "reviewRequired": true
@@ -679,8 +705,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-08",
-      "lastChecked": "2026-11-08T20:28:44Z",
+      "lastSeen": "2026-11-10",
+      "lastChecked": "2026-11-10T00:15:22Z",
       "fingerprint": "9be374a5f2f0f26d7a",
       "verified": false,
       "reviewRequired": true
@@ -1176,8 +1202,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-03",
-      "lastSeen": "2026-11-08",
-      "lastChecked": "2026-11-08T20:28:46Z",
+      "lastSeen": "2026-11-10",
+      "lastChecked": "2026-11-10T00:15:23Z",
       "fingerprint": "f802da8553d3b53c2e",
       "verified": false,
       "reviewRequired": true
@@ -1378,8 +1404,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-08",
-      "lastChecked": "2026-11-08T20:28:46Z",
+      "lastSeen": "2026-11-10",
+      "lastChecked": "2026-11-10T00:15:24Z",
       "fingerprint": "535a2129fe5fa2ab1a",
       "verified": false,
       "reviewRequired": true
@@ -1453,8 +1479,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-08",
-      "lastChecked": "2026-11-08T20:28:44Z",
+      "lastSeen": "2026-11-10",
+      "lastChecked": "2026-11-10T00:15:21Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true
