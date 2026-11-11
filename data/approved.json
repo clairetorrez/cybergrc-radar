@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-10T21:48:21Z",
+  "lastChecked": "2026-11-11T22:41:46Z",
   "offers": [],
   "inactive": [],
   "automation": {
@@ -8,7 +8,7 @@
     "method": "provider_page_rules",
     "minConfidence": 90,
     "statistics": {
-      "withheld": 3
+      "withheld": 5
     }
   }
 }
