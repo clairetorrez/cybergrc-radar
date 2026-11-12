@@ -7,19 +7,27 @@
       "title": "Compliance Drives Revenue. Here's What to Count",
       "guest": "Laura Sawka",
       "topic": "GRC strategy",
-      "takeaway": "Connect compliance work to revenue using trust-center engagement, customer questionnaires and renewal support.",
       "resource": "https://www.sawkaadvisorygroup.com",
       "resourceLabel": "Sawka Advisory Group",
       "episode": "https://podcasts.apple.com/us/podcast/the-grc-engineering-clubs-anticheckbox-podcast/id6795705666",
-      "access": "Public episode"
+      "access": "Public episode",
+      "covered": "How security and compliance programs can demonstrate commercial value, including customer trust and sales support.",
+      "takeaways": [
+        "Track trust-center engagement and security questionnaires as evidence of customer demand.",
+        "Connect compliance work to sales enablement and renewal support rather than counting completed controls alone."
+      ]
     },
     {
       "title": "AI Agents Will Use Every Permission You Give Them",
       "guest": "Dan Barahona",
       "topic": "AI security",
-      "takeaway": "Treat agent permissions and access boundaries as security controls that require testing.",
       "episode": "https://podcasts.apple.com/us/podcast/the-grc-engineering-clubs-anticheckbox-podcast/id6795705666",
-      "access": "Public episode"
+      "access": "Public episode",
+      "covered": "The security implications of giving AI agents permissions to access systems and perform actions.",
+      "takeaways": [
+        "Limit agent permissions to the tasks they need to perform.",
+        "Test access boundaries and agent behavior as part of security control validation."
+      ]
     }
   ]
 }
