@@ -27,6 +27,19 @@ def merge():
         if item.get("expires") and item["expires"] < today:
             continue
         if url in existing:
+            lead = existing[url]
+            # Research leads remain visible even if the scanner misses a page.
+            # They are still unverified until the approval process confirms terms.
+            lead.update({
+                "title": item["title"], "source": item.get("provider", lead.get("source", "")),
+                "category": item.get("category", lead.get("category", "")),
+                "topics": item.get("topics", lead.get("topics", [])),
+                "priceHint": item.get("priceHint", lead.get("priceHint", "Not confirmed")),
+                "deadlineHint": item.get("expires"),
+                "evidence": item.get("notes", lead.get("evidence", "")),
+                "status": "pending_verification", "lastSeen": today,
+                "reviewRequired": True, "verified": False
+            })
             continue
         key = hashlib.sha256(url.encode()).hexdigest()[:18]
         lead = {
