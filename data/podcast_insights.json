@@ -1,0 +1,25 @@
+{
+  "updated": "2026-11-12",
+  "show": "The AntiCheckbox Podcast",
+  "source": "https://www.grcengclub.com/podcast",
+  "items": [
+    {
+      "title": "Compliance Drives Revenue. Here's What to Count",
+      "guest": "Laura Sawka",
+      "topic": "GRC strategy",
+      "takeaway": "Connect compliance work to revenue using trust-center engagement, customer questionnaires and renewal support.",
+      "resource": "https://www.sawkaadvisorygroup.com",
+      "resourceLabel": "Sawka Advisory Group",
+      "episode": "https://podcasts.apple.com/us/podcast/the-grc-engineering-clubs-anticheckbox-podcast/id6795705666",
+      "access": "Public episode"
+    },
+    {
+      "title": "AI Agents Will Use Every Permission You Give Them",
+      "guest": "Dan Barahona",
+      "topic": "AI security",
+      "takeaway": "Treat agent permissions and access boundaries as security controls that require testing.",
+      "episode": "https://podcasts.apple.com/us/podcast/the-grc-engineering-clubs-anticheckbox-podcast/id6795705666",
+      "access": "Public episode"
+    }
+  ]
+}
