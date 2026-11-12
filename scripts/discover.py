@@ -15,6 +15,7 @@ import re
 import time
 import urllib.parse
 import urllib.request
+import urllib.error
 import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 
@@ -333,6 +334,28 @@ def main():
                        or x.get("group") in ("Research intake","Employer and program research")
                    )}
         except (ValueError,TypeError):pass
+    # Only definitive 404/410 responses close curated employer application links.
+    # Other failures (403, bot protection, timeouts) remain needs_review.
+    for lead in prior.values():
+        if lead.get("group") != "Employer and program research" or lead.get("status") == "expired":
+            continue
+        url=lead.get("url","")
+        parsed=urllib.parse.urlparse(url)
+        if parsed.scheme!="https" or not parsed.hostname:
+            continue
+        try:
+            req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 CyberGRCRadar/1.0"},method="HEAD")
+            with urllib.request.urlopen(req,timeout=8) as response:
+                lead["lastChecked"]=UTC()
+                lead["linkStatus"]=response.status
+        except urllib.error.HTTPError as exc:
+            lead["lastChecked"]=UTC()
+            lead["linkStatus"]=exc.code
+            if exc.code in (404,410):
+                lead["status"]="expired"
+                lead["evidence"]="Employer application returned HTTP "+str(exc.code)+" on "+TODAY.isoformat()+". Check employer careers page for new openings."
+        except (OSError,ValueError):
+            lead["linkStatus"]="unconfirmed"
     original_ids=set(prior)
     discovered=[];health=[];todo=[]
     with futures.ThreadPoolExecutor(max_workers=6) as pool:
