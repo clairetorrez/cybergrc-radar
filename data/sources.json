@@ -508,6 +508,18 @@
       "url": "https://education.sharedassessments.org/Shared_Assessments/Shared_Assessments/Events/Live_Events/CTPRP_Certification_Bootcamp_November_2026.aspx",
       "group": "Third-party risk",
       "mode": "watch"
+    },
+    {
+      "name": "Mastermind Assurance ISO Auditor Catalog",
+      "url": "https://learn.mastermindassurance.com/collections/products",
+      "group": "GRC and ISO",
+      "mode": "listing"
+    },
+    {
+      "name": "Mastermind Assurance Course Listings",
+      "url": "https://learn.mastermindassurance.com/",
+      "group": "GRC and ISO",
+      "mode": "watch"
     }
   ],
   "curation": {
