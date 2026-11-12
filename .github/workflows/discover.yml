@@ -23,6 +23,19 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           persist-credentials: true
+      - name: Validate pipeline scripts and homepage JavaScript
+        run: |
+          python3 -m py_compile scripts/discover.py scripts/merge_research.py scripts/auto_publish.py scripts/revalidate.py
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          html = Path("index.html").read_text(encoding="utf-8")
+          scripts = re.findall(r"<script(?:\\s[^>]*)?>([\\s\\S]*?)</script>", html)
+          if not scripts:
+              raise SystemExit("No inline JavaScript found")
+          Path("/tmp/cybergrc-inline.js").write_text("\\n".join(scripts), encoding="utf-8")
+          PY
+          node --check /tmp/cybergrc-inline.js
       - name: Collect opportunity leads
         run: python3 scripts/discover.py
       - name: Merge researched leads into review queue
