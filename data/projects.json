@@ -493,6 +493,28 @@
       "description": "Role-based AI-assisted development pathway on using coding agents, testing and verifying generated software. Relevant to GRC automation, not a dedicated GRC course.",
       "url": "https://www.coursera.org/series/ai-software-development",
       "access": "Coursera Plus · paid; eligible 7-day trial"
+    },
+    {
+      "id": "caige-guardrail-training",
+      "title": "Certified AI Guardrail Engineer: free training and practice exam",
+      "provider": "cAIge",
+      "type": "Free training and practice exam",
+      "topic": "AI governance / Security controls",
+      "level": "Intermediate",
+      "description": "43 sections across seven domains covering AI threat modeling, security, safety, containment, evaluation and governance. Includes a free 75-question practice exam. Formal Associate and Professional certification exams are still in development.",
+      "url": "https://caige.org/",
+      "access": "Free training and practice exam · certification not yet available"
+    },
+    {
+      "id": "caige-guardrail-labs",
+      "title": "AI Guardrail Engineer: seven hands-on labs",
+      "provider": "cAIge",
+      "type": "Hands-on lab",
+      "topic": "AI governance / Security controls",
+      "level": "Intermediate",
+      "description": "Harden a deliberately vulnerable multi-tenant AI support agent across seven practical labs. Practice containment, threat modeling, control implementation and evaluation. Formal certification exams are not yet available.",
+      "url": "https://caige.org/",
+      "access": "Free public labs"
     }
   ]
 }
