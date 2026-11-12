@@ -136,6 +136,62 @@
       "expires": "2026-11-03",
       "firstSeen": "2026-11-06",
       "notes": "Second 2026 application cycle closed November 3. Monitor for future rounds."
+    },
+    {
+      "title": "CSA Cyber Monday 2026, 50% off online training and certificate exams",
+      "provider": "Cloud Security Alliance",
+      "url": "https://cloudsecurityalliance.org/p/cyber-monday-2026",
+      "category": "Upcoming 50% exam and training discount",
+      "expires": "2026-11-30",
+      "firstSeen": "2026-11-12",
+      "priceHint": "50% off on November 30",
+      "topics": [
+        "Cloud security",
+        "AI governance"
+      ],
+      "notes": "Officially confirmed: November 30 only, 50% off CSA Training and CSA Exams purchases including CCSK, CCZT and TAISE; excludes instructor-led and team training. Waitlist for code. UPCOMING, not redeemable yet."
+    },
+    {
+      "title": "Mastermind ISO/IEC 27001:2022 Lead Auditor, training plus exam",
+      "provider": "Mastermind Assurance",
+      "url": "https://learn.mastermindassurance.com/collections/products",
+      "category": "Low-cost ISO auditor training and provider credential",
+      "expires": null,
+      "firstSeen": "2026-11-12",
+      "priceHint": "$99",
+      "topics": [
+        "ISO 27001",
+        "IT audit"
+      ],
+      "notes": "Official catalog lists $99 training and exam for Mastermind-issued credential. Regular price, NOT a discount or PECB/CQI-IRCA credential."
+    },
+    {
+      "title": "Mastermind ISO/IEC 42001:2023 Lead Auditor, training plus exam",
+      "provider": "Mastermind Assurance",
+      "url": "https://learn.mastermindassurance.com/",
+      "category": "Low-cost ISO AI governance auditor training",
+      "expires": null,
+      "firstSeen": "2026-11-12",
+      "priceHint": "$99",
+      "topics": [
+        "ISO 42001",
+        "AI governance"
+      ],
+      "notes": "Official catalog lists $99 training and exam for Mastermind-issued credential. Regular price, NOT a discount or PECB/CQI-IRCA credential."
+    },
+    {
+      "title": "Mastermind ISO/IEC 27701:2025 Lead Auditor, training plus exam",
+      "provider": "Mastermind Assurance",
+      "url": "https://learn.mastermindassurance.com/collections/products?view=all",
+      "category": "Low-cost ISO privacy auditor training",
+      "expires": null,
+      "firstSeen": "2026-11-12",
+      "priceHint": "$99",
+      "topics": [
+        "ISO 27701",
+        "Privacy"
+      ],
+      "notes": "Official catalog lists $99 training and exam for Mastermind-issued credential. Regular price, NOT a discount or PECB/CQI-IRCA credential."
     }
   ]
 }
