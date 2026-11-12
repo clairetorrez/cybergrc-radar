@@ -15,7 +15,8 @@
       "takeaways": [
         "Track trust-center engagement and security questionnaires as evidence of customer demand.",
         "Connect compliance work to sales enablement and renewal support rather than counting completed controls alone."
-      ]
+      ],
+      "date": "2026-10-25"
     },
     {
       "title": "AI Agents Will Use Every Permission You Give Them",
@@ -27,7 +28,8 @@
       "takeaways": [
         "Limit agent permissions to the tasks they need to perform.",
         "Test access boundaries and agent behavior as part of security control validation."
-      ]
+      ],
+      "date": "2026-10-03"
     }
   ]
 }
