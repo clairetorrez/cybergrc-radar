@@ -25,6 +25,8 @@ def merge():
         if urlparse(url).scheme != "https" or not item.get("title"):
             continue
         if item.get("expires") and item["expires"] < today:
+            if url in existing:
+                existing[url]["status"] = "expired"
             continue
         if url in existing:
             lead = existing[url]
@@ -37,8 +39,8 @@ def merge():
                 "priceHint": item.get("priceHint", lead.get("priceHint", "Not confirmed")),
                 "deadlineHint": item.get("expires"),
                 "evidence": item.get("notes", lead.get("evidence", "")),
-                "status": "pending_verification", "lastSeen": today,
-                "reviewRequired": True, "verified": False
+                "lastSeen": lead.get("lastSeen") or today,
+                "reviewRequired": True
             })
             continue
         key = hashlib.sha256(url.encode()).hexdigest()[:18]
