@@ -449,6 +449,50 @@
       "url": "https://www.boot.dev/paths/devops?tech=python-golang",
       "access": "Free reading, paid interactive exercises",
       "sequence": 2
+    },
+    {
+      "id": "coursera-ai-cybersecurity-2026",
+      "title": "AI for Cybersecurity Series",
+      "provider": "Coursera",
+      "type": "Curated learning series",
+      "topic": "AI governance / Cybersecurity",
+      "level": "Intermediate",
+      "description": "17-course pathway covering AI risk governance, NIST AI RMF, prompt injection, adversarial threats, and AI-assisted security operations. Individual course certificates, no overall Series credential.",
+      "url": "https://www.coursera.org/series/ai-cybersecurity",
+      "access": "Coursera Plus · paid; eligible 7-day trial"
+    },
+    {
+      "id": "coursera-ai-leadership-2026",
+      "title": "AI for Business Leadership Series",
+      "provider": "Coursera",
+      "type": "Curated learning series",
+      "topic": "AI governance / Risk management",
+      "level": "Intermediate",
+      "description": "25-course pathway on AI strategy, organizational oversight, responsible AI, risk management and change leadership. Includes capstone activities.",
+      "url": "https://www.coursera.org/series/ai-business-leadership",
+      "access": "Coursera Plus · paid; eligible 7-day trial"
+    },
+    {
+      "id": "coursera-ai-analytics-2026",
+      "title": "AI for Data Analytics Series",
+      "provider": "Coursera",
+      "type": "Curated learning series",
+      "topic": "GRC data analytics / Reporting",
+      "level": "Intermediate",
+      "description": "13-course pathway on data quality, AI-assisted analysis, dashboards and forecasting. Useful for GRC metrics and continuous monitoring, not a dedicated GRC course.",
+      "url": "https://www.coursera.org/series/ai-data-analytics",
+      "access": "Coursera Plus · paid; eligible 7-day trial"
+    },
+    {
+      "id": "coursera-ai-software-2026",
+      "title": "AI for Software Development Series",
+      "provider": "Coursera",
+      "type": "Curated learning series",
+      "topic": "Secure SDLC / Automation",
+      "level": "Intermediate",
+      "description": "Role-based AI-assisted development pathway on using coding agents, testing and verifying generated software. Relevant to GRC automation, not a dedicated GRC course.",
+      "url": "https://www.coursera.org/series/ai-software-development",
+      "access": "Coursera Plus · paid; eligible 7-day trial"
     }
   ]
 }
