@@ -432,6 +432,69 @@
   "newLeads": 0,
   "leads": [
     {
+      "id": "research-2",
+      "url": "https://learn.mastermindassurance.com/collections/products?view=all",
+      "firstSeen": "2026-11-12",
+      "score": 75,
+      "title": "Mastermind ISO/IEC 27701:2025 Lead Auditor, training plus exam",
+      "source": "Mastermind Assurance",
+      "category": "Low-cost ISO privacy auditor training",
+      "topics": [
+        "ISO 27701",
+        "Privacy"
+      ],
+      "status": "pending_verification",
+      "priceHint": "$99",
+      "deadlineHint": null,
+      "lastSeen": "2026-11-12",
+      "evidence": "Official catalog lists $99 training and exam for Mastermind-issued credential. Regular price, NOT a discount or PECB/CQI-IRCA credential.",
+      "verified": false,
+      "reviewRequired": true,
+      "group": "Research intake"
+    },
+    {
+      "id": "research-1",
+      "url": "https://learn.mastermindassurance.com/",
+      "firstSeen": "2026-11-12",
+      "score": 75,
+      "title": "Mastermind ISO/IEC 42001:2023 Lead Auditor, training plus exam",
+      "source": "Mastermind Assurance",
+      "category": "Low-cost ISO AI governance auditor training",
+      "topics": [
+        "ISO 42001",
+        "AI governance"
+      ],
+      "status": "pending_verification",
+      "priceHint": "$99",
+      "deadlineHint": null,
+      "lastSeen": "2026-11-12",
+      "evidence": "Official catalog lists $99 training and exam for Mastermind-issued credential. Regular price, NOT a discount or PECB/CQI-IRCA credential.",
+      "verified": false,
+      "reviewRequired": true,
+      "group": "Research intake"
+    },
+    {
+      "id": "research-0",
+      "url": "https://learn.mastermindassurance.com/collections/products",
+      "firstSeen": "2026-11-12",
+      "score": 75,
+      "title": "Mastermind ISO/IEC 27001:2022 Lead Auditor, training plus exam",
+      "source": "Mastermind Assurance",
+      "category": "Low-cost ISO auditor training and provider credential",
+      "topics": [
+        "ISO 27001",
+        "IT audit"
+      ],
+      "status": "pending_verification",
+      "priceHint": "$99",
+      "deadlineHint": null,
+      "lastSeen": "2026-11-12",
+      "evidence": "Official catalog lists $99 training and exam for Mastermind-issued credential. Regular price, NOT a discount or PECB/CQI-IRCA credential.",
+      "verified": false,
+      "reviewRequired": true,
+      "group": "Research intake"
+    },
+    {
       "id": "88c499d4f4dc0ca7f1",
       "title": "PECB Launches free Beta Exams for ISO 9001:2026 Foundation for experts and non-experts’ individuals - PECB",
       "source": "PECB Free Beta Announcement",
@@ -690,23 +753,26 @@
     },
     {
       "id": "cb0d24cf9702c3dccf",
-      "title": "50% Off All Training & Exams",
-      "source": "CSA Cyber Monday 2026 Promotion",
+      "title": "CSA Cyber Monday 2026, 50% off online training and certificate exams",
+      "source": "Cloud Security Alliance",
       "url": "https://cloudsecurityalliance.org/p/cyber-monday-2026",
-      "category": "Discounts & vouchers",
-      "topics": [],
-      "group": "Cloud security and AI governance",
-      "status": "not_seen_today",
+      "category": "Upcoming 50% exam and training discount",
+      "topics": [
+        "Cloud security",
+        "AI governance"
+      ],
+      "group": "Research intake",
+      "status": "pending_verification",
       "score": 55,
       "why": [
         "Discount signal"
       ],
-      "evidence": "How do I receive the Cyber Monday discount code?",
-      "priceHint": "50% Off",
-      "deadlineHint": null,
+      "evidence": "Officially confirmed: November 30 only, 50% off CSA Training and CSA Exams purchases including CCSK, CCZT and TAISE; excludes instructor-led and team training. Waitlist for code. UPCOMING, not redeemable yet.",
+      "priceHint": "50% off on November 30",
+      "deadlineHint": "2026-11-30",
       "publishedAt": null,
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-10",
+      "lastSeen": "2026-11-12",
       "lastChecked": "2026-11-10T00:15:22Z",
       "fingerprint": "9be374a5f2f0f26d7a",
       "verified": false,
