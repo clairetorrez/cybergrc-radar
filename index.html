@@ -518,7 +518,7 @@ function renderSpecialties(){
  const feedItems=[
   ...approved.map(d=>({title:d.title,url:d.source,provider:d.provider,kind:d.kind,detail:d.price||'View offer',verified:true})),
   ...leads.filter(d=>d.status!=='research_lead').map(d=>({title:d.title,url:d.url,provider:d.source||'Provider',kind:d.category||'Opportunity',detail:'Check availability with provider',verified:false}))
- ].filter(x=>x.url&&x.title).filter((x,i,arr)=>arr.findIndex(y=>y.url.replace(/\\/$/,'').toLowerCase()===x.url.replace(/\\/$/,'').toLowerCase())===i).slice(0,10);
+ ].filter(x=>x.url&&x.title).filter((x,i,arr)=>arr.findIndex(y=>y.url.replace(/\/$/,'').toLowerCase()===x.url.replace(/\/$/,'').toLowerCase())===i).slice(0,10);
  const feedHtml=feedItems.length?feedItems.map(x=>'<a class="specialty-op" href="'+esc(x.url)+'" target="_blank" rel="noopener noreferrer"><span class="specialty-op-type">'+esc(x.kind)+(x.verified?' · Reviewed':' · New discovery')+'</span><strong>'+esc(x.title)+'</strong><span>'+esc(x.provider)+' · '+esc(x.detail)+' ↗</span></a>').join(''):'<p class="specialty-empty">No related opportunities are listed in Explore right now.</p>';
  $('specialtyDetail').innerHTML=
    '<div class="specialty-detail-header"><span class="specialty-eyebrow">'+esc(s.subtitle)+'</span><h4>'+esc(s.title)+'</h4><p>'+esc(s.summary)+'</p></div>'+
