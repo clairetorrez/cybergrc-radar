@@ -365,6 +365,90 @@
       "description": "Practice explaining and defending completed GRC work.",
       "url": "https://github.com/BAKROOT/norvela-grc-lab/blob/main/CURRICULUM.md",
       "sequence": 7
+    },
+    {
+      "id": "fcc-cloud-security-capstone",
+      "title": "Cloud Cybersecurity: risk and compliance capstone",
+      "provider": "freeCodeCamp",
+      "type": "Project-based course",
+      "topic": "Cloud / Risk management",
+      "level": "Beginner",
+      "description": "Free 10-hour course covering NIST CSF, HIPAA, SOC, IAM and incident response, with a cloud security capstone scenario. External lab access may have separate terms.",
+      "url": "https://www.freecodecamp.org/news/beginners-guide-to-cloud-cybersecurity",
+      "access": "Free course",
+      "sequence": 1
+    },
+    {
+      "id": "fcc-infosec-cert",
+      "title": "Information Security certification projects",
+      "provider": "freeCodeCamp",
+      "type": "Certification projects",
+      "topic": "Security controls / Testing",
+      "level": "Intermediate",
+      "description": "Free project-based information security curriculum with practical security exercises. Technical security rather than GRC-specific.",
+      "url": "https://www.freecodecamp.org/learn/information-security/",
+      "access": "Free course and projects",
+      "sequence": 2
+    },
+    {
+      "id": "fcc-mcp-security",
+      "title": "MCP Security Fundamentals: AI governance",
+      "provider": "freeCodeCamp",
+      "type": "Free course",
+      "topic": "AI governance / ISO 42001",
+      "level": "Intermediate",
+      "description": "Free two-hour course on MCP security risks, governance, NIST AI RMF, ISO 42001 and the EU AI Act. Learning resource, not a guided portfolio project.",
+      "url": "https://www.freecodecamp.org/news/learn-model-context-protocol-mcp-security/",
+      "access": "Free course",
+      "sequence": 3
+    },
+    {
+      "id": "fcc-pci-api",
+      "title": "API Security for PCI DSS 4.0",
+      "provider": "freeCodeCamp",
+      "type": "Free course",
+      "topic": "PCI DSS / Security controls",
+      "level": "Intermediate",
+      "description": "Free course on API risks and PCI DSS 4.0 requirements. Useful background for compliance and control assessment, not a guided portfolio project.",
+      "url": "https://www.freecodecamp.org/news/api-security-for-pci-compliance",
+      "access": "Free course",
+      "sequence": 4
+    },
+    {
+      "id": "fcc-sc900",
+      "title": "Microsoft Security, Compliance and Identity Fundamentals (SC-900)",
+      "provider": "freeCodeCamp",
+      "type": "Free course",
+      "topic": "Compliance / Identity",
+      "level": "Beginner",
+      "description": "Free exam-preparation course covering Zero Trust, Microsoft compliance, data governance and identity. The certification exam itself is not free.",
+      "url": "https://www.freecodecamp.org/news/microsoft-security-compliance-certification-sc-900",
+      "access": "Free course, exam separate",
+      "sequence": 5
+    },
+    {
+      "id": "boot-web-security",
+      "title": "Learn Web Security in TypeScript",
+      "provider": "Boot.dev",
+      "type": "Technical course",
+      "topic": "Security controls / SDLC",
+      "level": "Intermediate",
+      "description": "Web security course covering authentication, authorization, secure storage and incident response. Free read-only lessons and limited interactive trial; full interactive work requires paid membership.",
+      "url": "https://www.boot.dev/courses/learn-web-security-typescript",
+      "access": "Free reading, paid interactive exercises",
+      "sequence": 1
+    },
+    {
+      "id": "boot-devops",
+      "title": "DevOps path: security, CI/CD and cloud controls",
+      "provider": "Boot.dev",
+      "type": "Technical learning path",
+      "topic": "DevSecOps / Cloud",
+      "level": "Intermediate",
+      "description": "Technical DevOps pathway with CI/CD, Kubernetes and web security. Relevant to understanding control implementation; full interactive work requires paid membership.",
+      "url": "https://www.boot.dev/paths/devops?tech=python-golang",
+      "access": "Free reading, paid interactive exercises",
+      "sequence": 2
     }
   ]
 }
