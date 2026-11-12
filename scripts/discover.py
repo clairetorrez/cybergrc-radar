@@ -325,10 +325,13 @@ def main():
         try:
             past=json.loads(OUTPUT.read_text(encoding="utf-8"))
             prior={x["id"]:x for x in past.get("leads",[])
-                   if x.get("id") and x.get("fingerprint") and
-                   (not is_apprenticeship_source(x) or
-                    apprenticeship_application(x.get("title",""),x.get("url",""),
-                                               x.get("evidence",""),x.get("source","")))}
+                   if x.get("id") and (
+                       (x.get("fingerprint") and
+                        (not is_apprenticeship_source(x) or
+                         apprenticeship_application(x.get("title",""),x.get("url",""),
+                                                    x.get("evidence",""),x.get("source",""))))
+                       or x.get("group") in ("Research intake","Employer and program research")
+                   )}
         except (ValueError,TypeError):pass
     original_ids=set(prior)
     discovered=[];health=[];todo=[]
@@ -368,7 +371,9 @@ def main():
     items=[]
     for lead in prior.values():
         if lead.get("lastSeen","")< (TODAY-dt.timedelta(days=stale)).isoformat():continue
-        if lead.get("id") not in current_ids and lead.get("status") not in ("expired","needs_recheck"):
+        if (lead.get("id") not in current_ids
+                and lead.get("group") not in ("Research intake","Employer and program research")
+                and lead.get("status") not in ("expired","needs_recheck")):
             lead["status"]="not_seen_today"
         items.append(lead)
     items.sort(key=lambda x:(x.get("status")!="expired",x.get("score",0),x.get("lastSeen","")),reverse=True)
