@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "lastChecked": "2026-11-14",
+  "events": [
+    {
+      "id": "sans-cyber-solutions-fest-2026",
+      "title": "SANS Fall Cyber Solutions Fest 2026",
+      "provider": "SANS Institute",
+      "category": "Security training",
+      "kind": "Event",
+      "price": "Free registration",
+      "discount": "",
+      "description": "Free virtual cybersecurity sessions covering identity security, Zero Trust, emerging technology and security operations. Event registration is free; this is not a free certification exam.",
+      "eligibility": "Online registration required. CPE eligibility depends on session participation and provider terms.",
+      "startDate": "2026-11-17",
+      "deadline": "2026-11-19",
+      "dateLabel": "Nov 17–19, 2026",
+      "frameworks": [
+        "GRC",
+        "Security operations"
+      ],
+      "tags": [
+        "Virtual event",
+        "Free registration",
+        "CPE eligible"
+      ],
+      "source": "https://www.sans.org/mlp/cyber-solutions-fest",
+      "verifiedOn": "2026-11-14",
+      "featured": false,
+      "score": 90
+    }
+  ]
+}
