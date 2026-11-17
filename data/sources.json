@@ -520,6 +520,30 @@
       "url": "https://learn.mastermindassurance.com/",
       "group": "GRC and ISO",
       "mode": "watch"
+    },
+    {
+      "name": "Pearson VUE Exam Retake Offers",
+      "url": "https://www.pearsonvue.com/us/en/test-takers/free-retake.html",
+      "group": "Security certifications",
+      "mode": "watch"
+    },
+    {
+      "name": "ISA Black Friday Training Offers",
+      "url": "https://programs.isa.org/blackfriday26",
+      "group": "OT security",
+      "mode": "watch"
+    },
+    {
+      "name": "Practical DevSecOps Black Friday",
+      "url": "https://www.practical-devsecops.com/black-friday-sale-2026/",
+      "group": "AI security and DevSecOps",
+      "mode": "watch"
+    },
+    {
+      "name": "Microsoft Student Certification Discounts",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/student-discounts",
+      "group": "Student discounts",
+      "mode": "watch"
     }
   ],
   "curation": {

@@ -25,7 +25,7 @@ jobs:
           persist-credentials: true
       - name: Validate pipeline scripts and homepage JavaScript
         run: |
-          python3 -m py_compile scripts/discover.py scripts/merge_research.py scripts/auto_publish.py scripts/revalidate.py scripts/update_news.py scripts/update_events.py
+          python3 -m py_compile scripts/discover.py scripts/merge_research.py scripts/auto_publish.py scripts/revalidate.py scripts/update_news.py scripts/update_events.py scripts/check_deal_coverage.py
           python3 - <<'PY'
           from pathlib import Path
           import re
@@ -42,6 +42,8 @@ jobs:
         run: python3 scripts/merge_research.py
       - name: Promote clearly supported offers automatically
         run: python3 scripts/auto_publish.py
+      - name: Check deal coverage and official-source monitoring
+        run: python3 scripts/check_deal_coverage.py
       - name: Recheck published offers for drift or expiration
         run: python3 scripts/revalidate.py
       - name: Refresh upcoming official events
@@ -69,6 +71,7 @@ jobs:
                 python3 scripts/discover.py
                 python3 scripts/merge_research.py
                 python3 scripts/auto_publish.py
+                python3 scripts/check_deal_coverage.py
                 python3 scripts/revalidate.py
                 python3 scripts/update_news.py
                 python3 scripts/update_events.py
