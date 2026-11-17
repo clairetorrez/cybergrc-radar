@@ -1,7 +1,127 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-11T22:41:46Z",
-  "offers": [],
+  "lastChecked": "2026-11-16T23:00:00Z",
+  "offers": [
+    {
+      "id": "curated-pearson-retake-2026",
+      "title": "Pearson VUE free retake and eligible AWS exam discount",
+      "provider": "Pearson VUE",
+      "category": "Cloud security",
+      "kind": "Discount",
+      "price": "50% off eligible AWS first attempts; eligible free retake",
+      "discount": "50% off eligible AWS exams",
+      "description": "Opt in for the promotion. Participating AWS exams receive 50% off an initial attempt; qualifying programs offer a free retake after an unsuccessful first attempt. Check exclusions and code terms.",
+      "eligibility": "Opt in and complete first exam by Nov 17, 2026. Eligible certification programs and exclusions apply. Retakes Jan 4–Apr 7, 2027.",
+      "deadline": "2026-11-17",
+      "dateLabel": "First attempt by Nov 17, 2026",
+      "frameworks": [
+        "AWS",
+        "Cloud security"
+      ],
+      "tags": [
+        "Certification exam",
+        "Free retake",
+        "Limited time"
+      ],
+      "source": "https://www.pearsonvue.com/us/en/test-takers/free-retake.html",
+      "verifiedOn": "2026-11-16",
+      "reviewStatus": "curated_official_offer",
+      "verificationMethod": "official_provider_terms_review",
+      "publicationStatus": "active",
+      "featured": true,
+      "score": 95
+    },
+    {
+      "id": "curated-isa-black-friday-2026",
+      "title": "ISA Black Friday: 25% off eligible OT security training and standards",
+      "provider": "International Society of Automation",
+      "category": "Security training",
+      "kind": "Discount",
+      "price": "25% off eligible training and standards",
+      "discount": "25% off",
+      "description": "Code BFCM26 for eligible ISA training and ISA/IEC 62443 standards. Certification exams and study guides excluded. ISA members may receive additional member savings.",
+      "eligibility": "Nov 17–30, 2026; eligible products only. Code BFCM26. Not a free certification exam.",
+      "deadline": "2026-11-30",
+      "startDate": "2026-11-17",
+      "dateLabel": "Nov 17–30, 2026",
+      "frameworks": [
+        "ISA/IEC 62443",
+        "OT security"
+      ],
+      "tags": [
+        "Training discount",
+        "Standards",
+        "Exam excluded"
+      ],
+      "source": "https://programs.isa.org/blackfriday26",
+      "verifiedOn": "2026-11-16",
+      "reviewStatus": "curated_official_offer",
+      "verificationMethod": "official_provider_terms_review",
+      "publicationStatus": "active",
+      "featured": true,
+      "score": 95
+    },
+    {
+      "id": "curated-practical-devsecops-2026",
+      "title": "Practical DevSecOps Black Friday certification program sale",
+      "provider": "Practical DevSecOps",
+      "category": "AI governance and cloud security",
+      "kind": "Discount",
+      "price": "15% off eligible certification programs",
+      "discount": "15% off",
+      "description": "Discounted training and certification programs, including DevSecOps and AI security. Bundles advertise savings up to $600. Sale prices applied automatically; not a free exam.",
+      "eligibility": "Eligible programs and bundles; offer ends Nov 30, 2026 midnight Eastern. Verify checkout pricing.",
+      "deadline": "2026-11-30",
+      "dateLabel": "Ends Nov 30, 2026",
+      "frameworks": [
+        "DevSecOps",
+        "AI security"
+      ],
+      "tags": [
+        "Certification program",
+        "Training bundle",
+        "Limited time"
+      ],
+      "source": "https://www.practical-devsecops.com/black-friday-sale-2026/",
+      "verifiedOn": "2026-11-16",
+      "reviewStatus": "curated_official_offer",
+      "verificationMethod": "official_provider_terms_review",
+      "publicationStatus": "active",
+      "featured": true,
+      "score": 95
+    },
+    {
+      "id": "curated-csa-cyber-monday-2026",
+      "title": "CSA Cyber Monday: 50% off eligible training and exam tokens",
+      "provider": "Cloud Security Alliance",
+      "category": "Cloud security and AI governance",
+      "kind": "Discount",
+      "price": "50% off eligible online training and exam tokens",
+      "discount": "50% off",
+      "description": "Cyber Monday discount for eligible CSA cloud, Zero Trust and AI security online training and certificate exam tokens. Join the official waitlist to receive the promotional code.",
+      "eligibility": "November 30, 2026 only. Waitlist/code and eligible products required. Paid exam at discount, not a free exam.",
+      "deadline": "2026-11-30",
+      "startDate": "2026-11-30",
+      "dateLabel": "Nov 30, 2026 only",
+      "frameworks": [
+        "Cloud security",
+        "Zero Trust",
+        "AI governance"
+      ],
+      "tags": [
+        "Certification exam",
+        "Waitlist",
+        "Limited time"
+      ],
+      "source": "https://cloudsecurityalliance.org/p/cyber-monday-2026",
+      "verifiedOn": "2026-11-16",
+      "reviewStatus": "curated_official_offer",
+      "verificationMethod": "official_provider_terms_review",
+      "publicationStatus": "active",
+      "featured": true,
+      "score": 95
+    }
+  ],
   "inactive": [],
   "automation": {
     "enabled": true,
