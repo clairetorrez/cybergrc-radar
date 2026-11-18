@@ -25,7 +25,7 @@ jobs:
           persist-credentials: true
       - name: Validate pipeline scripts and homepage JavaScript
         run: |
-          python3 -m py_compile scripts/discover.py scripts/merge_research.py scripts/auto_publish.py scripts/revalidate.py scripts/update_news.py scripts/update_events.py scripts/check_deal_coverage.py
+          python3 -m py_compile scripts/discover.py scripts/merge_research.py scripts/auto_publish.py scripts/revalidate.py scripts/update_news.py scripts/update_events.py scripts/check_deal_coverage.py scripts/update_black_friday.py
           python3 - <<'PY'
           from pathlib import Path
           import re
@@ -36,6 +36,7 @@ jobs:
           Path("/tmp/cybergrc-inline.js").write_text("\\n".join(scripts), encoding="utf-8")
           PY
           node --check /tmp/cybergrc-inline.js
+          node --check black-friday.js
       - name: Collect opportunity leads
         run: python3 scripts/discover.py
       - name: Merge researched leads into review queue
@@ -46,6 +47,8 @@ jobs:
         run: python3 scripts/check_deal_coverage.py
       - name: Recheck published offers for drift or expiration
         run: python3 scripts/revalidate.py
+      - name: Refresh the seasonal Black Friday catalog
+        run: python3 scripts/update_black_friday.py
       - name: Refresh upcoming official events
         run: python3 scripts/update_events.py
       - name: Refresh GRC news from official and industry RSS feeds
@@ -54,7 +57,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/discovery.json data/revalidation.json data/approved.json data/auto_decisions.json data/grc_news.json data/events.json
+          git add data/discovery.json data/revalidation.json data/approved.json data/auto_decisions.json data/grc_news.json data/events.json data/black-friday-2026.json
           if git diff --cached --quiet; then
             echo "No discovery changes to publish"
           else
@@ -75,7 +78,8 @@ jobs:
                 python3 scripts/revalidate.py
                 python3 scripts/update_news.py
                 python3 scripts/update_events.py
-                git add data/discovery.json data/revalidation.json data/approved.json data/auto_decisions.json data/events.json data/grc_news.json
+                python3 scripts/update_black_friday.py
+                git add data/discovery.json data/revalidation.json data/approved.json data/auto_decisions.json data/events.json data/grc_news.json data/black-friday-2026.json
                 if git diff --cached --quiet; then
                   exit 0
                 fi

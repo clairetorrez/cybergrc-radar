@@ -1,0 +1,530 @@
+{
+  "source": "https://github.com/v3nomtech/infosec-cert-black-friday-2026",
+  "offers": [
+    {
+      "id": "black-friday-2026-21bd814a532230",
+      "provider": "Blu Raven Academy",
+      "title": "KQL, threat hunting & detection engineering courses",
+      "category": "Training & courses",
+      "price": "Up to 40% off (most courses 40%, Advanced Threat Hunting 25%)",
+      "code": "BFCM25",
+      "details": "Vendor shows a countdown but no end date (community lists say Nov 30).",
+      "frameworks": [],
+      "source": "https://academy.bluraven.io/black-friday-2026",
+      "evidence": "https://academy.bluraven.io/black-friday-2026",
+      "verifiedOn": "2026-11-16",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": null
+    },
+    {
+      "id": "black-friday-2026-decb93cf2587b6",
+      "provider": "Blue Cape Security",
+      "title": "HERO incident-response training bundle (\"Black Friday price lock\")",
+      "category": "Training & courses",
+      "price": "$700 off — $2,197 → $1,497",
+      "code": "",
+      "details": "Price returns to $2,197 on Dec 1. Analyst II track is also $997 until Nov 30 ($1,197 from Dec 1).",
+      "frameworks": [],
+      "source": "https://bluecapesecurity.com/training-tracks/",
+      "evidence": "https://bluecapesecurity.com/training-tracks/",
+      "verifiedOn": "2026-11-16",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": "2026-11-30"
+    },
+    {
+      "id": "black-friday-2026-4f641e6f03bdc6",
+      "provider": "CyberWarFare Labs",
+      "title": "40+ red/blue/cloud/AI-security certification courses + themed bundles",
+      "category": "Certifications & exams",
+      "price": "Up to 91% off — most courses $9, cloud red team $49, bundles $29–$149",
+      "code": "",
+      "details": "No code needed for bundles/courses. Extra 10% off carts ≥ $99 and 20% off ≥ $149 (code required). Premium Membership $1,999 → $1,499, All Access $1,799 → $999 (code given at checkout). End date not published.",
+      "frameworks": [
+        "CRTA",
+        "AI-RTA",
+        "MCRTA",
+        "CRTS v2",
+        "CARTS",
+        "AzRTS",
+        "GCRTS",
+        "CCDA",
+        "CTIA"
+      ],
+      "source": "https://cyberwarfare.live/bundles",
+      "evidence": "https://github.com/RedTeamOperations/black-friday-cyber-sale-2025",
+      "verifiedOn": "2026-11-16",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": null
+    },
+    {
+      "id": "black-friday-2026-8630bcaf65fe1a",
+      "provider": "CyberWarFare Labs",
+      "title": "CWL Cyber Infinity — yearly access (incl. CRTA & AI-RTA) or monthly access",
+      "category": "Labs & platforms",
+      "price": "Yearly $99 → $49 · Monthly $9 → $5",
+      "code": "INFINITY49 / INFINITY5",
+      "details": "INFINITY49 = yearly, INFINITY5 = monthly. End date not published.",
+      "frameworks": [
+        "CRTA",
+        "AI-RTA"
+      ],
+      "source": "https://cyberwarfare.live/cwl-cyber-infinity",
+      "evidence": "https://github.com/RedTeamOperations/black-friday-cyber-sale-2025",
+      "verifiedOn": "2026-11-16",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": null
+    },
+    {
+      "id": "black-friday-2026-7b12033311be0b",
+      "provider": "HackTricks Training",
+      "title": "Cloud red team course bundles (AWS / GCP / Azure)",
+      "category": "Certifications & exams",
+      "price": "Extra 10% off bundles on top of the 25% bundle discount (e.g. €4,396 → €2,857)",
+      "code": "",
+      "details": "Prices in EUR. End date not published. Community lists also report 20% off single courses and 15% off labs & exams — not shown on the vendor site.",
+      "frameworks": [
+        "ARTE",
+        "ARTA",
+        "GRTE",
+        "GRTA",
+        "AzRTE",
+        "AzRTA"
+      ],
+      "source": "https://hacktricks-training.com/bundles/",
+      "evidence": "https://hacktricks-training.com/bundles/",
+      "verifiedOn": "2026-11-16",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": null
+    },
+    {
+      "id": "black-friday-2026-86b57b5b9545f5",
+      "provider": "Just Hacking Training",
+      "title": "Everything — courses, paths, CTFs",
+      "category": "Training & courses",
+      "price": "25% off",
+      "code": "BFF25",
+      "details": "",
+      "frameworks": [],
+      "source": "https://www.justhacking.com/deals/",
+      "evidence": "https://www.justhacking.com/deals/",
+      "verifiedOn": "2026-11-16",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": "2026-11-30"
+    },
+    {
+      "id": "black-friday-2026-f9a304a041d7b7",
+      "provider": "LabEx",
+      "title": "LabEx Pro (Linux, cybersecurity, DevOps hands-on labs)",
+      "category": "Labs & platforms",
+      "price": "Pro 1 yr $99 → $69.90 (30% off) · Pro 2 yr $199 → $99.90 (50% off)",
+      "code": "2026BF30 / 2026BF50",
+      "details": "2026BF30 = 1-year plan, 2026BF50 = 2-year plan. End date not published (community lists say Dec 7).",
+      "frameworks": [],
+      "source": "https://labex.io/pricing",
+      "evidence": "https://labex.io/pricing",
+      "verifiedOn": "2026-11-16",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": null
+    },
+    {
+      "id": "black-friday-2026-2c46546d03559b",
+      "provider": "MalDev Academy",
+      "title": "Malware development courses",
+      "category": "Training & courses",
+      "price": "25% off",
+      "code": "BLKFRIDAY25",
+      "details": "Sale is live on maldevacademy.com. The code and end date come from a community list (the site blocks automated checks) — confirm at checkout.",
+      "frameworks": [],
+      "source": "https://maldevacademy.com/",
+      "evidence": "https://maldevacademy.com/",
+      "verifiedOn": "2026-11-16",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": "2026-11-30"
+    },
+    {
+      "id": "black-friday-2026-8078cd29cb38ad",
+      "provider": "Modern Security",
+      "title": "AI Security Certification",
+      "category": "Certifications & exams",
+      "price": "20% off",
+      "code": "msec-bf20",
+      "details": "Reported by a sponsored blog listing; not shown on the vendor's course page. Unconfirmed — check at checkout.",
+      "frameworks": [],
+      "source": "https://www.modernsecurity.io/courses/ai-security-certification",
+      "evidence": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "verifiedOn": "2026-11-16",
+      "verification": "reported",
+      "startDate": null,
+      "deadline": null
+    },
+    {
+      "id": "black-friday-2026-80493697fff103",
+      "provider": "OffSec",
+      "title": "Learn One annual subscription (one 200/300-level course + labs + 2 exam attempts)",
+      "category": "Certifications & exams",
+      "price": "$550 off (20%) — $2,749 → $2,199/year",
+      "code": "",
+      "details": "\"Level 20\" anniversary promo, auto-applied. Ends Jan 4, 23:59 EST. New and existing individual learners only (not org admins). Learn One only — Course + Cert Bundle ($1,749) and CyberCore ($899) are full price.",
+      "frameworks": [
+        "OSCP+",
+        "OSEP",
+        "OSWE",
+        "OSED",
+        "OSWA",
+        "OSDA",
+        "OSTH",
+        "OSIR"
+      ],
+      "source": "https://www.offsec.com/products/learn-one/",
+      "evidence": "https://help.offsec.com/hc/en-us/articles/55136186629780-Learn-One-Annual-2026-Promotion-FAQ",
+      "verifiedOn": "2026-11-16",
+      "verification": "vendor",
+      "startDate": "2026-11-02",
+      "deadline": "2027-01-04"
+    },
+    {
+      "id": "black-friday-2026-f9526b27531e3e",
+      "provider": "OnlySecurity",
+      "title": "Paid courses, first month/year of Plus or Max, All Access pass",
+      "category": "Training & courses",
+      "price": "15% off",
+      "code": "",
+      "details": "Auto-applied. Nov 23 00:00 – Nov 30 23:59 UK time. Courses already on sale keep their sale price. Excludes bundles, team plans, private training, trainer passes, plan changes, renewals.",
+      "frameworks": [],
+      "source": "https://onlysecurity.com/black-friday/",
+      "evidence": "https://onlysecurity.com/black-friday/",
+      "verifiedOn": "2026-11-16",
+      "verification": "vendor",
+      "startDate": "2026-11-23",
+      "deadline": "2026-11-30",
+      "startAt": "2026-11-23T00:00:00Z",
+      "endAt": "2026-12-01T00:00:00Z"
+    },
+    {
+      "id": "black-friday-2026-37ed3a1b9cb128",
+      "provider": "Practical DevSecOps",
+      "title": "All certifications + 2/3-cert bundles (DevSecOps, AI/MCP security, cloud-native, API, threat modelling, supply chain)",
+      "category": "Certifications & exams",
+      "price": "15% off every cert (e.g. CDP $899 → $764.15), up to $600 off bundles",
+      "code": "",
+      "details": "Auto-applied. Ends Nov 30, midnight EST. Buy now and start the course whenever you want.",
+      "frameworks": [
+        "CDP",
+        "CDE",
+        "CCSE",
+        "CCNSE",
+        "CAISP",
+        "CMCPSE",
+        "CAASE",
+        "CTMP",
+        "CASP",
+        "CSSE",
+        "CSC"
+      ],
+      "source": "https://www.practical-devsecops.com/black-friday-sale-2026/",
+      "evidence": "https://www.practical-devsecops.com/black-friday-sale-2026/",
+      "verifiedOn": "2026-11-16",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": "2026-11-30"
+    },
+    {
+      "id": "black-friday-2026-29c8304a9d963c",
+      "provider": "Practical Networking",
+      "title": "Practical TLS course",
+      "category": "Training & courses",
+      "price": "83% off — $297 → $50",
+      "code": "BF2026TLS",
+      "details": "Not mentioned on the vendor site; course page and checkout show $297 before a code is applied. Unconfirmed — check at checkout (community lists say ends Dec 6).",
+      "frameworks": [],
+      "source": "https://classes.pracnet.net/courses/practical-tls",
+      "evidence": "https://github.com/ps-lo/InfoSec-and-Tech-Black-Friday",
+      "verifiedOn": "2026-11-16",
+      "verification": "reported",
+      "startDate": null,
+      "deadline": null
+    },
+    {
+      "id": "black-friday-2026-b1f536dec8de72",
+      "provider": "pwn.guide",
+      "title": "Every plan incl. Lifetime — discount stays on renewals",
+      "category": "Training & courses",
+      "price": "20% off forever",
+      "code": "BLKFRI20",
+      "details": "Card checkout only.",
+      "frameworks": [],
+      "source": "https://pwn.guide/pricing",
+      "evidence": "https://pwn.guide/pricing",
+      "verifiedOn": "2026-11-16",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": "2026-12-05"
+    },
+    {
+      "id": "black-friday-2026-d0452d0347aa30",
+      "provider": "RedTeamLeaders",
+      "title": "Hacking labs and certifications",
+      "category": "Certifications & exams",
+      "price": "50% off",
+      "code": "BLACKFRIDAY50",
+      "details": "Prices in BRL (R$). End date not published (community lists say Nov 30).",
+      "frameworks": [],
+      "source": "https://courses.redteamleaders.com/catalog",
+      "evidence": "https://courses.redteamleaders.com/catalog",
+      "verifiedOn": "2026-11-16",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": null
+    },
+    {
+      "id": "black-friday-2026-20b0b88218b77e",
+      "provider": "The SecOps Group (PentestingExams)",
+      "title": "All pentesting certification exams",
+      "category": "Certifications & exams",
+      "price": "90% off — $330 exams → $33, $528 exams → $53",
+      "code": "BF-90",
+      "details": "End date not published.",
+      "frameworks": [
+        "CAPen",
+        "CNPen",
+        "C-APIPen",
+        "CAPenX",
+        "CRTeamerX",
+        "C-ADPenX",
+        "CCPenX-AWS"
+      ],
+      "source": "https://pentestingexams.com/offer",
+      "evidence": "https://pentestingexams.com/offer",
+      "verifiedOn": "2026-11-16",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": null
+    },
+    {
+      "id": "black-friday-2026-eef4dcc51ed12f",
+      "provider": "TheXero Training Academy",
+      "title": "Wireless Operator (Wi-Fi pentesting) course — founding-member price",
+      "category": "Training & courses",
+      "price": "67% off — $599 → $197",
+      "code": "",
+      "details": "",
+      "frameworks": [],
+      "source": "https://training.thexero.co.uk/blackfriday",
+      "evidence": "https://training.thexero.co.uk/blackfriday",
+      "verifiedOn": "2026-11-16",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": "2026-12-01"
+    },
+    {
+      "id": "black-friday-2026-c05263850b38ee",
+      "provider": "TrainSec",
+      "title": "Most individual courses — malware analysis, EDR internals, Windows internals, hardware hacking, detection engineering",
+      "category": "Training & courses",
+      "price": "40% off",
+      "code": "BF2026",
+      "details": "November 2026 only. Excludes live events, learning paths, bundles and subscriptions.",
+      "frameworks": [],
+      "source": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "evidence": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "verifiedOn": "2026-11-16",
+      "verification": "vendor",
+      "startDate": "2026-11-01",
+      "deadline": "2026-11-30"
+    },
+    {
+      "id": "black-friday-2026-8284a4091dea35",
+      "provider": "VantagePoint",
+      "title": "All hacking labs and certifications",
+      "category": "Certifications & exams",
+      "price": "70% off",
+      "code": "",
+      "details": "No code needed. Vendor doesn't publish an end date (blogs report Nov 30 or Dec 15).",
+      "frameworks": [],
+      "source": "https://vantagepoint.enciphers.com/",
+      "evidence": "https://vantagepoint.enciphers.com/",
+      "verifiedOn": "2026-11-16",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": null
+    },
+    {
+      "id": "black-friday-2026-de2c794a8ae765",
+      "provider": "White Knight Labs",
+      "title": "Certification courses, individual Academy classes, 6- and 12-month Academy passes",
+      "category": "Certifications & exams",
+      "price": "50% off",
+      "code": "WKLBLACKFRIDAY26",
+      "details": "Month-to-month Academy not included. Vendor banner also promises deeper discounts on course bundles and live-training upgrades.",
+      "frameworks": [
+        "ARTOC",
+        "ODPC",
+        "OAOTC",
+        "ELPT"
+      ],
+      "source": "https://training.whiteknightlabs.com/",
+      "evidence": "https://whiteknightlabs.com/",
+      "verifiedOn": "2026-11-16",
+      "verification": "vendor",
+      "startDate": "2026-11-27",
+      "deadline": "2026-12-18"
+    }
+  ],
+  "watchlist": [
+    {
+      "provider": "8kSec",
+      "source": "https://academy.8ksec.io/",
+      "certs": []
+    },
+    {
+      "provider": "Altered Security",
+      "source": "https://www.alteredsecurity.com/",
+      "certs": [
+        "CRTP",
+        "CRTE",
+        "CARTP",
+        "CARTE",
+        "CRTM"
+      ]
+    },
+    {
+      "provider": "Centri (formerly Security Blue Team)",
+      "source": "https://www.centri.org/",
+      "certs": [
+        "BTL1",
+        "BTL2"
+      ]
+    },
+    {
+      "provider": "CompTIA",
+      "source": "https://www.comptia.org/en-us/certifications/",
+      "certs": [
+        "Security+",
+        "CySA+",
+        "PenTest+",
+        "SecurityX",
+        "Network+"
+      ]
+    },
+    {
+      "provider": "CyberDefenders",
+      "source": "https://cyberdefenders.org/",
+      "certs": [
+        "CCD"
+      ]
+    },
+    {
+      "provider": "Cybrary",
+      "source": "https://www.cybrary.it/",
+      "certs": []
+    },
+    {
+      "provider": "EC-Council",
+      "source": "https://www.eccouncil.org/",
+      "certs": [
+        "CEH",
+        "CHFI",
+        "CND",
+        "CPENT"
+      ]
+    },
+    {
+      "provider": "Hack The Box",
+      "source": "https://www.hackthebox.com/",
+      "certs": [
+        "CPTS",
+        "CBBH",
+        "CDSA",
+        "CWEE",
+        "CAPE"
+      ]
+    },
+    {
+      "provider": "INE Security",
+      "source": "https://ine.com/security",
+      "certs": [
+        "eJPT",
+        "eCPPT",
+        "eWPT",
+        "eCIR",
+        "ICCA"
+      ]
+    },
+    {
+      "provider": "ISACA",
+      "source": "https://www.isaca.org/",
+      "certs": [
+        "CISM",
+        "CISA",
+        "CRISC",
+        "CGEIT"
+      ]
+    },
+    {
+      "provider": "ISC2",
+      "source": "https://www.isc2.org/",
+      "certs": [
+        "CISSP",
+        "CCSP",
+        "SSCP",
+        "CC"
+      ]
+    },
+    {
+      "provider": "LetsDefend",
+      "source": "https://app.letsdefend.io/pricing",
+      "certs": []
+    },
+    {
+      "provider": "SANS / GIAC",
+      "source": "https://www.sans.org/specials/",
+      "certs": [
+        "GSEC",
+        "GCIH",
+        "GPEN",
+        "GCFA"
+      ]
+    },
+    {
+      "provider": "SEKTOR7",
+      "source": "https://institute.sektor7.net/",
+      "certs": []
+    },
+    {
+      "provider": "TCM Security",
+      "source": "https://certifications.tcm-sec.com/",
+      "certs": [
+        "PNPT",
+        "PJPT",
+        "PMPA",
+        "PSAA",
+        "PWPA",
+        "PMRP"
+      ]
+    },
+    {
+      "provider": "TryHackMe",
+      "source": "https://tryhackme.com/",
+      "certs": [
+        "SAL1",
+        "PT1"
+      ]
+    },
+    {
+      "provider": "Zero-Point Security",
+      "source": "https://www.zeropointsecurity.co.uk/",
+      "certs": [
+        "CRTO",
+        "CRTL"
+      ]
+    }
+  ]
+}

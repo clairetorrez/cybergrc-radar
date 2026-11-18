@@ -1,0 +1,17 @@
+.black-friday-band{max-width:1198px;margin:20px auto 0;padding:11px 17px;display:flex;justify-content:space-between;align-items:center;gap:12px;border-radius:12px;background:#302845;color:#fbf6fc;border:1px solid #504165}
+.black-friday-band[hidden],.black-friday-notes[hidden],#tabs [hidden]{display:none}
+.black-friday-band-copy{display:flex;align-items:center;gap:7px 13px;flex-wrap:wrap}
+.black-friday-band strong{color:#e8f998;font-size:14px}
+.black-friday-band span{font-size:13px;color:#efdfef}
+.black-friday-band a{flex:none;background:#e8f998;border-radius:7px;padding:8px 12px;color:#302845;font-weight:800;font-size:13px}
+.black-friday-band a:hover{background:#f5ffc6}
+.black-friday-notes{margin:16px 0 0;color:#514761}
+.black-friday-notes p{margin:10px 0;font-size:13px;line-height:1.5}
+.black-friday-notes details{background:#f8f3ec;border:1px solid #ddd3df;border-radius:8px;padding:10px 13px;margin:8px 0}
+.black-friday-notes summary{cursor:pointer;font-weight:700}
+.black-friday-notes ul{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:9px 20px;margin:12px 0 0;padding:0 0 0 20px}
+.black-friday-notes a,.seasonal-evidence{text-decoration:underline;text-underline-offset:.15em}
+.seasonal-code{background:#ece6f6;color:#4c3465;border-radius:4px;padding:4px 6px;font-size:11px;font-weight:700;overflow-wrap:anywhere}
+.seasonal-terms{font-size:11px;color:#52667a}
+@media(max-width:1240px){.black-friday-band{margin-left:24px;margin-right:24px}}
+@media(max-width:650px){.black-friday-band{margin:13px 13px 0;padding:10px 11px}.black-friday-band-copy{gap:3px;flex-direction:column;align-items:flex-start}.black-friday-band span{font-size:12px}}

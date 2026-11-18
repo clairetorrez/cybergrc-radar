@@ -16,6 +16,8 @@ CyberGRC Radar automatically searches selected official provider pages every day
 
 The normal schedule is 8:17 AM Pacific. GitHub may delay scheduled jobs.
 
+The 2026 Black Friday collection also refreshes from the [v3nomtech CC0 deal feed](https://github.com/v3nomtech/infosec-cert-black-friday-2026) during the daily workflow. Entries marked vendor-confirmed join the catalog without duplicating Radar listings. Community reports and vendors with no announced sale appear separately in the collection. The home page band ends after Cyber Monday, and listings with later published deadlines remain available. Deals with no end date leave the active catalog after Cyber Monday without implying the vendor ended the sale.
+
 ## Files
 
 - `index.html`: frontend, search, filters and Best Deals Today section.
