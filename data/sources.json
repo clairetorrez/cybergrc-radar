@@ -544,6 +544,48 @@
       "url": "https://learn.microsoft.com/en-us/credentials/certifications/student-discounts",
       "group": "Student discounts",
       "mode": "watch"
+    },
+    {
+      "name": "Red Team Leaders CGRCP exam",
+      "url": "https://courses.redteamleaders.com/exams/ae6b1707-9deb-4c65-a7be-987883cdf0fd",
+      "group": "IT audit and GRC",
+      "mode": "watch"
+    },
+    {
+      "name": "Red Team Leaders CTIGA exam",
+      "url": "https://courses.redteamleaders.com/exams/92f9ada1-f557-450f-a21f-8ae56c42bb0f",
+      "group": "IT audit and GRC",
+      "mode": "watch"
+    },
+    {
+      "name": "Red Team Leaders CLLMSP exam",
+      "url": "https://courses.redteamleaders.com/exams/21f669cb-8f17-4d18-8a7c-a34c055aee85",
+      "group": "AI governance",
+      "mode": "watch"
+    },
+    {
+      "name": "Red Team Leaders CLLMSE exam",
+      "url": "https://courses.redteamleaders.com/exams/73c286aa-2944-4f26-82ba-0ca14a05a4b7",
+      "group": "AI governance",
+      "mode": "watch"
+    },
+    {
+      "name": "Red Team Leaders CCEP exam",
+      "url": "https://courses.redteamleaders.com/exams/b442ad36-44fe-4b6f-99f5-fd6f7ddbb4b4",
+      "group": "Security certifications",
+      "mode": "watch"
+    },
+    {
+      "name": "Red Team Leaders CNSF exam",
+      "url": "https://courses.redteamleaders.com/exams/2be49538-14af-417b-9ac6-c68d84d23955",
+      "group": "Security certifications",
+      "mode": "watch"
+    },
+    {
+      "name": "Red Team Leaders CSCRB exam",
+      "url": "https://courses.redteamleaders.com/exams/24a0c3a8-4bb0-458a-90da-4d62d11ef831",
+      "group": "Security certifications",
+      "mode": "watch"
     }
   ],
   "curation": {

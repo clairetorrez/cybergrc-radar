@@ -120,6 +120,215 @@
       "publicationStatus": "active",
       "featured": true,
       "score": 95
+    },
+    {
+      "id": "curated-red-team-leaders-cgrcp-nov-2026",
+      "title": "Certified GRC Professional (CGRCP)",
+      "provider": "Red Team Leaders",
+      "category": "IT audit and GRC",
+      "kind": "Free exam",
+      "price": "$0 exam with NEXTSTEP100",
+      "discount": "100% off",
+      "code": "NEXTSTEP100",
+      "description": "Covers governance, risk management, and compliance fundamentals.",
+      "eligibility": "Enter NEXTSTEP100 at checkout for 100% off this certification exam through November 30, 2026.",
+      "deadline": "2026-11-30",
+      "dateLabel": "Ends Nov 30, 2026",
+      "frameworks": [
+        "Governance",
+        "Risk management",
+        "Compliance"
+      ],
+      "tags": [
+        "Certification exam",
+        "Coupon",
+        "Limited time"
+      ],
+      "source": "https://courses.redteamleaders.com/exams/ae6b1707-9deb-4c65-a7be-987883cdf0fd",
+      "verifiedOn": "2026-11-18",
+      "reviewStatus": "curated_official_offer",
+      "verificationMethod": "provider_announcement_and_exam_link_review",
+      "publicationStatus": "active",
+      "featured": false,
+      "score": 95
+    },
+    {
+      "id": "curated-red-team-leaders-ctiga-nov-2026",
+      "title": "Certified Threat Intelligence & Governance Analyst (CTIGA)",
+      "provider": "Red Team Leaders",
+      "category": "IT audit and GRC",
+      "kind": "Free exam",
+      "price": "$0 exam with NEXTSTEP100",
+      "discount": "100% off",
+      "code": "NEXTSTEP100",
+      "description": "Connects cyber threat intelligence to governance and risk decisions.",
+      "eligibility": "Enter NEXTSTEP100 at checkout for 100% off this certification exam through November 30, 2026.",
+      "deadline": "2026-11-30",
+      "dateLabel": "Ends Nov 30, 2026",
+      "frameworks": [
+        "Threat intelligence",
+        "Governance"
+      ],
+      "tags": [
+        "Certification exam",
+        "Coupon",
+        "Limited time"
+      ],
+      "source": "https://courses.redteamleaders.com/exams/92f9ada1-f557-450f-a21f-8ae56c42bb0f",
+      "verifiedOn": "2026-11-18",
+      "reviewStatus": "curated_official_offer",
+      "verificationMethod": "provider_announcement_and_exam_link_review",
+      "publicationStatus": "active",
+      "featured": false,
+      "score": 93
+    },
+    {
+      "id": "curated-red-team-leaders-cllmsp-nov-2026",
+      "title": "Certified LLM Security Professional (CLLMSP)",
+      "provider": "Red Team Leaders",
+      "category": "AI governance",
+      "kind": "Free exam",
+      "price": "$0 exam with NEXTSTEP100",
+      "discount": "100% off",
+      "code": "NEXTSTEP100",
+      "description": "Covers risk, governance, and defensive practices for large language models.",
+      "eligibility": "Enter NEXTSTEP100 at checkout for 100% off this certification exam through November 30, 2026.",
+      "deadline": "2026-11-30",
+      "dateLabel": "Ends Nov 30, 2026",
+      "frameworks": [
+        "LLM security",
+        "AI governance"
+      ],
+      "tags": [
+        "Certification exam",
+        "Coupon",
+        "Limited time"
+      ],
+      "source": "https://courses.redteamleaders.com/exams/21f669cb-8f17-4d18-8a7c-a34c055aee85",
+      "verifiedOn": "2026-11-18",
+      "reviewStatus": "curated_official_offer",
+      "verificationMethod": "provider_announcement_and_exam_link_review",
+      "publicationStatus": "active",
+      "featured": false,
+      "score": 92
+    },
+    {
+      "id": "curated-red-team-leaders-cllmse-nov-2026",
+      "title": "Certified LLM Security Expert (CLLMSE)",
+      "provider": "Red Team Leaders",
+      "category": "AI governance",
+      "kind": "Free exam",
+      "price": "$0 exam with NEXTSTEP100",
+      "discount": "100% off",
+      "code": "NEXTSTEP100",
+      "description": "Advanced assessment of security risks and defenses for LLM applications.",
+      "eligibility": "Enter NEXTSTEP100 at checkout for 100% off this certification exam through November 30, 2026.",
+      "deadline": "2026-11-30",
+      "dateLabel": "Ends Nov 30, 2026",
+      "frameworks": [
+        "LLM security",
+        "AI security"
+      ],
+      "tags": [
+        "Certification exam",
+        "Coupon",
+        "Limited time"
+      ],
+      "source": "https://courses.redteamleaders.com/exams/73c286aa-2944-4f26-82ba-0ca14a05a4b7",
+      "verifiedOn": "2026-11-18",
+      "reviewStatus": "curated_official_offer",
+      "verificationMethod": "provider_announcement_and_exam_link_review",
+      "publicationStatus": "active",
+      "featured": false,
+      "score": 92
+    },
+    {
+      "id": "curated-red-team-leaders-ccep-nov-2026",
+      "title": "Certified Cybersecurity Educator Professional (CCEP)",
+      "provider": "Red Team Leaders",
+      "category": "Security certifications",
+      "kind": "Free exam",
+      "price": "$0 exam with NEXTSTEP100",
+      "discount": "100% off",
+      "code": "NEXTSTEP100",
+      "description": "Assesses cybersecurity knowledge and skills for educators.",
+      "eligibility": "Enter NEXTSTEP100 at checkout for 100% off this certification exam through November 30, 2026.",
+      "deadline": "2026-11-30",
+      "dateLabel": "Ends Nov 30, 2026",
+      "frameworks": [
+        "Cybersecurity education"
+      ],
+      "tags": [
+        "Certification exam",
+        "Coupon",
+        "Limited time"
+      ],
+      "source": "https://courses.redteamleaders.com/exams/b442ad36-44fe-4b6f-99f5-fd6f7ddbb4b4",
+      "verifiedOn": "2026-11-18",
+      "reviewStatus": "curated_official_offer",
+      "verificationMethod": "provider_announcement_and_exam_link_review",
+      "publicationStatus": "active",
+      "featured": false,
+      "score": 90
+    },
+    {
+      "id": "curated-red-team-leaders-cnsf-nov-2026",
+      "title": "Certified Network Security Fundamentals (CNSF)",
+      "provider": "Red Team Leaders",
+      "category": "Security certifications",
+      "kind": "Free exam",
+      "price": "$0 exam with NEXTSTEP100",
+      "discount": "100% off",
+      "code": "NEXTSTEP100",
+      "description": "Covers network protocols and foundational network security concepts.",
+      "eligibility": "Enter NEXTSTEP100 at checkout for 100% off this certification exam through November 30, 2026.",
+      "deadline": "2026-11-30",
+      "dateLabel": "Ends Nov 30, 2026",
+      "frameworks": [
+        "Network security"
+      ],
+      "tags": [
+        "Certification exam",
+        "Coupon",
+        "Limited time"
+      ],
+      "source": "https://courses.redteamleaders.com/exams/2be49538-14af-417b-9ac6-c68d84d23955",
+      "verifiedOn": "2026-11-18",
+      "reviewStatus": "curated_official_offer",
+      "verificationMethod": "provider_announcement_and_exam_link_review",
+      "publicationStatus": "active",
+      "featured": false,
+      "score": 90
+    },
+    {
+      "id": "curated-red-team-leaders-cscrb-nov-2026",
+      "title": "Certified Security Code Review Beginners (CSCRB)",
+      "provider": "Red Team Leaders",
+      "category": "Security certifications",
+      "kind": "Free exam",
+      "price": "$0 exam with NEXTSTEP100",
+      "discount": "100% off",
+      "code": "NEXTSTEP100",
+      "description": "Covers secure coding and code review fundamentals for beginners.",
+      "eligibility": "Enter NEXTSTEP100 at checkout for 100% off this certification exam through November 30, 2026.",
+      "deadline": "2026-11-30",
+      "dateLabel": "Ends Nov 30, 2026",
+      "frameworks": [
+        "Secure coding",
+        "Code review"
+      ],
+      "tags": [
+        "Certification exam",
+        "Coupon",
+        "Limited time"
+      ],
+      "source": "https://courses.redteamleaders.com/exams/24a0c3a8-4bb0-458a-90da-4d62d11ef831",
+      "verifiedOn": "2026-11-18",
+      "reviewStatus": "curated_official_offer",
+      "verificationMethod": "provider_announcement_and_exam_link_review",
+      "publicationStatus": "active",
+      "featured": false,
+      "score": 90
     }
   ],
   "inactive": [],
