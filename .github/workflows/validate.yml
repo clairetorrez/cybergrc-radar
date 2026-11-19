@@ -5,6 +5,7 @@ on:
     paths:
       - 'index.html'
       - 'black-friday.*'
+      - 'deal-ranking.js'
       - 'data/black-friday-2026.json'
       - 'scripts/**'
       - 'tests/**'
@@ -14,6 +15,7 @@ on:
     paths:
       - 'index.html'
       - 'black-friday.*'
+      - 'deal-ranking.js'
       - 'data/black-friday-2026.json'
       - 'scripts/**'
       - 'tests/**'
@@ -44,7 +46,8 @@ jobs:
       - name: Validate browser scripts and seasonal behavior
         run: |
           node --check black-friday.js
-          node --test tests/black-friday.test.cjs
+          node --check deal-ranking.js
+          node --test tests/*.test.cjs
           node -e "const fs=require('node:fs');const h=fs.readFileSync('index.html','utf8');const a=h.indexOf('<script>'),b=h.indexOf('</script>',a);if(a<0||b<0)process.exit(1);new Function(h.slice(a+8,b));console.log('Browser script parses');"
       - name: Validate catalog field requirements
         run: |
