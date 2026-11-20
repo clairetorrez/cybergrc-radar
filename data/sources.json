@@ -586,6 +586,24 @@
       "url": "https://courses.redteamleaders.com/exams/24a0c3a8-4bb0-458a-90da-4d62d11ef831",
       "group": "Security certifications",
       "mode": "watch"
+    },
+    {
+      "name": "Microsoft Ignite 2026 free onsite exam",
+      "url": "https://learn.microsoft.com/training/topics/ignite/microsoft-ignite-2026-certification-registration",
+      "group": "Cloud security",
+      "mode": "watch"
+    },
+    {
+      "name": "Microsoft Data Days exam vouchers",
+      "url": "https://community.fabric.microsoft.com/blog/community_blog/data-days--certification-vouchers/5376271",
+      "group": "Cloud security",
+      "mode": "watch"
+    },
+    {
+      "name": "Microsoft DP-420 Data Days discount",
+      "url": "https://devblogs.microsoft.com/cosmosdb/chatgpt-runs-on-azure-cosmos-db-prove-you-can-build-whats-next/",
+      "group": "Cloud security",
+      "mode": "watch"
     }
   ],
   "curation": {
