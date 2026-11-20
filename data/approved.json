@@ -3,6 +3,96 @@
   "lastChecked": "2026-11-16T23:00:00Z",
   "offers": [
     {
+      "id": "curated-microsoft-ignite-free-exam-2026",
+      "title": "Microsoft Ignite 2026: one free onsite Microsoft or GitHub certification exam",
+      "provider": "Microsoft",
+      "category": "Cloud security",
+      "kind": "Free exam",
+      "price": "$0 eligible onsite exam",
+      "discount": "100% off",
+      "description": "Registered in-person Ignite attendees can take one eligible Microsoft or GitHub certification exam onsite at Moscone Center West in San Francisco. Seats limited. Not an online or remote voucher.",
+      "eligibility": "Registered in-person Microsoft Ignite 2026 attendees only; one exam per person; onsite testing November 16–20. Eligible exam prefixes include AB, AI, AZ, DA, DP, MB, MD, MS, PL, SC, GH.",
+      "deadline": "2026-11-20",
+      "dateLabel": "Ends Nov 20, 2026, 12:15 PM Pacific",
+      "frameworks": [
+        "Microsoft",
+        "Azure",
+        "Cloud security"
+      ],
+      "tags": [
+        "Certification exam",
+        "Onsite only",
+        "Limited time"
+      ],
+      "source": "https://learn.microsoft.com/training/topics/ignite/microsoft-ignite-2026-certification-registration",
+      "verifiedOn": "2026-11-20",
+      "reviewStatus": "curated_official_offer",
+      "verificationMethod": "official_provider_terms_review",
+      "publicationStatus": "active",
+      "featured": true,
+      "score": 96
+    },
+    {
+      "id": "curated-microsoft-datadays-free-exams-2026",
+      "title": "Microsoft Data Days: free DP-600, DP-700 or DP-800 certification exam voucher",
+      "provider": "Microsoft",
+      "category": "Cloud security",
+      "kind": "Free exam",
+      "price": "$0 eligible exam with approved voucher",
+      "discount": "100% off",
+      "description": "Data Days: AI @ Work offers a limited supply of 100% exam vouchers for DP-600, DP-700 or DP-800. Watch two qualifying sessions and score at least 85% on the relevant practice assessment before requesting a voucher.",
+      "eligibility": "Fabric Community account, two Data Days sessions and 85% practice assessment. One voucher per person, limited supply. Request by Dec 10, 2026; choose exam deadline Nov 30 or Dec 31, 2026.",
+      "deadline": "2026-12-10",
+      "dateLabel": "Request by Dec 10; exam by Nov 30 or Dec 31, 2026",
+      "frameworks": [
+        "Microsoft Fabric",
+        "Azure",
+        "Data security"
+      ],
+      "tags": [
+        "Certification exam",
+        "Free voucher",
+        "Limited quantity"
+      ],
+      "source": "https://community.fabric.microsoft.com/blog/community_blog/data-days--certification-vouchers/5376271",
+      "verifiedOn": "2026-11-20",
+      "reviewStatus": "curated_official_offer",
+      "verificationMethod": "official_provider_terms_review",
+      "publicationStatus": "active",
+      "featured": true,
+      "score": 97
+    },
+    {
+      "id": "curated-microsoft-datadays-half-exams-2026",
+      "title": "Microsoft Data Days: 50% off DP-420 and other certification exams",
+      "provider": "Microsoft",
+      "category": "Cloud security",
+      "kind": "Discount",
+      "price": "50% off eligible exam with approved voucher",
+      "discount": "50% off",
+      "description": "Data Days: AI @ Work offers 50% off eligible PL-300, DP-900, DP-420 and DP-300 certification exams. Join Fabric Community, watch two qualifying sessions and request a voucher. Limited supply.",
+      "eligibility": "Fabric Community account and two qualifying Data Days sessions. One voucher per person, limited supply. Request by Dec 10, 2026; take exam by Jan 31, 2027.",
+      "deadline": "2026-12-10",
+      "dateLabel": "Request by Dec 10, 2026; exam by Jan 31, 2027",
+      "frameworks": [
+        "Microsoft",
+        "Azure",
+        "AI applications"
+      ],
+      "tags": [
+        "Certification exam",
+        "Discount voucher",
+        "Limited quantity"
+      ],
+      "source": "https://devblogs.microsoft.com/cosmosdb/chatgpt-runs-on-azure-cosmos-db-prove-you-can-build-whats-next/",
+      "verifiedOn": "2026-11-20",
+      "reviewStatus": "curated_official_offer",
+      "verificationMethod": "official_provider_terms_review",
+      "publicationStatus": "active",
+      "featured": true,
+      "score": 95
+    },
+    {
       "id": "curated-pearson-retake-2026",
       "title": "Pearson VUE free retake and eligible AWS exam discount",
       "provider": "Pearson VUE",
