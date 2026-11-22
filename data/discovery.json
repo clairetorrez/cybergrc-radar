@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-11T22:41:42Z",
+  "lastChecked": "2026-11-22T22:51:38Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -92,7 +92,7 @@
     {
       "name": "CSA Virtual Events",
       "ok": true,
-      "candidates": 2
+      "candidates": 3
     },
     {
       "name": "California Apprenti Registered Program",
@@ -127,9 +127,8 @@
     },
     {
       "name": "CyberUp Apprenticeship",
-      "ok": false,
-      "candidates": 0,
-      "error": "HTTP Error 404: Not Found"
+      "ok": true,
+      "candidates": 1
     },
     {
       "name": "DataAnnotation Opportunities",
@@ -144,7 +143,7 @@
     {
       "name": "FedRAMP",
       "ok": true,
-      "candidates": 0
+      "candidates": 1
     },
     {
       "name": "Fortinet Training",
@@ -203,6 +202,11 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "name": "ISA Black Friday Training Offers",
+      "ok": true,
+      "candidates": 1
+    },
+    {
       "name": "ISACA Cybersecurity Month Scholarship",
       "ok": false,
       "candidates": 0,
@@ -249,8 +253,9 @@
     },
     {
       "name": "ISC2 AI Security Pilot",
-      "ok": true,
-      "candidates": 2
+      "ok": false,
+      "candidates": 0,
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "name": "ISC2 Insights",
@@ -273,7 +278,40 @@
       "candidates": 1
     },
     {
+      "name": "Mastermind Assurance Course Listings",
+      "ok": false,
+      "candidates": 0,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "Mastermind Assurance ISO Auditor Catalog",
+      "ok": false,
+      "candidates": 0,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "name": "Microsoft Applied Skills",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "Microsoft DP-420 Data Days discount",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "Microsoft Data Days exam vouchers",
+      "ok": false,
+      "candidates": 0,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "Microsoft Ignite 2026 free onsite exam",
+      "ok": true,
+      "candidates": 2
+    },
+    {
+      "name": "Microsoft Student Certification Discounts",
       "ok": true,
       "candidates": 1
     },
@@ -340,9 +378,19 @@
       "candidates": 0
     },
     {
+      "name": "Pearson VUE Exam Retake Offers",
+      "ok": true,
+      "candidates": 1
+    },
+    {
       "name": "Per Scholas Cybersecurity Apprenticeship",
       "ok": true,
       "candidates": 3
+    },
+    {
+      "name": "Practical DevSecOps Black Friday",
+      "ok": true,
+      "candidates": 1
     },
     {
       "name": "Qualys Training",
@@ -354,6 +402,41 @@
       "ok": false,
       "candidates": 0,
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "Red Team Leaders CCEP exam",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "Red Team Leaders CGRCP exam",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "Red Team Leaders CLLMSE exam",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "Red Team Leaders CLLMSP exam",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "Red Team Leaders CNSF exam",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "Red Team Leaders CSCRB exam",
+      "ok": true,
+      "candidates": 1
+    },
+    {
+      "name": "Red Team Leaders CTIGA exam",
+      "ok": true,
+      "candidates": 1
     },
     {
       "name": "SANS Cyber Solutions Fest",
@@ -368,7 +451,7 @@
     {
       "name": "Science of Apps TPRM Certificate",
       "ok": true,
-      "candidates": 4
+      "candidates": 1
     },
     {
       "name": "Shared Assessments CTPRP Bootcamp November",
@@ -429,52 +512,31 @@
       "candidates": 0
     }
   ],
-  "newLeads": 0,
+  "newLeads": 1,
   "leads": [
     {
-      "id": "opportunity-w4s2s428df",
-      "firstSeen": "2026-11-12",
-      "lastSeen": "2026-11-12",
+      "id": "9d123bcbfdfbf24110",
+      "title": "Professional development training",
+      "source": "ICDFA CPD Campus",
+      "url": "https://campus.icdfa.edu.ng/cpd/",
+      "category": "Training",
+      "topics": [],
+      "group": "GRC and ISO",
       "status": "needs_review",
-      "verified": false,
-      "reviewRequired": true,
-      "group": "Employer and program research",
-      "deadlineHint": null,
-      "url": "https://www.indeed.com/q-remote-entry-level-cybersecurity-internship-jobs.html",
-      "title": "Symetra IT Risk Analyst Internship, Summer 2027 (remote)",
-      "source": "Symetra via Indeed",
-      "category": "IT risk internship",
-      "topics": [
-        "GRC",
-        "IT risk",
-        "Third-party risk",
-        "Remote"
+      "score": 55,
+      "why": [
+        "Targeted source watch"
       ],
-      "evidence": "Job aggregator lists paid 12-week remote summer 2027 IT risk internship at $22-$25/hour. Employer direct link and current application status not yet confirmed.",
-      "priceHint": "$22–$25/hour reported",
-      "score": 75
-    },
-    {
-      "id": "opportunity-9j4fj3gizy",
-      "firstSeen": "2026-11-12",
-      "lastSeen": "2026-11-12",
-      "status": "needs_review",
-      "verified": false,
-      "reviewRequired": true,
-      "group": "Employer and program research",
+      "evidence": "Optional AWS exam voucher processing begins 13 December 2026 for participants who complete their course and choose to sit the",
+      "priceHint": "Not confirmed",
       "deadlineHint": null,
-      "url": "https://www.securityindustry.org/professional-development/security-systems-technician-apprenticeship-program/",
-      "title": "SIA Security Systems Technician Apprenticeship",
-      "source": "Security Industry Association",
-      "category": "Paid apprenticeship",
-      "topics": [
-        "Apprenticeship",
-        "Networking",
-        "Cybersecurity"
-      ],
-      "evidence": "Official program page invites applications to paid 12-month apprenticeship; physical security systems technician role, with IT and GRC training. Employer placement varies.",
-      "priceHint": "Paid apprenticeship; amount varies",
-      "score": 69
+      "publishedAt": null,
+      "firstSeen": "2026-11-22",
+      "lastSeen": "2026-11-22",
+      "lastChecked": "2026-11-22T22:51:36Z",
+      "fingerprint": "0f84b42418b95ffa54",
+      "verified": false,
+      "reviewRequired": true
     },
     {
       "id": "opportunity-r8t87jzuk6",
@@ -518,7 +580,34 @@
       ],
       "evidence": "Official job posting for Summer 2027; Niles, Illinois on-site. Application and current status must be checked with employer.",
       "priceHint": "Paid; amount not listed",
-      "score": 82
+      "score": 82,
+      "lastChecked": "2026-11-22T22:51:18Z",
+      "linkStatus": 200
+    },
+    {
+      "id": "opportunity-w4s2s428df",
+      "firstSeen": "2026-11-12",
+      "lastSeen": "2026-11-12",
+      "status": "needs_review",
+      "verified": false,
+      "reviewRequired": true,
+      "group": "Employer and program research",
+      "deadlineHint": null,
+      "url": "https://www.indeed.com/q-remote-entry-level-cybersecurity-internship-jobs.html",
+      "title": "Symetra IT Risk Analyst Internship, Summer 2027 (remote)",
+      "source": "Symetra via Indeed",
+      "category": "IT risk internship",
+      "topics": [
+        "GRC",
+        "IT risk",
+        "Third-party risk",
+        "Remote"
+      ],
+      "evidence": "Job aggregator lists paid 12-week remote summer 2027 IT risk internship at $22-$25/hour. Employer direct link and current application status not yet confirmed.",
+      "priceHint": "$22–$25/hour reported",
+      "score": 75,
+      "lastChecked": "2026-11-22T22:51:17Z",
+      "linkStatus": 403
     },
     {
       "id": "research-2",
@@ -584,6 +673,30 @@
       "group": "Research intake"
     },
     {
+      "id": "opportunity-9j4fj3gizy",
+      "firstSeen": "2026-11-12",
+      "lastSeen": "2026-11-12",
+      "status": "needs_review",
+      "verified": false,
+      "reviewRequired": true,
+      "group": "Employer and program research",
+      "deadlineHint": null,
+      "url": "https://www.securityindustry.org/professional-development/security-systems-technician-apprenticeship-program/",
+      "title": "SIA Security Systems Technician Apprenticeship",
+      "source": "Security Industry Association",
+      "category": "Paid apprenticeship",
+      "topics": [
+        "Apprenticeship",
+        "Networking",
+        "Cybersecurity"
+      ],
+      "evidence": "Official program page invites applications to paid 12-month apprenticeship; physical security systems technician role, with IT and GRC training. Employer placement varies.",
+      "priceHint": "Paid apprenticeship; amount varies",
+      "score": 69,
+      "lastChecked": "2026-11-22T22:51:17Z",
+      "linkStatus": 403
+    },
+    {
       "id": "88c499d4f4dc0ca7f1",
       "title": "PECB Launches free Beta Exams for ISO 9001:2026 Foundation for experts and non-experts’ individuals - PECB",
       "source": "PECB Free Beta Announcement",
@@ -617,7 +730,7 @@
       "category": "TPRM webinar and CPE",
       "topics": [],
       "group": "Research intake",
-      "status": "not_seen_today",
+      "status": "expired",
       "score": 75,
       "why": [
         "Research intake",
@@ -643,7 +756,7 @@
       "category": "Paid TPRM exam preparation",
       "topics": [],
       "group": "Research intake",
-      "status": "not_seen_today",
+      "status": "expired",
       "score": 75,
       "why": [
         "Research intake",
@@ -679,8 +792,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-11",
-      "lastChecked": "2026-11-11T22:41:40Z",
+      "lastSeen": "2026-11-22",
+      "lastChecked": "2026-11-22T22:51:35Z",
       "fingerprint": "d3adc0ea30de01441c",
       "verified": false,
       "reviewRequired": true
@@ -823,7 +936,7 @@
       "category": "Beta & pilot exams",
       "topics": [],
       "group": "Third-party risk",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 72,
       "why": [
         "Beta program",
@@ -875,7 +988,7 @@
       "category": "Free hands-on competition",
       "topics": [],
       "group": "Certification and training",
-      "status": "not_seen_today",
+      "status": "expired",
       "score": 85,
       "why": [
         "New research lead",
@@ -908,7 +1021,7 @@
         "Official provider URL",
         "Terms require independent confirmation"
       ],
-      "evidence": "Reported November 17–19; registration details require checking",
+      "evidence": "Research lead. Verify official pricing, eligibility and dates before approval.",
       "priceHint": "See official provider",
       "deadlineHint": null,
       "publishedAt": null,
@@ -934,7 +1047,7 @@
         "Official provider URL",
         "Terms require independent confirmation"
       ],
-      "evidence": "Reported November 18–19; confirm event listing",
+      "evidence": "Research lead. Verify official pricing, eligibility and dates before approval.",
       "priceHint": "See official provider",
       "deadlineHint": null,
       "publishedAt": null,
@@ -960,9 +1073,9 @@
         "Official provider URL",
         "Terms require independent confirmation"
       ],
-      "evidence": "Reported 50% voucher for in-person registrants; check conditions",
+      "evidence": "50% off one AWS certification exam for eligible in-person re:Invent 2026 registrants; virtual attendance excluded. Testing deadline January 31, 2027. Verify official terms.",
       "priceHint": "See official provider",
-      "deadlineHint": null,
+      "deadlineHint": "2027-01-31",
       "publishedAt": null,
       "firstSeen": "2026-11-04",
       "lastSeen": "2026-11-04",
@@ -986,7 +1099,7 @@
         "Official provider URL",
         "Terms require independent confirmation"
       ],
-      "evidence": "Reported 50% next exam benefit for credential holders",
+      "evidence": "Research lead. Verify official pricing, eligibility and dates before approval.",
       "priceHint": "See official provider",
       "deadlineHint": null,
       "publishedAt": null,
@@ -1343,27 +1456,23 @@
     {
       "id": "7815acfb4eecce8fe5",
       "title": "NextCISO Junior GRC Analyst (Remote)",
-      "source": "NextCISO",
-      "url": "https://nextciso.freshteam.com/jobs/jZcYvZ_jIVVm",
-      "category": "GRC internship",
-      "topics": [
-        "GRC",
-        "Internship",
-        "Remote"
-      ],
+      "source": "NextCISO GRC Internship",
+      "url": "https://nextciso.freshteam.com/jobs/jZcYvZ_jIVVm/nextciso-junior-grc-analyst-remote",
+      "category": "Other opportunities",
+      "topics": [],
       "group": "Apprenticeships and experience",
       "status": "needs_review",
-      "score": 88,
+      "score": 65,
       "why": [
         "Targeted source watch"
       ],
-      "evidence": "Official application page says tuition-free, six-to-seven-month remote internship and applications are being accepted; next cohort start date not announced.",
-      "priceHint": "Tuition-free; compensation not confirmed",
+      "evidence": "Posted by : The Next CISO Apprenticeship Program | The NextCISO Apprenticeship Sign Up The NextCISO Apprenticeship Sign Up Governance,",
+      "priceHint": "Not confirmed",
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-03",
-      "lastSeen": "2026-11-12",
-      "lastChecked": "2026-11-11T22:41:38Z",
+      "lastSeen": "2026-11-22",
+      "lastChecked": "2026-11-22T22:51:34Z",
       "fingerprint": "f802da8553d3b53c2e",
       "verified": false,
       "reviewRequired": true
@@ -1376,7 +1485,7 @@
       "category": "Beta & pilot exams",
       "topics": [],
       "group": "GRC and ISO",
-      "status": "not_seen_today",
+      "status": "expired",
       "score": 78,
       "why": [
         "Possible free exam",
@@ -1564,8 +1673,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-11",
-      "lastChecked": "2026-11-11T22:41:39Z",
+      "lastSeen": "2026-11-22",
+      "lastChecked": "2026-11-22T22:51:34Z",
       "fingerprint": "535a2129fe5fa2ab1a",
       "verified": false,
       "reviewRequired": true
@@ -1628,7 +1737,7 @@
         "AI governance"
       ],
       "group": "AI governance",
-      "status": "needs_review",
+      "status": "expired",
       "score": 54,
       "why": [
         "GRC focus: AI governance",

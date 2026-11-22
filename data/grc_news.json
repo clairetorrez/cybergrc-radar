@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-22",
   "items": [
+    {
+      "title": "AI Governance Is Cloud Governance: From Posture to Proof",
+      "source": "Cloud Security Alliance",
+      "date": "2026-11-16",
+      "category": "AI governance",
+      "url": "https://cloudsecurityalliance.org/articles/ai-governance-is-cloud-governance-from-posture-to-proof"
+    },
+    {
+      "title": "AI Governance Isn't a Chore Problem. It's an Architecture Problem.",
+      "source": "Cloud Security Alliance",
+      "date": "2026-11-05",
+      "category": "AI governance",
+      "url": "https://cloudsecurityalliance.org/articles/ai-governance-isn-t-a-chore-problem-it-s-an-architecture-problem"
+    },
     {
       "title": "ModelOp announces AI policy enforcement with NVIDIA OpenShell",
       "source": "ModelOp",
@@ -23,21 +37,6 @@
       "dateType": "Reviewed",
       "category": "Engineering",
       "url": "https://csrc.nist.gov/Presentations/2026/leveraging-oscal-for-real-time-compliance-with-com"
-    },
-    {
-      "title": "ISC2 AI Security Certification pilot information",
-      "source": "ISC2",
-      "date": "2026-11-12",
-      "dateType": "Reviewed",
-      "category": "Certification",
-      "url": "https://www.isc2.org/new-ai-certification"
-    },
-    {
-      "title": "GRC industry roundup: financial control automation partnership",
-      "source": "Corporate Compliance Insights",
-      "date": "2026-11-06",
-      "category": "Industry",
-      "url": "https://www.corporatecomplianceinsights.com/grc-business-roundup-onetrust-diligent-eventus-logicgate-amlyze-more/"
     }
   ]
 }

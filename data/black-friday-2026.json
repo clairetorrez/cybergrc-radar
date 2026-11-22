@@ -2,6 +2,22 @@
   "source": "https://github.com/v3nomtech/infosec-cert-black-friday-2026",
   "offers": [
     {
+      "id": "black-friday-2026-7f08e406eb9bc3",
+      "provider": "AppSec.training",
+      "title": "Application security, DevSecOps and secure SDLC training",
+      "category": "Training & courses",
+      "price": "50% off",
+      "code": "blackfriday",
+      "details": "",
+      "frameworks": [],
+      "source": "https://appsec.training",
+      "evidence": "https://appsec.training",
+      "verifiedOn": "2026-11-19",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": "2026-12-31"
+    },
+    {
       "id": "black-friday-2026-21bd814a532230",
       "provider": "Blu Raven Academy",
       "title": "KQL, threat hunting & detection engineering courses",
@@ -79,6 +95,22 @@
       "deadline": null
     },
     {
+      "id": "black-friday-2026-747bda80621f29",
+      "provider": "GenAI Security Lab",
+      "title": "Hands-on AI security labs (prompt injection, RAG, agents, MCP) — yearly plan and 4-Month Pass",
+      "category": "Labs & platforms",
+      "price": "40% off · yearly $228 → $136.80 · 4-Month Pass $99 → $59.40",
+      "code": "",
+      "details": "Applied automatically at checkout. Regional prices get the same 40%. Monthly plan and certification exams excluded.",
+      "frameworks": [],
+      "source": "https://genaisecuritylab.com/pricing",
+      "evidence": "https://genaisecuritylab.com/pricing",
+      "verifiedOn": "2026-11-19",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": "2026-11-30"
+    },
+    {
       "id": "black-friday-2026-7b12033311be0b",
       "provider": "HackTricks Training",
       "title": "Cloud red team course bundles (AWS / GCP / Azure)",
@@ -100,6 +132,43 @@
       "verification": "vendor",
       "startDate": null,
       "deadline": null
+    },
+    {
+      "id": "black-friday-2026-ae58b60d14de7a",
+      "provider": "Hexordia",
+      "title": "Hexordia classes (on-demand and virtual live) and class vouchers",
+      "category": "Training & courses",
+      "price": "35% off",
+      "code": "26BF35",
+      "details": "Ends 11:59 PM ET on Dec 7.",
+      "frameworks": [
+        "HMFA",
+        "HDSC",
+        "HEWT",
+        "HIOT"
+      ],
+      "source": "https://learn.hexordia.com/s/store",
+      "evidence": "https://learn.hexordia.com/s/store",
+      "verifiedOn": "2026-11-17",
+      "verification": "vendor",
+      "startDate": "2026-11-23",
+      "deadline": "2026-12-07"
+    },
+    {
+      "id": "black-friday-2026-3605f270928b83",
+      "provider": "Invictus Incident Response",
+      "title": "Invictus Academy cloud incident response training, Standard (labs) and Advanced (labs plus a course) plans",
+      "category": "Training & courses",
+      "price": "20% off your first invoice",
+      "code": "BLACKFRIDAY26",
+      "details": "First invoice only: first month on monthly plans, first year on yearly plans. Standard and Advanced plans only, Enterprise excluded. Ends 11:59 PM ET on Dec 7.",
+      "frameworks": [],
+      "source": "https://www.invictus-ir.com/academy/plans",
+      "evidence": "https://www.invictus-ir.com/academy/plans",
+      "verifiedOn": "2026-11-20",
+      "verification": "vendor",
+      "startDate": "2026-11-20",
+      "deadline": "2026-12-07"
     },
     {
       "id": "black-friday-2026-86b57b5b9545f5",
@@ -285,6 +354,25 @@
       "deadline": null
     },
     {
+      "id": "black-friday-2026-92403bb695298e",
+      "provider": "SecurityPaths Academy",
+      "title": "Certified WiFiChallenge Professional (Wi-Fi pentesting) and Certified Recon Professional (recon) courses with exam",
+      "category": "Certifications & exams",
+      "price": "25% off",
+      "code": "blackfriday26",
+      "details": "Formerly WiFiChallenge Academy. Code auto-applied at checkout. Submitted by a course instructor.",
+      "frameworks": [
+        "CWP",
+        "CRP"
+      ],
+      "source": "https://academy.securitypaths.com/courses",
+      "evidence": "https://academy.securitypaths.com/courses",
+      "verifiedOn": "2026-11-19",
+      "verification": "vendor",
+      "startDate": "2026-11-21",
+      "deadline": "2026-11-30"
+    },
+    {
       "id": "black-friday-2026-20b0b88218b77e",
       "provider": "The SecOps Group (PentestingExams)",
       "title": "All pentesting certification exams",
@@ -376,6 +464,24 @@
       "verification": "vendor",
       "startDate": "2026-11-27",
       "deadline": "2026-12-18"
+    },
+    {
+      "id": "black-friday-2026-083ae218d235a8",
+      "provider": "Wireshark Labs",
+      "title": "Hands-on Wireshark packet-analysis labs — WCA Labs (Wireshark Certified Analyst exam prep) and Ranger Lab (real-world troubleshooting and security cases)",
+      "category": "Training & courses",
+      "price": "WCA Labs $199.99 → $99.99 · Ranger Lab $249.99 → $179.99",
+      "code": "PACKETFRIDAY",
+      "details": "Live now. One-time purchase. Code valid until Dec 2, 08:00 UTC. Submitted by the vendor.",
+      "frameworks": [
+        "WCA"
+      ],
+      "source": "https://wiresharklabs.org/",
+      "evidence": "https://wiresharklabs.org/",
+      "verifiedOn": "2026-11-17",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": "2026-12-01"
     }
   ],
   "watchlist": [
