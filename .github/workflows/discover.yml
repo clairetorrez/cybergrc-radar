@@ -5,6 +5,9 @@ on:
     - cron: '17 8 * * *'
       timezone: 'America/Los_Angeles'
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/discover.yml'
 
 permissions:
   contents: write
@@ -30,10 +33,10 @@ jobs:
           from pathlib import Path
           import re
           html = Path("index.html").read_text(encoding="utf-8")
-          scripts = re.findall(r"<script(?:\\s[^>]*)?>([\\s\\S]*?)</script>", html)
+          scripts = [script for script in re.findall(r"<script(?:\s[^>]*)?>([\s\S]*?)</script>", html) if script.strip()]
           if not scripts:
               raise SystemExit("No inline JavaScript found")
-          Path("/tmp/cybergrc-inline.js").write_text("\\n".join(scripts), encoding="utf-8")
+          Path("/tmp/cybergrc-inline.js").write_text("\n".join(scripts), encoding="utf-8")
           PY
           node --check /tmp/cybergrc-inline.js
           node --check black-friday.js
