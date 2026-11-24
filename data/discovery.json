@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-22T22:51:38Z",
+  "lastChecked": "2026-11-24T02:54:11Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -253,9 +253,8 @@
     },
     {
       "name": "ISC2 AI Security Pilot",
-      "ok": false,
-      "candidates": 0,
-      "error": "HTTP Error 503: Service Unavailable"
+      "ok": true,
+      "candidates": 2
     },
     {
       "name": "ISC2 Insights",
@@ -512,7 +511,7 @@
       "candidates": 0
     }
   ],
-  "newLeads": 1,
+  "newLeads": 0,
   "leads": [
     {
       "id": "9d123bcbfdfbf24110",
@@ -532,8 +531,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-22",
-      "lastSeen": "2026-11-22",
-      "lastChecked": "2026-11-22T22:51:36Z",
+      "lastSeen": "2026-11-24",
+      "lastChecked": "2026-11-24T02:54:08Z",
       "fingerprint": "0f84b42418b95ffa54",
       "verified": false,
       "reviewRequired": true
@@ -581,7 +580,7 @@
       "evidence": "Official job posting for Summer 2027; Niles, Illinois on-site. Application and current status must be checked with employer.",
       "priceHint": "Paid; amount not listed",
       "score": 82,
-      "lastChecked": "2026-11-22T22:51:18Z",
+      "lastChecked": "2026-11-24T02:53:55Z",
       "linkStatus": 200
     },
     {
@@ -606,7 +605,7 @@
       "evidence": "Job aggregator lists paid 12-week remote summer 2027 IT risk internship at $22-$25/hour. Employer direct link and current application status not yet confirmed.",
       "priceHint": "$22–$25/hour reported",
       "score": 75,
-      "lastChecked": "2026-11-22T22:51:17Z",
+      "lastChecked": "2026-11-24T02:53:55Z",
       "linkStatus": 403
     },
     {
@@ -693,7 +692,7 @@
       "evidence": "Official program page invites applications to paid 12-month apprenticeship; physical security systems technician role, with IT and GRC training. Employer placement varies.",
       "priceHint": "Paid apprenticeship; amount varies",
       "score": 69,
-      "lastChecked": "2026-11-22T22:51:17Z",
+      "lastChecked": "2026-11-24T02:53:55Z",
       "linkStatus": 403
     },
     {
@@ -782,7 +781,7 @@
       "category": "Training",
       "topics": [],
       "group": "Volunteer",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 55,
       "why": [
         "Targeted source watch"
@@ -1471,8 +1470,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-03",
-      "lastSeen": "2026-11-22",
-      "lastChecked": "2026-11-22T22:51:34Z",
+      "lastSeen": "2026-11-24",
+      "lastChecked": "2026-11-24T02:54:08Z",
       "fingerprint": "f802da8553d3b53c2e",
       "verified": false,
       "reviewRequired": true
@@ -1663,7 +1662,7 @@
       "category": "Other opportunities",
       "topics": [],
       "group": "Volunteer",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 55,
       "why": [
         "Targeted source watch"
@@ -1748,8 +1747,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-11",
-      "lastChecked": "2026-11-11T22:41:37Z",
+      "lastSeen": "2026-11-24",
+      "lastChecked": "2026-11-24T02:54:06Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true
