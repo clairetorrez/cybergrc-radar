@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "items": [
+    {
+      "title": "How Operationalizing AI Governance Helps Securely Scale Enterprise AI Adoption",
+      "source": "Cloud Security Alliance",
+      "date": "2026-11-17",
+      "category": "AI governance",
+      "url": "https://cloudsecurityalliance.org/articles/how-operationalizing-ai-governance-helps-securely-scale-enterprise-ai-adoption"
+    },
     {
       "title": "AI Governance Is Cloud Governance: From Posture to Proof",
       "source": "Cloud Security Alliance",
@@ -29,14 +36,6 @@
       "dateType": "Reviewed",
       "category": "Federal",
       "url": "https://preview.fedramp.gov/2026/authority/m-24-15/automation/"
-    },
-    {
-      "title": "NIST: Leveraging OSCAL for real-time compliance",
-      "source": "NIST",
-      "date": "2026-11-12",
-      "dateType": "Reviewed",
-      "category": "Engineering",
-      "url": "https://csrc.nist.gov/Presentations/2026/leveraging-oscal-for-real-time-compliance-with-com"
     }
   ]
 }

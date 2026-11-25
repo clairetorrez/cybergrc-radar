@@ -2,6 +2,28 @@
   "source": "https://github.com/v3nomtech/infosec-cert-black-friday-2026",
   "offers": [
     {
+      "id": "black-friday-2026-b8952bdc55e4b9",
+      "provider": "8kSec Academy",
+      "title": "On-demand mobile and AI security training (five certification tracks) with hands-on labs",
+      "category": "Training & courses",
+      "price": "15% off all on-demand courses",
+      "code": "BLACKFRIDAY15",
+      "details": "",
+      "frameworks": [
+        "CAISR",
+        "CMSE",
+        "OMSE",
+        "CISR",
+        "CASR"
+      ],
+      "source": "https://academy.8ksec.io/",
+      "evidence": "https://academy.8ksec.io/",
+      "verifiedOn": "2026-11-23",
+      "verification": "vendor",
+      "startDate": "2026-11-20",
+      "deadline": "2026-12-04"
+    },
+    {
       "id": "black-friday-2026-7f08e406eb9bc3",
       "provider": "AppSec.training",
       "title": "Application security, DevSecOps and secure SDLC training",
@@ -48,6 +70,42 @@
       "verification": "vendor",
       "startDate": null,
       "deadline": "2026-11-30"
+    },
+    {
+      "id": "black-friday-2026-aa62f0980e5706",
+      "provider": "ByteBlind",
+      "title": "Android app pentesting course — 55 lessons, vulnerable APKs, lifetime access",
+      "category": "Training & courses",
+      "price": "40% off — $149 → $89.40",
+      "code": "BYTENOV40",
+      "details": "7-day refund guarantee. Submitted by the course author.",
+      "frameworks": [],
+      "source": "https://training.byteblind.com/products/courses/android-app-hacking",
+      "evidence": "https://training.byteblind.com/products/courses/android-app-hacking",
+      "verifiedOn": "2026-11-23",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": "2026-11-30"
+    },
+    {
+      "id": "black-friday-2026-6f28c52c23e75d",
+      "provider": "CloudBreach",
+      "title": "Advanced offensive Azure & AWS Security Trainings and Certifications",
+      "category": "Certifications & exams",
+      "price": "30% off",
+      "code": "BlackFriday26",
+      "details": "",
+      "frameworks": [
+        "OASP",
+        "OAWSP",
+        "OASE"
+      ],
+      "source": "https://cloudbreach.io/blackfriday",
+      "evidence": "https://cloudbreach.io/blackfriday",
+      "verifiedOn": "2026-11-21",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": "2026-12-07"
     },
     {
       "id": "black-friday-2026-4f641e6f03bdc6",
@@ -97,18 +155,34 @@
     {
       "id": "black-friday-2026-747bda80621f29",
       "provider": "GenAI Security Lab",
-      "title": "Hands-on AI security labs (prompt injection, RAG, agents, MCP) — yearly plan and 4-Month Pass",
+      "title": "200+ hands-on AI security labs against deliberately vulnerable LLM, RAG, agent and MCP apps",
       "category": "Labs & platforms",
-      "price": "40% off · yearly $228 → $136.80 · 4-Month Pass $99 → $59.40",
+      "price": "40% off the 4-Month Pass and the first year of the yearly plan",
       "code": "",
-      "details": "Applied automatically at checkout. Regional prices get the same 40%. Monthly plan and certification exams excluded.",
+      "details": "Auto-applied, ends Nov 30. Discounts don't stack: you get the larger one. 7-day money-back guarantee.",
       "frameworks": [],
       "source": "https://genaisecuritylab.com/pricing",
       "evidence": "https://genaisecuritylab.com/pricing",
-      "verifiedOn": "2026-11-19",
+      "verifiedOn": "2026-11-24",
       "verification": "vendor",
       "startDate": null,
       "deadline": "2026-11-30"
+    },
+    {
+      "id": "black-friday-2026-6912146086afc2",
+      "provider": "GIAC",
+      "title": "Applied Knowledge certifications, certification attempt extensions, practice exams and demo questions",
+      "category": "Certifications & exams",
+      "price": "30% off",
+      "code": "30Cyber26",
+      "details": "Announced in the GIAC newsletter and on giac.org. Buy from your GIAC account and enter the code at checkout; it can be used multiple times. Not valid on prior purchases or voucher purchases.",
+      "frameworks": [],
+      "source": "https://www.giac.org/#specials",
+      "evidence": "https://www.giac.org/#specials",
+      "verifiedOn": "2026-11-22",
+      "verification": "vendor",
+      "startDate": "2026-11-24",
+      "deadline": "2026-12-01"
     },
     {
       "id": "black-friday-2026-7b12033311be0b",
@@ -171,6 +245,25 @@
       "deadline": "2026-12-07"
     },
     {
+      "id": "black-friday-2026-4e7cfc8a08a345",
+      "provider": "Invoke RE",
+      "title": "Reverse engineering and malware analysis training courses",
+      "category": "Training & courses",
+      "price": "20% off all courses",
+      "code": "",
+      "details": "",
+      "frameworks": [
+        "IMBT",
+        "AMBT"
+      ],
+      "source": "https://training.invokere.com/pricing",
+      "evidence": "https://training.invokere.com/pricing",
+      "verifiedOn": "2026-11-16",
+      "verification": "vendor",
+      "startDate": "2026-11-20",
+      "deadline": "2026-12-01"
+    },
+    {
       "id": "black-friday-2026-86b57b5b9545f5",
       "provider": "Just Hacking Training",
       "title": "Everything — courses, paths, CTFs",
@@ -225,14 +318,14 @@
       "category": "Certifications & exams",
       "price": "20% off",
       "code": "msec-bf20",
-      "details": "Reported by a sponsored blog listing; not shown on the vendor's course page. Unconfirmed — check at checkout.",
+      "details": "Hands-on AI Security training from trainers who presented at Northsec, Defcon and Blackhat. Code msec-bf20 at checkout; offer ends Nov 30, 2026.",
       "frameworks": [],
       "source": "https://www.modernsecurity.io/courses/ai-security-certification",
-      "evidence": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
-      "verifiedOn": "2026-11-16",
-      "verification": "reported",
+      "evidence": "https://www.modernsecurity.io/courses/ai-security-certification",
+      "verifiedOn": "2026-11-21",
+      "verification": "vendor",
       "startDate": null,
-      "deadline": null
+      "deadline": "2026-11-30"
     },
     {
       "id": "black-friday-2026-80493697fff103",
@@ -338,6 +431,22 @@
       "deadline": "2026-12-05"
     },
     {
+      "id": "black-friday-2026-16f048dc5e8407",
+      "provider": "Red Team LLC (redteam.vip)",
+      "title": "Early-access pricing on 10 full-spectrum red team courses (physical entry, RFID & access control, social engineering, recon, reporting)",
+      "category": "Training & courses",
+      "price": "$99 per course (full price $199–$399) · all 10 courses $799",
+      "code": "",
+      "details": "Standing early-access price, not a Black Friday sale. Early buyers get every future video for their courses at no extra cost. Legal, Ethical & Regulatory Foundations goes from $99 to $199 on Dec 1; other courses move to full price as their videos are finished. Submitted by the course author.",
+      "frameworks": [],
+      "source": "https://redteam.vip/courses/",
+      "evidence": "https://redteam.vip/courses/",
+      "verifiedOn": "2026-11-24",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": null
+    },
+    {
       "id": "black-friday-2026-d0452d0347aa30",
       "provider": "RedTeamLeaders",
       "title": "Hacking labs and certifications",
@@ -370,6 +479,36 @@
       "verifiedOn": "2026-11-19",
       "verification": "vendor",
       "startDate": "2026-11-21",
+      "deadline": "2026-11-30"
+    },
+    {
+      "id": "black-friday-2026-235f14c868cff9",
+      "provider": "TCM Security",
+      "title": "All 13 certifications, learning paths (3 stacking certs + extra courses), instructor-led live training and Academy memberships",
+      "category": "Certifications & exams",
+      "price": "20% off certs, learning paths & live training · 50% off first Academy payment",
+      "code": "",
+      "details": "Auto-applied. Ends Nov 30, 11:59 PM ET. Academy discount is first payment only; renewals bill at regular price. Learning paths include a monthly mentorship group. Can't be combined with other offers. Submitted by the vendor.",
+      "frameworks": [
+        "PJPT",
+        "PNPT",
+        "PORP",
+        "PWPA",
+        "PWPP",
+        "PWPE",
+        "PAPA",
+        "PHDA",
+        "PSAA",
+        "PSAP",
+        "PMPA",
+        "PIPA",
+        "PMRP"
+      ],
+      "source": "https://tcm-sec.com/black-friday-deals/",
+      "evidence": "https://tcm-sec.com/black-friday-deals/",
+      "verifiedOn": "2026-11-23",
+      "verification": "vendor",
+      "startDate": "2026-11-16",
       "deadline": "2026-11-30"
     },
     {
@@ -482,14 +621,28 @@
       "verification": "vendor",
       "startDate": null,
       "deadline": "2026-12-01"
+    },
+    {
+      "id": "black-friday-2026-a63c341babae91",
+      "provider": "Zero-Point Security",
+      "title": "Get up to 40% off.",
+      "category": "Certifications & exams",
+      "price": "30% - 40% off",
+      "code": "auto",
+      "details": "",
+      "frameworks": [
+        "CRTO",
+        "CRTL"
+      ],
+      "source": "https://www.zeropointsecurity.co.uk/courses",
+      "evidence": "https://www.zeropointsecurity.co.uk/courses",
+      "verifiedOn": "2026-11-24",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": "2026-12-07"
     }
   ],
   "watchlist": [
-    {
-      "provider": "8kSec",
-      "source": "https://academy.8ksec.io/",
-      "certs": []
-    },
     {
       "provider": "Altered Security",
       "source": "https://www.alteredsecurity.com/",
@@ -605,31 +758,11 @@
       "certs": []
     },
     {
-      "provider": "TCM Security",
-      "source": "https://certifications.tcm-sec.com/",
-      "certs": [
-        "PNPT",
-        "PJPT",
-        "PMPA",
-        "PSAA",
-        "PWPA",
-        "PMRP"
-      ]
-    },
-    {
       "provider": "TryHackMe",
       "source": "https://tryhackme.com/",
       "certs": [
         "SAL1",
         "PT1"
-      ]
-    },
-    {
-      "provider": "Zero-Point Security",
-      "source": "https://www.zeropointsecurity.co.uk/",
-      "certs": [
-        "CRTO",
-        "CRTL"
       ]
     }
   ]
