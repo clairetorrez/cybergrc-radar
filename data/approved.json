@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-25T00:44:21Z",
+  "lastChecked": "2026-11-26T00:19:45Z",
   "offers": [
     {
       "id": "curated-microsoft-ignite-free-exam-2026",
@@ -427,7 +427,7 @@
     "method": "provider_page_rules",
     "minConfidence": 90,
     "statistics": {
-      "withheld": 2
+      "withheld": 1
     }
   }
 }

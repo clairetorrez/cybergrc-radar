@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-25T00:44:20Z",
+  "lastChecked": "2026-11-26T00:19:45Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -521,7 +521,7 @@
       "category": "Training",
       "topics": [],
       "group": "GRC and ISO",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 55,
       "why": [
         "Targeted source watch"
@@ -580,7 +580,7 @@
       "evidence": "Official job posting for Summer 2027; Niles, Illinois on-site. Application and current status must be checked with employer.",
       "priceHint": "Paid; amount not listed",
       "score": 82,
-      "lastChecked": "2026-11-25T00:44:02Z",
+      "lastChecked": "2026-11-26T00:19:27Z",
       "linkStatus": 200
     },
     {
@@ -605,7 +605,7 @@
       "evidence": "Job aggregator lists paid 12-week remote summer 2027 IT risk internship at $22-$25/hour. Employer direct link and current application status not yet confirmed.",
       "priceHint": "$22–$25/hour reported",
       "score": 75,
-      "lastChecked": "2026-11-25T00:44:03Z",
+      "lastChecked": "2026-11-26T00:19:27Z",
       "linkStatus": 403
     },
     {
@@ -692,7 +692,7 @@
       "evidence": "Official program page invites applications to paid 12-month apprenticeship; physical security systems technician role, with IT and GRC training. Employer placement varies.",
       "priceHint": "Paid apprenticeship; amount varies",
       "score": 69,
-      "lastChecked": "2026-11-25T00:44:03Z",
+      "lastChecked": "2026-11-26T00:19:28Z",
       "linkStatus": 403
     },
     {
@@ -1470,8 +1470,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-03",
-      "lastSeen": "2026-11-25",
-      "lastChecked": "2026-11-25T00:44:16Z",
+      "lastSeen": "2026-11-26",
+      "lastChecked": "2026-11-26T00:19:40Z",
       "fingerprint": "f802da8553d3b53c2e",
       "verified": false,
       "reviewRequired": true
@@ -1747,8 +1747,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-25",
-      "lastChecked": "2026-11-25T00:44:15Z",
+      "lastSeen": "2026-11-26",
+      "lastChecked": "2026-11-26T00:19:39Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true
