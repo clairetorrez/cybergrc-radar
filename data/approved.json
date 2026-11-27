@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-26T00:19:45Z",
+  "lastChecked": "2026-11-27T00:35:25Z",
   "offers": [
     {
       "id": "curated-microsoft-ignite-free-exam-2026",
@@ -419,6 +419,347 @@
       "publicationStatus": "active",
       "featured": false,
       "score": 90
+    },
+    {
+      "id": "auto-968fe7c581906c",
+      "title": "ISACA Charlotte Chapter Scholarship",
+      "provider": "ISACA Digital Trust Scholarship",
+      "category": "Scholarships",
+      "kind": "Scholarship",
+      "price": "Scholarship award",
+      "discount": "",
+      "description": "ISACA Charlotte Chapter Scholarship. Scholarship listed on the official provider page; eligibility and participation limits may apply.",
+      "eligibility": "Review the application requirements on the provider's page.",
+      "deadline": "2026-11-30",
+      "dateLabel": "Ends Nov 30, 2026",
+      "frameworks": [
+        "IT audit"
+      ],
+      "tags": [
+        "Automatically checked",
+        "Official provider"
+      ],
+      "source": "https://isaca.secure-platform.com/2027awardrecipients/page/ISACAfoundation/usscholarships/charlotte",
+      "verifiedOn": "2026-11-27",
+      "reviewStatus": "auto_verified",
+      "verificationMethod": "official_source_rules",
+      "confidence": 92,
+      "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
+      "sourceFingerprint": "ce66acec885d83e0bf",
+      "autoApproved": true,
+      "publicationStatus": "active",
+      "featured": false,
+      "score": 99
+    },
+    {
+      "id": "auto-84b1131ac2fe36",
+      "title": "ISACA Chicago Chapter Scholarship",
+      "provider": "ISACA Digital Trust Scholarship",
+      "category": "Scholarships",
+      "kind": "Scholarship",
+      "price": "Scholarship award",
+      "discount": "",
+      "description": "ISACA Chicago Chapter Scholarship. Scholarship listed on the official provider page; eligibility and participation limits may apply.",
+      "eligibility": "Review the application requirements on the provider's page.",
+      "deadline": "2026-11-30",
+      "dateLabel": "Ends Nov 30, 2026",
+      "frameworks": [
+        "IT audit"
+      ],
+      "tags": [
+        "Automatically checked",
+        "Official provider"
+      ],
+      "source": "https://isaca.secure-platform.com/2027awardrecipients/page/ISACAfoundation/usscholarships/chicago",
+      "verifiedOn": "2026-11-27",
+      "reviewStatus": "auto_verified",
+      "verificationMethod": "official_source_rules",
+      "confidence": 92,
+      "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
+      "sourceFingerprint": "846d7e7cb18c07b2a4",
+      "autoApproved": true,
+      "publicationStatus": "active",
+      "featured": false,
+      "score": 99
+    },
+    {
+      "id": "auto-78fd31d14fe534",
+      "title": "ISACA Greater Cincinnati IS, CS, and Cybersecurity Scholarship",
+      "provider": "ISACA Digital Trust Scholarship",
+      "category": "Scholarships",
+      "kind": "Scholarship",
+      "price": "Scholarship award",
+      "discount": "",
+      "description": "ISACA Greater Cincinnati IS, CS, and Cybersecurity Scholarship. Scholarship listed on the official provider page; eligibility and participation limits may apply.",
+      "eligibility": "Review the application requirements on the provider's page.",
+      "deadline": "2026-11-30",
+      "dateLabel": "Ends Nov 30, 2026",
+      "frameworks": [
+        "IT audit"
+      ],
+      "tags": [
+        "Automatically checked",
+        "Official provider"
+      ],
+      "source": "https://isaca.secure-platform.com/2027awardrecipients/page/ISACAfoundation/usscholarships/greatercincinnati",
+      "verifiedOn": "2026-11-27",
+      "reviewStatus": "auto_verified",
+      "verificationMethod": "official_source_rules",
+      "confidence": 92,
+      "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
+      "sourceFingerprint": "ed6925789f8963d48c",
+      "autoApproved": true,
+      "publicationStatus": "active",
+      "featured": false,
+      "score": 99
+    },
+    {
+      "id": "auto-a719458a79e2da",
+      "title": "ISACA Greater Houston Computer Information Systems Scholarship",
+      "provider": "ISACA Digital Trust Scholarship",
+      "category": "Scholarships",
+      "kind": "Scholarship",
+      "price": "Scholarship award",
+      "discount": "",
+      "description": "ISACA Greater Houston Computer Information Systems Scholarship. Scholarship listed on the official provider page; eligibility and participation limits may apply.",
+      "eligibility": "Review the application requirements on the provider's page.",
+      "deadline": "2026-11-30",
+      "dateLabel": "Ends Nov 30, 2026",
+      "frameworks": [
+        "IT audit"
+      ],
+      "tags": [
+        "Automatically checked",
+        "Official provider"
+      ],
+      "source": "https://isaca.secure-platform.com/2027awardrecipients/page/ISACAfoundation/usscholarships/greaterhouston",
+      "verifiedOn": "2026-11-27",
+      "reviewStatus": "auto_verified",
+      "verificationMethod": "official_source_rules",
+      "confidence": 92,
+      "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
+      "sourceFingerprint": "ea42c8490d0c8adc79",
+      "autoApproved": true,
+      "publicationStatus": "active",
+      "featured": false,
+      "score": 99
+    },
+    {
+      "id": "auto-3b220355c20b8d",
+      "title": "ISACA Illowa Technology Audit Scholarship",
+      "provider": "ISACA Digital Trust Scholarship",
+      "category": "Scholarships",
+      "kind": "Scholarship",
+      "price": "Scholarship award",
+      "discount": "",
+      "description": "ISACA Illowa Technology Audit Scholarship. Scholarship listed on the official provider page; eligibility and participation limits may apply.",
+      "eligibility": "Review the application requirements on the provider's page.",
+      "deadline": "2026-11-30",
+      "dateLabel": "Ends Nov 30, 2026",
+      "frameworks": [
+        "IT audit"
+      ],
+      "tags": [
+        "Automatically checked",
+        "Official provider"
+      ],
+      "source": "https://isaca.secure-platform.com/2027awardrecipients/page/ISACAfoundation/usscholarships/illowa",
+      "verifiedOn": "2026-11-27",
+      "reviewStatus": "auto_verified",
+      "verificationMethod": "official_source_rules",
+      "confidence": 92,
+      "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
+      "sourceFingerprint": "4ed5f639fd85680b35",
+      "autoApproved": true,
+      "publicationStatus": "active",
+      "featured": false,
+      "score": 99
+    },
+    {
+      "id": "auto-ea5232c92571e2",
+      "title": "ISACA Las Vegas Chapter - Dr. Patricia Navarro-Velez Memorial Scholarship",
+      "provider": "ISACA Digital Trust Scholarship",
+      "category": "Scholarships",
+      "kind": "Scholarship",
+      "price": "Scholarship award",
+      "discount": "",
+      "description": "ISACA Las Vegas Chapter - Dr. Patricia Navarro-Velez Memorial Scholarship. Scholarship listed on the official provider page; eligibility and participation limits may apply.",
+      "eligibility": "Review the application requirements on the provider's page.",
+      "deadline": "2026-11-30",
+      "dateLabel": "Ends Nov 30, 2026",
+      "frameworks": [
+        "IT audit"
+      ],
+      "tags": [
+        "Automatically checked",
+        "Official provider"
+      ],
+      "source": "https://isaca.secure-platform.com/2027awardrecipients/page/ISACAfoundation/usscholarships/lasvegas",
+      "verifiedOn": "2026-11-27",
+      "reviewStatus": "auto_verified",
+      "verificationMethod": "official_source_rules",
+      "confidence": 92,
+      "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
+      "sourceFingerprint": "b74ae8a638320b79d3",
+      "autoApproved": true,
+      "publicationStatus": "active",
+      "featured": false,
+      "score": 99
+    },
+    {
+      "id": "auto-d30a5784eb80b4",
+      "title": "ISACA Minnesota IT and Cybersecurity Scholarship",
+      "provider": "ISACA Digital Trust Scholarship",
+      "category": "Scholarships",
+      "kind": "Scholarship",
+      "price": "Scholarship award",
+      "discount": "",
+      "description": "ISACA Minnesota IT and Cybersecurity Scholarship. Scholarship listed on the official provider page; eligibility and participation limits may apply.",
+      "eligibility": "Review the application requirements on the provider's page.",
+      "deadline": "2026-11-30",
+      "dateLabel": "Ends Nov 30, 2026",
+      "frameworks": [
+        "IT audit"
+      ],
+      "tags": [
+        "Automatically checked",
+        "Official provider"
+      ],
+      "source": "https://isaca.secure-platform.com/2027awardrecipients/page/ISACAfoundation/usscholarships/minnesota",
+      "verifiedOn": "2026-11-27",
+      "reviewStatus": "auto_verified",
+      "verificationMethod": "official_source_rules",
+      "confidence": 92,
+      "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
+      "sourceFingerprint": "7500a11230de2ccbbe",
+      "autoApproved": true,
+      "publicationStatus": "active",
+      "featured": false,
+      "score": 99
+    },
+    {
+      "id": "auto-d6974c79da8f57",
+      "title": "ISACA New England Chapter Scholarship",
+      "provider": "ISACA Digital Trust Scholarship",
+      "category": "Scholarships",
+      "kind": "Scholarship",
+      "price": "Scholarship award",
+      "discount": "",
+      "description": "ISACA New England Chapter Scholarship. Scholarship listed on the official provider page; eligibility and participation limits may apply.",
+      "eligibility": "Review the application requirements on the provider's page.",
+      "deadline": "2026-11-30",
+      "dateLabel": "Ends Nov 30, 2026",
+      "frameworks": [
+        "IT audit"
+      ],
+      "tags": [
+        "Automatically checked",
+        "Official provider"
+      ],
+      "source": "https://isaca.secure-platform.com/2027awardrecipients/page/ISACAfoundation/usscholarships/newengland",
+      "verifiedOn": "2026-11-27",
+      "reviewStatus": "auto_verified",
+      "verificationMethod": "official_source_rules",
+      "confidence": 92,
+      "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
+      "sourceFingerprint": "78aed2d9332056d187",
+      "autoApproved": true,
+      "publicationStatus": "active",
+      "featured": false,
+      "score": 99
+    },
+    {
+      "id": "auto-39ba20c16e7363",
+      "title": "ISACA North Texas IT, Audit, and Cybersecurity Scholarship",
+      "provider": "ISACA Digital Trust Scholarship",
+      "category": "Scholarships",
+      "kind": "Scholarship",
+      "price": "Scholarship award",
+      "discount": "",
+      "description": "ISACA North Texas IT, Audit, and Cybersecurity Scholarship. Scholarship listed on the official provider page; eligibility and participation limits may apply.",
+      "eligibility": "Review the application requirements on the provider's page.",
+      "deadline": "2026-11-30",
+      "dateLabel": "Ends Nov 30, 2026",
+      "frameworks": [
+        "IT audit"
+      ],
+      "tags": [
+        "Automatically checked",
+        "Official provider"
+      ],
+      "source": "https://isaca.secure-platform.com/2027awardrecipients/page/ISACAfoundation/usscholarships/northtexas",
+      "verifiedOn": "2026-11-27",
+      "reviewStatus": "auto_verified",
+      "verificationMethod": "official_source_rules",
+      "confidence": 92,
+      "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
+      "sourceFingerprint": "75b67653fc556ce565",
+      "autoApproved": true,
+      "publicationStatus": "active",
+      "featured": false,
+      "score": 99
+    },
+    {
+      "id": "auto-f5d60cf5260dac",
+      "title": "ISACA North Texas Scholarship",
+      "provider": "ISACA North Texas Scholarship",
+      "category": "Scholarships",
+      "kind": "Scholarship",
+      "price": "Scholarship award",
+      "discount": "",
+      "description": "ISACA North Texas Scholarship. Scholarship listed on the official provider page; eligibility and participation limits may apply.",
+      "eligibility": "Review the application requirements on the provider's page.",
+      "deadline": "2026-11-30",
+      "dateLabel": "Ends Nov 30, 2026",
+      "frameworks": [
+        "IT audit"
+      ],
+      "tags": [
+        "Automatically checked",
+        "Official provider"
+      ],
+      "source": "https://isaca.secure-platform.com/a/page/ISACAfoundation/usscholarships/northtexas",
+      "verifiedOn": "2026-11-27",
+      "reviewStatus": "auto_verified",
+      "verificationMethod": "official_source_rules",
+      "confidence": 92,
+      "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
+      "sourceFingerprint": "b639a3a6b1c0694905",
+      "autoApproved": true,
+      "publicationStatus": "active",
+      "featured": false,
+      "score": 99
+    },
+    {
+      "id": "auto-42a51837ce36db",
+      "title": "ISACA San Diego Scholarship",
+      "provider": "ISACA San Diego Scholarship",
+      "category": "Scholarships",
+      "kind": "Scholarship",
+      "price": "Scholarship award",
+      "discount": "",
+      "description": "ISACA San Diego Scholarship. Scholarship listed on the official provider page; eligibility and participation limits may apply.",
+      "eligibility": "Review the application requirements on the provider's page.",
+      "deadline": "2026-11-30",
+      "dateLabel": "Ends Nov 30, 2026",
+      "frameworks": [
+        "IT audit"
+      ],
+      "tags": [
+        "Automatically checked",
+        "Official provider"
+      ],
+      "source": "https://isaca.secure-platform.com/a/page/ISACAfoundation/usscholarships/sandiego",
+      "verifiedOn": "2026-11-27",
+      "reviewStatus": "auto_verified",
+      "verificationMethod": "official_source_rules",
+      "confidence": 92,
+      "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
+      "sourceFingerprint": "9d95cc65c289503f57",
+      "autoApproved": true,
+      "publicationStatus": "active",
+      "featured": false,
+      "score": 99
     }
   ],
   "inactive": [],
@@ -427,7 +768,8 @@
     "method": "provider_page_rules",
     "minConfidence": 90,
     "statistics": {
-      "withheld": 1
+      "withheld": 3,
+      "auto_published": 11
     }
   }
 }
