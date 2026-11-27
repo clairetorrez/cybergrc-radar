@@ -2,6 +2,12 @@
   "version": 2,
   "sources": [
     {
+      "name": "GIAC Specials and Certification Discounts",
+      "url": "https://www.giac.org/#specials",
+      "group": "Security certifications",
+      "mode": "watch"
+    },
+    {
       "name": "PECB News",
       "url": "https://pecb.com/en/newsReleases",
       "group": "GRC and ISO",
