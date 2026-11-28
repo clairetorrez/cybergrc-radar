@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-27T00:35:25Z",
+  "lastChecked": "2026-11-28T00:02:24Z",
   "offers": [
     {
       "id": "curated-microsoft-ignite-free-exam-2026",
@@ -419,7 +419,9 @@
       "publicationStatus": "active",
       "featured": false,
       "score": 90
-    },
+    }
+  ],
+  "inactive": [
     {
       "id": "auto-968fe7c581906c",
       "title": "ISACA Charlotte Chapter Scholarship",
@@ -447,7 +449,7 @@
       "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
       "sourceFingerprint": "ce66acec885d83e0bf",
       "autoApproved": true,
-      "publicationStatus": "active",
+      "publicationStatus": "paused",
       "featured": false,
       "score": 99
     },
@@ -478,7 +480,7 @@
       "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
       "sourceFingerprint": "846d7e7cb18c07b2a4",
       "autoApproved": true,
-      "publicationStatus": "active",
+      "publicationStatus": "paused",
       "featured": false,
       "score": 99
     },
@@ -509,7 +511,7 @@
       "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
       "sourceFingerprint": "ed6925789f8963d48c",
       "autoApproved": true,
-      "publicationStatus": "active",
+      "publicationStatus": "paused",
       "featured": false,
       "score": 99
     },
@@ -540,7 +542,7 @@
       "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
       "sourceFingerprint": "ea42c8490d0c8adc79",
       "autoApproved": true,
-      "publicationStatus": "active",
+      "publicationStatus": "paused",
       "featured": false,
       "score": 99
     },
@@ -571,7 +573,7 @@
       "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
       "sourceFingerprint": "4ed5f639fd85680b35",
       "autoApproved": true,
-      "publicationStatus": "active",
+      "publicationStatus": "paused",
       "featured": false,
       "score": 99
     },
@@ -602,7 +604,7 @@
       "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
       "sourceFingerprint": "b74ae8a638320b79d3",
       "autoApproved": true,
-      "publicationStatus": "active",
+      "publicationStatus": "paused",
       "featured": false,
       "score": 99
     },
@@ -633,7 +635,7 @@
       "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
       "sourceFingerprint": "7500a11230de2ccbbe",
       "autoApproved": true,
-      "publicationStatus": "active",
+      "publicationStatus": "paused",
       "featured": false,
       "score": 99
     },
@@ -664,7 +666,7 @@
       "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
       "sourceFingerprint": "78aed2d9332056d187",
       "autoApproved": true,
-      "publicationStatus": "active",
+      "publicationStatus": "paused",
       "featured": false,
       "score": 99
     },
@@ -695,7 +697,7 @@
       "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
       "sourceFingerprint": "75b67653fc556ce565",
       "autoApproved": true,
-      "publicationStatus": "active",
+      "publicationStatus": "paused",
       "featured": false,
       "score": 99
     },
@@ -726,7 +728,7 @@
       "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
       "sourceFingerprint": "b639a3a6b1c0694905",
       "autoApproved": true,
-      "publicationStatus": "active",
+      "publicationStatus": "paused",
       "featured": false,
       "score": 99
     },
@@ -757,19 +759,18 @@
       "evidence": ". Please review the scholarship offering and criteria below, and apply today! Create a free ISACA account, or log in with ISACA to",
       "sourceFingerprint": "9d95cc65c289503f57",
       "autoApproved": true,
-      "publicationStatus": "active",
+      "publicationStatus": "paused",
       "featured": false,
       "score": 99
     }
   ],
-  "inactive": [],
   "automation": {
     "enabled": true,
     "method": "provider_page_rules",
     "minConfidence": 90,
     "statistics": {
-      "withheld": 3,
-      "auto_published": 11
+      "fetch_failed": 11,
+      "withheld": 1
     }
   }
 }

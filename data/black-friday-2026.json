@@ -40,6 +40,22 @@
       "deadline": "2026-12-31"
     },
     {
+      "id": "black-friday-2026-584d619a2a14ce",
+      "provider": "AppSecEngineer",
+      "title": "Hands-on AI security labs (securing AI agents & LLM apps) plus AppSec, cloud security, Kubernetes and threat modeling training",
+      "category": "Labs & platforms",
+      "price": "40% off Pro Plus annual plans and Bootcamps (Pro Plus $499 → ~$299/year)",
+      "code": "LEVELUP40",
+      "details": "Banner on appsecengineer.com. End date not published (community lists say Nov 30).",
+      "frameworks": [],
+      "source": "https://www.appsecengineer.com/individuals/pricing",
+      "evidence": "https://www.appsecengineer.com/individuals/pricing",
+      "verifiedOn": "2026-11-25",
+      "verification": "vendor",
+      "startDate": null,
+      "deadline": null
+    },
+    {
       "id": "black-friday-2026-21bd814a532230",
       "provider": "Blu Raven Academy",
       "title": "KQL, threat hunting & detection engineering courses",
@@ -151,6 +167,26 @@
       "verification": "vendor",
       "startDate": null,
       "deadline": null
+    },
+    {
+      "id": "black-friday-2026-b982a3242bd850",
+      "provider": "CYBRIXEN",
+      "title": "All CYBRIXEN cybersecurity certifications",
+      "category": "Certifications & exams",
+      "price": "70% off",
+      "code": "BLACKFRIDAY70",
+      "details": "Black Friday 2026 offer. Check official website for eligibility and terms.",
+      "frameworks": [
+        "CCSA",
+        "CCCR",
+        "CCCD"
+      ],
+      "source": "https://cybrixen.com",
+      "evidence": "https://cybrixen.com",
+      "verifiedOn": "2026-11-26",
+      "verification": "vendor",
+      "startDate": "2026-11-25",
+      "deadline": "2026-11-27"
     },
     {
       "id": "black-friday-2026-747bda80621f29",
@@ -509,6 +545,22 @@
       "verifiedOn": "2026-11-23",
       "verification": "vendor",
       "startDate": "2026-11-16",
+      "deadline": "2026-11-30"
+    },
+    {
+      "id": "black-friday-2026-d3253a9ca6ec9c",
+      "provider": "The Cyber Instructor",
+      "title": "Sitewide sale incl. the 6-week live AI for Cybersecurity bootcamp (AI red teaming, securing LLM apps, agents, governance) and the self-paced TCI Pro subscription",
+      "category": "Training & courses",
+      "price": "30% off (AI for Cybersecurity bootcamp $2,099 → $1,469)",
+      "code": "BF30",
+      "details": "Bootcamp price holds through Dec 4. Also covers 1:1 career sessions.",
+      "frameworks": [],
+      "source": "https://learn.thecyberinstructor.com/",
+      "evidence": "https://learn.thecyberinstructor.com/",
+      "verifiedOn": "2026-11-27",
+      "verification": "vendor",
+      "startDate": "2026-11-23",
       "deadline": "2026-11-30"
     },
     {

@@ -1,92 +1,60 @@
 {
-  "lastChecked": "2026-11-27T00:35:25Z",
+  "lastChecked": "2026-11-28T00:02:24Z",
   "decisions": [
     {
-      "url": "https://isaca.secure-platform.com/2027awardrecipients/page/ISACAfoundation/aboutscholarships",
-      "status": "withheld",
-      "reason": "insufficient_offer_evidence"
-    },
-    {
       "url": "https://isaca.secure-platform.com/2027awardrecipients/page/ISACAfoundation/usscholarships/charlotte",
-      "status": "auto_published",
-      "kind": "Scholarship",
-      "confidence": 92,
-      "expires": "2026-11-30"
+      "status": "fetch_failed",
+      "reason": "HTTPError"
     },
     {
       "url": "https://isaca.secure-platform.com/2027awardrecipients/page/ISACAfoundation/usscholarships/chicago",
-      "status": "auto_published",
-      "kind": "Scholarship",
-      "confidence": 92,
-      "expires": "2026-11-30"
+      "status": "fetch_failed",
+      "reason": "HTTPError"
     },
     {
       "url": "https://isaca.secure-platform.com/2027awardrecipients/page/ISACAfoundation/usscholarships/greatercincinnati",
-      "status": "auto_published",
-      "kind": "Scholarship",
-      "confidence": 92,
-      "expires": "2026-11-30"
+      "status": "fetch_failed",
+      "reason": "HTTPError"
     },
     {
       "url": "https://isaca.secure-platform.com/2027awardrecipients/page/ISACAfoundation/usscholarships/greaterhouston",
-      "status": "auto_published",
-      "kind": "Scholarship",
-      "confidence": 92,
-      "expires": "2026-11-30"
+      "status": "fetch_failed",
+      "reason": "HTTPError"
     },
     {
       "url": "https://isaca.secure-platform.com/2027awardrecipients/page/ISACAfoundation/usscholarships/illowa",
-      "status": "auto_published",
-      "kind": "Scholarship",
-      "confidence": 92,
-      "expires": "2026-11-30"
+      "status": "fetch_failed",
+      "reason": "HTTPError"
     },
     {
       "url": "https://isaca.secure-platform.com/2027awardrecipients/page/ISACAfoundation/usscholarships/lasvegas",
-      "status": "auto_published",
-      "kind": "Scholarship",
-      "confidence": 92,
-      "expires": "2026-11-30"
+      "status": "fetch_failed",
+      "reason": "HTTPError"
     },
     {
       "url": "https://isaca.secure-platform.com/2027awardrecipients/page/ISACAfoundation/usscholarships/minnesota",
-      "status": "auto_published",
-      "kind": "Scholarship",
-      "confidence": 92,
-      "expires": "2026-11-30"
+      "status": "fetch_failed",
+      "reason": "HTTPError"
     },
     {
       "url": "https://isaca.secure-platform.com/2027awardrecipients/page/ISACAfoundation/usscholarships/newengland",
-      "status": "auto_published",
-      "kind": "Scholarship",
-      "confidence": 92,
-      "expires": "2026-11-30"
+      "status": "fetch_failed",
+      "reason": "HTTPError"
     },
     {
       "url": "https://isaca.secure-platform.com/2027awardrecipients/page/ISACAfoundation/usscholarships/northtexas",
-      "status": "auto_published",
-      "kind": "Scholarship",
-      "confidence": 92,
-      "expires": "2026-11-30"
-    },
-    {
-      "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/aboutscholarships",
-      "status": "withheld",
-      "reason": "insufficient_offer_evidence"
+      "status": "fetch_failed",
+      "reason": "HTTPError"
     },
     {
       "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/usscholarships/northtexas",
-      "status": "auto_published",
-      "kind": "Scholarship",
-      "confidence": 92,
-      "expires": "2026-11-30"
+      "status": "fetch_failed",
+      "reason": "HTTPError"
     },
     {
       "url": "https://isaca.secure-platform.com/a/page/ISACAfoundation/usscholarships/sandiego",
-      "status": "auto_published",
-      "kind": "Scholarship",
-      "confidence": 92,
-      "expires": "2026-11-30"
+      "status": "fetch_failed",
+      "reason": "HTTPError"
     },
     {
       "url": "https://nextciso.freshteam.com/jobs/jZcYvZ_jIVVm/nextciso-junior-grc-analyst-remote",

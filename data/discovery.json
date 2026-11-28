@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastChecked": "2026-11-27T00:35:16Z",
+  "lastChecked": "2026-11-28T00:02:23Z",
   "status": "partial",
   "note": "Unverified leads. Prices and eligibility must be confirmed on the official provider page.",
   "sources": [
@@ -213,13 +213,15 @@
     },
     {
       "name": "ISACA Cybersecurity Month Scholarship",
-      "ok": true,
-      "candidates": 12
+      "ok": false,
+      "candidates": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "ISACA Digital Trust Scholarship",
-      "ok": true,
-      "candidates": 12
+      "ok": false,
+      "candidates": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "ISACA Foundation",
@@ -228,18 +230,21 @@
     },
     {
       "name": "ISACA North Texas Scholarship",
-      "ok": true,
-      "candidates": 12
+      "ok": false,
+      "candidates": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "ISACA San Diego Scholarship",
-      "ok": true,
-      "candidates": 12
+      "ok": false,
+      "candidates": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "ISACA Scholarship Directory",
-      "ok": true,
-      "candidates": 12
+      "ok": false,
+      "candidates": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "ISACA Training Offers",
@@ -278,13 +283,15 @@
     },
     {
       "name": "Mastermind Assurance Course Listings",
-      "ok": true,
-      "candidates": 4
+      "ok": false,
+      "candidates": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "Mastermind Assurance ISO Auditor Catalog",
-      "ok": true,
-      "candidates": 3
+      "ok": false,
+      "candidates": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "Microsoft Applied Skills",
@@ -334,8 +341,9 @@
     },
     {
       "name": "National Cybersecurity Alliance Scholarship",
-      "ok": true,
-      "candidates": 12
+      "ok": false,
+      "candidates": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "NextCISO GRC Internship",
@@ -508,7 +516,7 @@
       "candidates": 0
     }
   ],
-  "newLeads": 10,
+  "newLeads": 0,
   "leads": [
     {
       "id": "84b1131ac2fe36e26d",
@@ -518,7 +526,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 100,
       "why": [
         "Experience or funding",
@@ -545,7 +553,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 100,
       "why": [
         "Experience or funding",
@@ -572,7 +580,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 100,
       "why": [
         "Experience or funding",
@@ -599,7 +607,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 100,
       "why": [
         "Experience or funding",
@@ -626,7 +634,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 100,
       "why": [
         "Experience or funding",
@@ -653,7 +661,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 100,
       "why": [
         "Experience or funding",
@@ -680,7 +688,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 100,
       "why": [
         "Experience or funding",
@@ -707,7 +715,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 100,
       "why": [
         "Experience or funding",
@@ -734,7 +742,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 100,
       "why": [
         "Experience or funding",
@@ -761,7 +769,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 86,
       "why": [
         "Experience or funding",
@@ -846,7 +854,7 @@
       "evidence": "Official job posting for Summer 2027; Niles, Illinois on-site. Application and current status must be checked with employer.",
       "priceHint": "Paid; amount not listed",
       "score": 82,
-      "lastChecked": "2026-11-27T00:34:55Z",
+      "lastChecked": "2026-11-28T00:02:07Z",
       "linkStatus": 200
     },
     {
@@ -871,7 +879,7 @@
       "evidence": "Job aggregator lists paid 12-week remote summer 2027 IT risk internship at $22-$25/hour. Employer direct link and current application status not yet confirmed.",
       "priceHint": "$22–$25/hour reported",
       "score": 75,
-      "lastChecked": "2026-11-27T00:34:55Z",
+      "lastChecked": "2026-11-28T00:02:07Z",
       "linkStatus": 403
     },
     {
@@ -958,7 +966,7 @@
       "evidence": "Official program page invites applications to paid 12-month apprenticeship; physical security systems technician role, with IT and GRC training. Employer placement varies.",
       "priceHint": "Paid apprenticeship; amount varies",
       "score": 69,
-      "lastChecked": "2026-11-27T00:34:55Z",
+      "lastChecked": "2026-11-28T00:02:07Z",
       "linkStatus": 403
     },
     {
@@ -1410,7 +1418,7 @@
       "category": "Scholarships",
       "topics": [],
       "group": "Scholarships",
-      "status": "needs_review",
+      "status": "not_seen_today",
       "score": 100,
       "why": [
         "Experience or funding",
@@ -1738,8 +1746,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-03",
-      "lastSeen": "2026-11-27",
-      "lastChecked": "2026-11-27T00:35:14Z",
+      "lastSeen": "2026-11-28",
+      "lastChecked": "2026-11-28T00:02:20Z",
       "fingerprint": "f802da8553d3b53c2e",
       "verified": false,
       "reviewRequired": true
@@ -2015,8 +2023,8 @@
       "deadlineHint": null,
       "publishedAt": null,
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-27",
-      "lastChecked": "2026-11-27T00:35:11Z",
+      "lastSeen": "2026-11-28",
+      "lastChecked": "2026-11-28T00:02:19Z",
       "fingerprint": "4facbad5e3f2dba998",
       "verified": false,
       "reviewRequired": true
